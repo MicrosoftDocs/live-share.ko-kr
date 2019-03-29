@@ -5,20 +5,18 @@ ms.custom: ''
 ms.date: 03/22/2018
 ms.reviewer: ''
 ms.suite: ''
-ms.technology:
-- liveshare
 ms.topic: troubleshooting
 author: chuxel
 ms.author: clantz
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: 8d20ec73d9cadfefced65c04b1ef18f6e844167d
-ms.sourcegitcommit: 4f733c9053848f26da03d47050bcb734f6c98b31
+ms.openlocfilehash: 5fc611714d148a9ba1d5a6848e0399af753d1a37
+ms.sourcegitcommit: 100fce9b9bbcd7e6f68d40659bd2760e9537de37
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57255874"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "58640213"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -28,7 +26,7 @@ Creative Commons Attribution 4.0 License (International): https://creativecommon
 
 # <a name="troubleshooting-visual-studio-live-share"></a>Visual Studio Live 공유 문제 해결
 
-이 문서에서는 문제 해결 팁, 해결 방법 및 일반적인 문제 및 질문에 대 한 답변에 설명 합니다. 살펴봅니다 수도 합니다 [FAQ](faq.md)합니다.
+이 문서에서는 문제 해결 팁, 해결 방법 및 일반적인 문제 및 질문에 대 한 답변에 설명 합니다. 살펴봅니다 수도 합니다 [FAQ](faq.md)합니다. 
 
 ## <a name="installation--tool-requirements"></a>설치 / 도구 요구 사항
 
@@ -66,8 +64,8 @@ Creative Commons Attribution 4.0 License (International): https://creativecommon
 |------|----------------|------------|
 | 모두 | <strong>공유/조인 합니다.</strong> 제한 시간 또는 연결할 수 없다는 오류가 발생 하는 합니다. | 참조 [연결 문제 해결](#connectivity)합니다. |
 | VS Code | <strong>조인 합니다.</strong> 했습니다 <strong>메시지 표시 / VS Code를 시작할 수 없는</strong> 브라우저에서 조인 페이지를 연 후 합니다. |  팁: <ul><li>하면 해야 <i>VS Code를 최소 한 번 시작 및 설치 상태 표시줄의 완료를 대기 합니다.</i></li><li>작동 하지 않는 경우 실행 된 "Live 공유: 시작 관리자 Setup"명령입니다.</li><li>**Linux 사용자**: 위의 명령을 실행할 때 관리자 (sudo) 암호를 입력 하 라는 메시지가 나타나면 그렇게 해 주세요.</li><li>마지막으로, 참조 [수동으로 조인](reference/manual-join.md) 문제를 해결 합니다.</li></ul> 이 문제에 도달 하면 새로운 발생할 수 있습니다, 되므로 참조 일원이 하세요 [버그를 기록해](https://aka.ms/vsls-new-issue)합니다. |
-| VS | <strong>조인 합니다.</strong> 했습니다 <strong>메시지 표시 / VS 실행할 수 없는</strong>  브라우저에서 조인 페이지를 연 후 합니다. |  참조 [수동으로 조인](reference/manual-join.md)합니다.<br /><br /> 의견도 기다리고 있으므로 로그를 보려면 하세요 [버그 기록](https://aka.ms/vsls-problem) Visual Studio의 "보고서는 문제..."를 사용 하 여 기능입니다. |
-| 모두 | <strong>조인 합니다.</strong> 하려는 <strong>Visual Studio에서 참가 링크를 직접 붙여 VS Code /</strong> 대신 웹 링크를 클릭 합니다. | 참조 [수동으로 조인](reference/manual-join.md)합니다. |
+| VS | <strong>조인 합니다.</strong> 했습니다 <strong>메시지 표시 / VS 실행할 수 없는</strong>  브라우저에서 조인 페이지를 연 후 합니다. |  [수동으로 참가](reference/manual-join.md)를 참조하세요.<br /><br /> 의견도 기다리고 있으므로 로그를 보려면 하세요 [버그 기록](https://aka.ms/vsls-problem) Visual Studio의 "보고서는 문제..."를 사용 하 여 기능입니다. |
+| 모두 | <strong>조인 합니다.</strong> 하려는 <strong>Visual Studio에서 참가 링크를 직접 붙여 VS Code /</strong> 대신 웹 링크를 클릭 합니다. | [수동으로 참가](reference/manual-join.md)를 참조하세요. |
 | 모두 | <strong>조인 합니다.</strong> 라는 메시지가 표시 "**오프 라인 상태가 될 것 같습니다. 작업 영역의 소유자**," 브라우저를 통해 조인 하는 경우. | 가능한 해결 방법:<br /><ul><li>시도 [수동으로 조인](reference/manual-join.md)합니다. 지역 간 문제가 살펴본 (동부 및 서 부 예: 미국) 수동 조인 하는 데 영향을 미치지 않는 서비스 문제로 인해 조인 합니다.</li><li>라이브 공유 "auto" 연결 모드로 실행 될 때 호스트에 직접 라우팅하 못할 수 있습니다. 시도 [릴레이 모드](reference/connectivity.md)합니다.</li></ul>참조 [연결 문제 해결](#connectivity) 많은 가능성 |
 | VS Code | <strong>조인 합니다.</strong> 브라우저를 통해 조인 <strong>에 로그인 하기 전에</strong>에 로그인 하 라는 메시지가 표시 되지 않았습니다</strong>, 및 조인을 완료 되지 않습니다. |  이 [알려진된 버그가](https://github.com/MicrosoftDocs/live-share/issues/167)합니다. 로그인 한 후에 다시 참가 상태 표시줄 항목에 있는 기호를 클릭 합니다. |
 

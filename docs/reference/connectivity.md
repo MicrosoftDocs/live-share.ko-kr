@@ -5,20 +5,18 @@ ms.custom: ''
 ms.date: 03/22/2018
 ms.reviewer: ''
 ms.suite: ''
-ms.technology:
-- liveshare
 ms.topic: reference
 author: chuxel
 ms.author: clantz
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: 6edc5bcf18dde6f84a4972a1efd755592cbef18c
-ms.sourcegitcommit: 4f733c9053848f26da03d47050bcb734f6c98b31
+ms.openlocfilehash: c685df798fc10b449c3e73db678e3b5d34e73ef0
+ms.sourcegitcommit: 100fce9b9bbcd7e6f68d40659bd2760e9537de37
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57256423"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "58640083"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -125,8 +123,8 @@ Visual Studio Live Share는 현재 프록시 사용과 관련 된 몇 가지 제
 
 ## <a name="see-also"></a>참고자료
 
-- [방법: Visual Studio Code를 사용 하 여 공동 작업](../use/vscode.md)
-- [방법: Visual Studio를 사용 하 여 공동 작업](../use/vs.md)
+- [방법: Visual Studio Code를 사용하여 공동 작업](../use/vscode.md)
+- [방법: Visual Studio를 사용하여 공동 작업](../use/vs.md)
 - [Live Share의 보안 기능](security.md)
 
 문제가 있으신가요? [문제 해결](../troubleshooting.md)을 참조하거나 [피드백을 제공](../support.md)해 주세요.

@@ -5,20 +5,18 @@ ms.custom: ''
 ms.date: 03/22/2018
 ms.reviewer: ''
 ms.suite: ''
-ms.technology:
-- liveshare
 ms.topic: quickstart
 author: lostintangent
 ms.author: clantz
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: 9d2a9dbe952652ff85ebe2ab4821513f07df11b2
-ms.sourcegitcommit: 4f733c9053848f26da03d47050bcb734f6c98b31
+ms.openlocfilehash: e5beede1b4efdfe327ed6b5c7a6518069f7e5cad
+ms.sourcegitcommit: 100fce9b9bbcd7e6f68d40659bd2760e9537de37
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57255970"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "58640096"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -32,11 +30,11 @@ STUB
 
 ## <a name="next-steps"></a>다음 단계
 
-자세한 내용은 이러한 추가 문서를 확인 합니다.
+자세한 내용은 이러한 추가 문서를 확인하세요.
 
-- [빠른 시작: 첫 번째 공동 작업 세션에 참가](join.md)
-- [방법: Visual Studio Code를 사용 하 여 공동 작업](../use/vscode.md)
-- [방법: Visual Studio를 사용 하 여 공동 작업](../use/vs.md)
+- [빠른 시작: 첫 번째 공동 작업 세션에 조인](join.md)
+- [방법: Visual Studio Code를 사용하여 공동 작업](../use/vscode.md)
+- [방법: Visual Studio를 사용하여 공동 작업](../use/vs.md)
 
 참조
 

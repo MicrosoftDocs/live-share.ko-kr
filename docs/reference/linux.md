@@ -5,20 +5,18 @@ ms.custom: ''
 ms.date: 10/6/2018
 ms.reviewer: ''
 ms.suite: ''
-ms.technology:
-- liveshare
 ms.topic: reference
 author: chuxel
 ms.author: clantz
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: 013eb234e5acca02a39e90f0697a146039bb2a89
-ms.sourcegitcommit: 4f733c9053848f26da03d47050bcb734f6c98b31
+ms.openlocfilehash: 9ac16b0e598fb07446c2b682397684b7e2e4709a
+ms.sourcegitcommit: 100fce9b9bbcd7e6f68d40659bd2760e9537de37
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57255929"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "58640135"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -28,17 +26,17 @@ Creative Commons Attribution 4.0 License (International): https://creativecommon
 
 # <a name="linux-installation-details"></a>Linux 설치 세부 정보
 
-Linux는 가변적 환경 이며 데스크톱 환경 및 배포 수가 너무 많아 수 복잡해 서 작업할 수 없습니다. 지원 되는 버전을 포기 하는 경우 **Ubuntu Desktop** (16.04 이상) **CentOS 7**, 또는 **Fedora 워크스테이션** (27 이상)만 사용 하 여 **VS의 공식 배포 코드**, 상당히 직관적으로 프로세스를 찾아야 합니다. 그러나는 비표준 구성 또는 다운스트림 배포를 사용 하는 수도 있습니다 일부 문제로에 실행 되지 않을 수 있습니다. 이 문서에서는 요구 사항에 일부 정보를 제공 하 고 도움이 될 수 있는 몇 가지 문제 해결 세부 정보 시작 지원 되는 경우에 구성만 커뮤니티를 실행 합니다. Live Share만 지원 합니다. 이때 **64 비트 Linux**합니다.
+Linux는 가변성이 큰 환경이며 데스크톱 환경 및 배포 수가 너무 많아 작업하는 데 복잡할 수 있습니다. 지원 되는 버전을 포기 하는 경우 **Ubuntu Desktop** (16.04 이상) **CentOS 7**, 또는 **Fedora 워크스테이션** (27 이상)만 사용 하 여 **VS의 공식 배포 코드**, 상당히 직관적으로 프로세스를 찾아야 합니다. 그러나 비표준 구성 또는 다운스트림 배포를 사용하는 경우 일부 문제가 발생할 수도 발생하지 않을 수도 있습니다. 이 문서에서는 요구 사항에 일부 정보를 제공 하 고 도움이 될 수 있는 몇 가지 문제 해결 세부 정보 시작 지원 되는 경우에 구성만 커뮤니티를 실행 합니다. Live Share만 지원 합니다. 이때 **64 비트 Linux**합니다.
 
 ## <a name="install-linux-prerequisites"></a>Linux 필수 구성 요소 설치
 
-일부 Linux 배포에는 Live Share 작동 해야 하는 경우 라이브러리 누락 되어 있습니다. 기본적으로 Live Share를 감지 하 여 Linux 필수 구성 요소를 설치 하려고 합니다. Live Share 누락 된 라이브러리를 설치 하는 데 필요한 권한 요청에서 발생할 수 있습니다 하는 문제를 발견 한 경우 알림 메시지를 표시 됩니다.
+일부 Linux 배포에는 Live Share가 작동하는 데 필요한 라이브러리가 누락되어 있습니다. 기본적으로 Live Share는 Linux 필수 구성 요소를 탐지하여 설치하려고 합니다. Live Share에서 누락된 라이브러리로 인해 문제가 발생하는 경우 해당 라이브러리를 설치하는 데 필요한 권한을 요청하는 알림 메시지가 표시됩니다.
 
 ![Linux 필수 구성 요소는 누락 된 토스트 알림 보여 주는 메시지](../media/vscode-linux-prereq-missing.png)
 
-"설치"를 클릭 하면 터미널 창에는 OS에서 묻는 입력 관리자 / 루트 (sudo) 암호를 계속 메시지가 표시 됩니다. 를 가정 하 고 스크립트를 성공적으로 완료 하 여 다시 로드 하면 메시지가 표시 되 면 Visual Studio Code 모든 집합 이어야 합니다. 체크 아웃 하려고 **[배포 팁](#tips-by-distribution)** 다른 힌트 및 해결 방법이 있는 경우.
+"설치"를 클릭 하면 터미널 창에는 OS에서 묻는 입력 관리자 / 루트 (sudo) 암호를 계속 메시지가 표시 됩니다. 를 가정 하 고 스크립트를 성공적으로 완료 하 여 다시 로드 하면 메시지가 표시 되 면 Visual Studio Code 모든 집합 이어야 합니다. 다른 힌트 및 해결 방법이 있는 경우 **[배포별 팁](#tips-by-distribution)** 을 확인하려 할 수도 있습니다.
 
-참조를 스크립트 배포를 지원 하지 않는 나타내는 메시지가 표시 되 면 **[커뮤니티 지원 배포에 대 한 팁](#tips-for-unsupported-distros)** 정보에 대 한 커뮤니티 우리와 공유 했습니다.
+스크립트에서 배포를 지원하지 않는다는 메시지가 표시되면 커뮤니티가 공유한 **[커뮤니티 지원 배포 팁](#tips-for-unsupported-distros)** 을 참조하세요.
 
 경우 있습니다 **하지 않는 명령을 실행 하는 VS Code 편을 선호**를 다시 실행 하려면이 스크립트의 최신 버전이 언제 든 지 수동으로 터미널 창에서 다음 명령을 사용 하 여 선택할 수도 있습니다.
 
@@ -149,11 +147,11 @@ Visual Studio Code의 어느 바닐라 추가 되거나 수정 된 버전의 VS 
 
 ## <a name="linux-browser-integration"></a>Linux 브라우저 통합
 
-Visual Studio Live 공유 일반적 **추가 설치 단계가 필요 하지 않습니다** linux 브라우저 통합을 사용 하도록 합니다.
+Visual Studio Live Share에는 일반적으로 Linux에서 브라우저 통합을 사용하기 위한 **추가 설치 단계가 필요하지 않습니다**.
 
 이를 위해 Live Share 자동으로 배치에서 데스크톱 파일로 `~/.local/share/applications` 및 자체 필요한 시작 관리자에서 `~/.local/share/vsliveshare` 확장을 처음으로 초기화 합니다. 이 작업이 성공 하면 사용자의 조치가 필요 합니다.
 
-일부 경우에 배포 하거나 지원 하지이 위치 않거나 해당 바닐라 설치를 사용 하 여 작업을 조정 해야 합니다. 이러한 경우에 Live Share 대체 사용 하 여 `/usr/local/share` 대신 합니다. 따라서 **알려 관리자 (sudo) 암호 필요 하다** 설치 프로세스를 완료 합니다. 터미널 창 브라우저 시작 관리자를 설치할 위치를 알려주는 표시 됩니다. 단순히 메시지가 표시 되 면 암호를 입력 하 고 터미널 창을 닫으려면 설치가 완료 되 면 enter 키를 누릅니다.
+일부 경우에 배포 하거나 지원 하지이 위치 않거나 해당 바닐라 설치를 사용 하 여 작업을 조정 해야 합니다. 이러한 경우에 Live Share 대체 사용 하 여 `/usr/local/share` 대신 합니다. 따라서 **알려 관리자 (sudo) 암호 필요 하다** 설치 프로세스를 완료 합니다. 터미널 창이 표시돼 브라우저 시작 관리자를 설치할 위치를 알려줍니다. 메시지가 표시되면 단순히 암호를 입력하고 설치가 완료되면 Enter 키를 눌러 터미널 창을 닫습니다.
 
 직접 명령을 실행할 대신 하려는 경우 "복사" 대신 터미널 명령을 클립보드로 대신 복사 됩니다는 클릭 수 있습니다.
 
@@ -161,7 +159,7 @@ Visual Studio Live 공유 일반적 **추가 설치 단계가 필요 하지 않�
 
 ## <a name="see-also"></a>참고자료
 
-- [방법: Visual Studio Code를 사용 하 여 공동 작업](../use/vscode.md)
+- [방법: Visual Studio Code를 사용하여 공동 작업](../use/vscode.md)
 - [Live Share 연결 요구 사항](connectivity.md)
 - [Live Share의 보안 기능](security.md)
 
