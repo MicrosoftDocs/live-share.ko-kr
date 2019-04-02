@@ -11,12 +11,12 @@ ms.author: joncart
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: d4dc3f2a6dfd8e0951a944cf4f487cedc49e4370
-ms.sourcegitcommit: 100fce9b9bbcd7e6f68d40659bd2760e9537de37
+ms.openlocfilehash: 1b6ecafc933c6521f6c21ec0dcd38c25e889a0e2
+ms.sourcegitcommit: 1706889dd48377932868a03e88fbd2b4512a3729
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "58640148"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58853575"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -26,7 +26,7 @@ Creative Commons Attribution 4.0 License (International): https://creativecommon
 
 # <a name="common-use-cases"></a>일반적인 사용 사례
 
-Visual Studio Live Share의 기본적인 목표는 개발자가 시기와 방법에 대 한 모든 의견을 유발 하지 않고도 보다 쉽게 서로 공동 작업을 사용 하도록 설정 하려면 (예: "오른쪽" 소프트웨어 방법론 또는 SCM 워크플로 사용 하는 통신 도구). 이러한 방식으로 도구 발생 하는 상호 작용을 지원할 수 있습니다 **자연스럽 게**와 **자주*필요에 따라 있지만 방식으로 **증정*이미 선호 하는 방법 작동 합니다.
+Visual Studio Live Share의 기본적인 목표는 개발자가 시기와 방법에 대 한 모든 의견을 유발 하지 않고도 보다 쉽게 서로 공동 작업을 사용 하도록 설정 하려면 (예: "오른쪽" 소프트웨어 방법론 또는 SCM 워크플로 사용 하는 통신 도구). 이러한 방식으로 도구 발생 하는 상호 작용을 지원할 수 있습니다 **자연스럽 게**, 및 **자주** 필요에 따라 있지만 방식으로 **증정** 이미 선호 하는 방법 작업 합니다.
 
 이 문서를 강조 표시 몇 가지 사용 사례 Visual Studio Live Share를 이미 사용 중인을 얼마나 잘 현재 지원 하 고, 최적화 추가 (의견에 따라!)을 계획 하는 방법에 설명 합니다. 아래에 이미 포함 되지 않는 것에 대 한 Live Share를 사용 하는 경우 개선할 하세요 특정 사용 사례를 지원 하기 위해 생각 [알려주세요](https://github.com/MicrosoftDocs/live-share/issues/new)합니다.
 
@@ -71,21 +71,23 @@ Visual Studio Live Share의 기본적인 목표는 개발자가 시기와 방법
 
 라이브 공유의 앞에서 언급 한 문제를 모두 알 수 없는 되도록 설계 되었습니다 아니라 작업이 완전히 "편의적" 하 고 상황에 맞는 페어 프로그래밍을 지원 하기 위해 노력 하 고 있습니다. 즉, 단일 키보드를 공유 하는 두 명의 개발자와는 달리 하 고 화면, Live Share 개발자가 공동된 목표를 해당 개별 자치 또는 환경 기본 설정을 제거 하지 않고 작업할 수 있도록의 쌍 프로그래밍의 형태를 활성화 합니다. 독립적으로 사용할 수 또는 함께 허용를 각 참가자가 자신의 생각의 프로세스가 공동 작업 합니다.
 
-추가로 쌍 프로그래밍을 지원 하 고 각 "게스트" 일반적으로 필요한 작업을 수행할 수 있도록, 하려면 계속 증가 하 고 상황에 맞는 Live Share 세션에서 공유 되는 기능에 대 한 로드맵입니다 작업 해야 합니다: 작업 ([#40](https://github.com/MicrosoftDocs/live-share/issues/40)), 빌드 출력 ([#48](https://github.com/MicrosoftDocs/live-share/issues/48)), 게스트 기반 디버깅 ([#32](https://github.com/MicrosoftDocs/live-share/issues/32)), 등입니다. 중요 하다는 이러한 경험을이 통해 알려 주세요!
-
 이 사용 사례를 더욱 중단 하려면 다음 항목이 쌍을 관찰해 왔습니다에 대 한 Live Share를 사용 하 여 개발자 들은 프로그래밍의 형태를 나타냅니다.
 
 ### <a name="mob-programming"></a>Mob 프로그래밍
 
 [프로그래밍 mob](https://en.wikipedia.org/wiki/Mob_programming) (또는 프로그래밍 swarm) 기본적으로 쌍 프로그래밍, 하지만 둘 이상의 사용자를 사용 하 여 합니다. 따라서 모든 Live Share의 쌍 프로그래밍에 대 한 이점 중 적용도 동일 하 게 됩니다. 또한 일부 팀은 "스 웜"는 필요에 따라 (예: 팀 훈련 주위 도래)에서 정규 반대로 수행 합니다.
 
-현재 Live Share 수도 팀의 규모를 수용할 수 있는 세션 내에서 최대 5 명의 게스트를 지원 합니다. 그러나이 (다양 한 사용 사례)에 대 한 증가를 계획 하 고 찾고자 하는 피드백 ([투표 👍 여기](https://github.com/MicrosoftDocs/live-share/issues/229))
+현재 Live Share 세션 내에서 최대 30 게스트를 지원합니다.
+> [!TIP]
+> 사용할 수 있도록 30 게스트 세션에서:
+> - **VS Code:** settings.json "liveshare.increasedGuestLimit":"true" 추가
+> - **VS:** 도구 설정 > 옵션 > Live Share > "True"로 향상 된 게스트 제한 
 
 ### <a name="coding-competitions--hack-a-thons"></a>코딩 대회 / Hack-A-Thons
 
 코딩 대회 및 thons a hack 단기 효과적으로, 단일 작업의 변형이 mob 프로그래밍 합니다. 팀 및 현재 해당 역할의 멤버는 잠재적으로 동적도입니다. 이 사용 사례는 또한 시간에 민감한 일반적으로 완전히 새로운 도구와 함께 작동 하는 기능을 적용할 필요 없이 단일 화면 또는 키보드에 제한 되지 않고 이동할 수 증가 하면 로그 하지 않고 실시간 공동 작업 능력 속도입니다.
 
-요청 허용을 듣고이 환경에서 참가자가 항상 완전히 "신뢰할 수 있는" 되지 않을 수 있습니다, 되므로 제거 (및 차단) 언제 든 지 사용 계획 중인 세션에서 게스트 ([#398](https://github.com/MicrosoftDocs/live-share/issues/398))를 지원 하 고 해당 환경에 완전히 제어를 사용 하 여 "호스트"를 제공 하는 목표입니다.
+이 환경에서 참가자가 항상 완전히 "신뢰할 수 있는" 되지 않을 수 있습니다, 되므로 수 (제거한 차단) 언제 든 지 세션에서 게스트입니다. 이 환경에 완전히 제어할 "hosts"를 제공합니다.
 
 ### <a name="school-group-projects"></a>학교 그룹 프로젝트
 
@@ -117,14 +119,14 @@ Visual Studio Live Share의 기본적인 목표는 개발자가 시기와 방법
 
 클래스 룸 설정을 돕기 위해, Live Share 읽기 전용 모드에서 공유할 수 있도록 합니다. 강사 만들어지는 불필요 하거나 실수로 편집에 대 한 걱정 없이 학생을 사용 하 여 해당 프로젝트를 공유할 수 있도록 읽기 전용 모드를 사용할 수 있습니다.
 
-또한 Live Share는 공동 작업 세션에 참가 하는 최대 30 게스트를 사용 하도록 설정 하려면 실험적 지원 합니다. 이러한 방식으로 강사 세션에 참가 하 고 코드를 함께 확인 하는 전체 클래스를 가질 수 있습니다.
+또한 Live Share는 공동 작업 세션에 참가 하는 최대 30 게스트 수 있도록 지원 합니다. 이러한 방식으로 강사 세션에 참가 하 고 코드를 함께 확인 하는 전체 클래스를 가질 수 있습니다.
 
-이 실험적인 기능 수 있도록 합니다.
+이 기능은 사용할 수 있도록 합니다.
 
-- **VS Code:** Settings.json에 "liveshare.features":"experimental"를 추가 합니다.
-- **VS:** 도구 설정 > 옵션 > 공유 Live > "실험적" 기능
+- **VS Code:** Settings.json에 "liveshare.increasedGuestLimit":"true"를 추가 합니다.
+- **VS:** 도구 설정 > 옵션 > Live Share > "True"로 향상 된 게스트 제한
 
-이 시나리오에 대 한 Live Share 최적화 하기 위해 현재 게스트도 더욱 높이기 위해 해야 ([#229](https://github.com/MicrosoftDocs/live-share/issues/229)), 세션 시작 되는 방법을 간소화 하 고 ([#422](https://github.com/MicrosoftDocs/live-share/issues/422)).
+이 시나리오에 대 한 Live Share를 완전히 최적화 하려면 세션 시작 되는 방식을 단순화 하고자 해야 ([#422](https://github.com/MicrosoftDocs/live-share/issues/422)).
 
 ## <a name="code-reviews"></a>코드 검토
 

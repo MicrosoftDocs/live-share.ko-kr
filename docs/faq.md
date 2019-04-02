@@ -11,12 +11,12 @@ ms.author: joncart
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: a97ca693a0a60125c5376e444c9fba1ee7442d67
-ms.sourcegitcommit: 100fce9b9bbcd7e6f68d40659bd2760e9537de37
+ms.openlocfilehash: 1b68dc90f4bac5e21c04c555ab2d8fc7f59aad55
+ms.sourcegitcommit: 1706889dd48377932868a03e88fbd2b4512a3729
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "58640161"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58853601"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -27,15 +27,16 @@ Creative Commons Attribution 4.0 License (International): https://creativecommon
 # <a name="frequently-asked-questions"></a>질문과 대답
 
 ## <a name="what-is-live-share"></a>Live Share 란?
-라이브 공유 개발자를를 기존 도구 (Visual Studio 2017 또는 Visual Studio Code)에서 직접 인스턴트, 양방향으로 공동 작업을 얻게 되므로 코드 베이스와 해당 컨텍스트를 공유할 수 있습니다. Live Share를 사용 하 여 동료가 수 읽기, 탐색, 편집 및 원활 하 고 안전 하 게 하면와 공유한 프로젝트를 디버그 합니다.
+Live Share를 사용하면 사용 중인 프로그래밍 언어나 빌드 중인 앱 유형에 관계 없이 다른 사람과 공동으로 실시간 편집 및 디버깅이 가능합니다. 즉시 (및 안전 하 게) 현재 프로젝트를 공유 하 고 필요에 따라 다음 디버깅 세션, 터미널 인스턴스, localhost web apps 등을 공유할 수 있습니다. 세션을 조인 하는 개발자가 효율적으로 공동 작업을 즉시 모든 리포지토리를 복제 하거나 모든 Sdk를 설치 하지 않고도 시작할 수 있도록 (예: 언어 서비스를 디버깅), 환경에서 모든 해당 편집기 컨텍스트를 받습니다.
 
 ## <a name="what-are-the-tooling-requirements-for-using-live-share"></a>Live Share를 사용 하기 위한 도구 요구 사항은 무엇입니까?
 합니다 [기능을 핵심](#what-are-the-core-capabilities-of-live-share) Live Share의 완전히 지원 됩니다 다음 도구에서:
 
-* [Visual Studio 2017 (15.6 이상)](https://visualstudio.microsoft.com/vs/)
+* [Visual Studio 2019](https://visualstudio.microsoft.com/vs/)
+* [Visual Studio 2017 (15.6 이상)](https://visualstudio.microsoft.com/vs/older-downloads/)
 * [Visual Studio Code](https://code.visualstudio.com/)
 
-미리 보기에서 Visual Studio 내에서 기능을 활용 해야 할 수 있는 사용자 피드백에 응답할 Live Share를 신속 하 게 반복 됩니다 하 고만 Visual Studio Code가 각 미리 보기/insider 릴리스 사용 가능 합니다. 나타내고 귀하에 게 어떤 기능 설명서의 최신 버전의 VS 또는 VS Code에 필요 합니다. 예를 들어, 로컬 실행 취소/다시 실행 지원에는 Visual Studio 2017 15.7 + 필요합니다.
+사용자 피드백에 응답할 신속 하 게 반복 합니다. 이렇게 하려면 Visual Studio 내에서 기능을 활용 하기 및만 Visual Studio Code가 각 미리 보기/insider 릴리스 사용 가능 합니다. 나타내고 귀하에 게 어떤 기능 설명서의 최신 버전의 VS 또는 VS Code에 필요 합니다. 예를 들어, 로컬 실행 취소/다시 실행 지원에는 Visual Studio 2017 15.7 + 필요합니다.
 
 ## <a name="what-are-the-core-capabilities-of-live-share"></a>Live Share의 핵심 기능은 무엇 인가요?
 라이브 공유를 사용 하면 공유에 안전한 연결을 통해 팀 멤버를 사용 하 여 코드 베이스입니다. Live Share를 사용 하 여 공동으로 작업 영역에서 여러 파일을 편집할 수 있습니다 더 중요 한 응용 프로그램 및 디버그 팀 동료와 합니다. 공동 편집을 편집 하는 동안 즉시 표시 되 고 동료입니다. 공동 디버깅 하는 동안 응용 프로그램의 동일한 디버그 세션을 공유 합니다. 이 의미 하 고 동료는 중단점 및 단계를 사용 하 여 프로그램 실행을 제어할 수 있습니다 있지만 있습니다 독립적으로 검사할 수 없습니다 변수, 조사식, 지역 및 생산적인 (예: Visual Studio에서 직접 실행 창).
@@ -52,7 +53,7 @@ Creative Commons Attribution 4.0 License (International): https://creativecommon
 Live 공유 모든 키보드 및 마우스 입력을 전송 하지 않습니다. 또한 동료의 컴퓨터에 각 공동 작업에 필요한 데이터만 통신 합니다. 예를 들어, 작업 영역을 공유 하는 경우에 폴더 구조에 공유 됩니다. 공동으로 파일을 편집 하는 경우 해당 파일의 내용은 공유 됩니다. 협력을 디버깅 하는 경우 (예: 단계별 실행) 하는 디버그 작업 및 상태 (예: 호출 스택 및 지역) 공유 됩니다.
 
 ## <a name="when-will-live-share-be-released"></a>Live Share 나오나요?
-공개 미리 보기에서 현재 사용 가능한 라이브 공유가 되었습니다. 피드백을 수집 하 고 보다 광범위 하 게 서비스를 열기 전에 가능한 최상의 경험을 제공할 수 있는지 확인 하기 위해 개발자 미리 보기 비트 테스트 작업 밀접 하 게 하려고 합니다.
+라이브 공유 출시 되었습니다! 할 수 있습니다 [Live Share를 사용 하 여 시작](https://aka.ms/vsls-start) 지금 합니다.
 
 ## <a name="how-much-will-it-cost"></a>얼마나 비용은 얼마 입니까?
 지속적으로 사용 하는 개발자를 위한 Visual Studio Live Share의 시키며 무료 계층을 위해 노력할 것입니다. 에서는 커뮤니티의 요구 사항을 더 잘 이해 하는 대로 고급 기능을 사용 하 여 유료 계층 도입을 평가 수는 있습니다.
@@ -82,11 +83,15 @@ Live Share를 사용 하는 경우 팀원이 액세스할 수 있도록 해당 �
 
 라이브 공유 단계에도 더 및 디버그 세션을 공유할 수 있습니다.  이렇게 하면 해당 개발 워크플로 변경 하거나 응용 프로그램 디자인을 변경할 필요 없이 컴퓨터에 발생 하는 문제를 추적할 수 있도록 다른 인 리스트 먼 트 하는 데 특히 유용 합니다.
 
-## <a name="which-languages-and-platforms-will-be-supported-in-the-preview"></a>미리 보기에는 언어 및 플랫폼 지원 되나요?
-그러나 목표 언어 및 플랫폼을 개발 중인 응용 프로그램 종류에 관계 없이 풍부한 공동 작업을 사용할 수 있도록 다양 한 분야를 지원 하기 위해서입니다. 참조 된 [언어 및 플랫폼 지원이](reference/platform-support.md) 문서를 현재 작동 하세요. 피드백에 따라 앞으로 이동이 그림을 개선 하기 위해 기대 하 고 이것은 시작일 뿐입니다.
+## <a name="which-languages-and-platforms-will-be-supported"></a>어떤 언어 및 플랫폼 지원 되나요?
+우리의 목표는 언어 및 플랫폼을 개발 중인 응용 프로그램 종류에 관계 없이 풍부한 공동 작업을 사용할 수 있도록 다양 한 분야를 지원 하기 위해서입니다. 참조 된 [언어 및 플랫폼 지원이](reference/platform-support.md) 문서를 현재 작동 하세요.
 
 ## <a name="how-many-developers-can-join-a-collaboration-session"></a>얼마나 많은 개발자는 공동 작업 세션에 참가할 수 있습니까?
-현재 개발자 ("호스팅")를 공유 하는 것 외에도 5 명의 동시 게스트 지원 프로젝트입니다. 따라서 공동 작업 세션 언제 든 지에 총 6 개발자를 가질 수 있습니다. 즉, 이므로에 대 한 피드백 우리가 찾고자 하는 영역도 높여야 사용 사례가 있는 경우 필요한 하세요 [알려주세요](https://github.com/MicrosoftDocs/live-share/issues/229)!
+현재 개발자 ("호스팅")를 공유 하는 것 외에도 30 동시 게스트 지원 프로젝트입니다. 기본적으로 세션에서 최대 5 명의 게스트 사용 합니다. 
+
+증가 게스트도 사용할 수 있도록 합니다. 
+- **VS Code:** Settings.json에 "liveshare.increasedGuestLimit":"true"를 추가 합니다.
+- **VS:** 도구 설정 > 옵션 > Live Share > "True"로 향상 된 게스트 제한
 
 ## <a name="what-is-the-roadmap"></a>로드맵은 무엇 인가요?
 알려진된 문제 및 로드맵 항목 집합을 볼 수 있습니다 [여기](https://aka.ms/vsls-issues)합니다. 모든 문제 보다는 참조만 기능 요청을 원하는 경우 참조 [여기](https://aka.ms/vsls-feature-requests)합니다. 좋습니다 셰이프를 앞으로 이동 하는 제품의 방향을 투표 기존 항목, 새 기능 요청이 있는 경우 파일 및 버그 보고서를 고객에 게 로그 수 있습니다.
