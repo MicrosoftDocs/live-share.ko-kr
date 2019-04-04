@@ -5,20 +5,18 @@ ms.custom: ''
 ms.date: 04/25/2018
 ms.reviewer: ''
 ms.suite: ''
-ms.technology:
-- liveshare
 ms.topic: conceptual
 author: chuxel
 ms.author: clantz
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: 995c9e16d24328bb2680deb99cd7e7d421af945c
-ms.sourcegitcommit: 4f733c9053848f26da03d47050bcb734f6c98b31
+ms.openlocfilehash: 55eb4b0a5e819b00754d75e4682dd1aa97bbf576
+ms.sourcegitcommit: 1706889dd48377932868a03e88fbd2b4512a3729
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57256429"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58853627"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -39,17 +37,23 @@ Visual Studio에서 Live Share를 사용하여 공동 작업을 할 준비가 �
 
 ## <a name="installation"></a>설치
 
-시작하기 전에 Windows 7, 8.1 또는 10에 **Visual Studio 2017 15.6 이상**을 설치해야 합니다. *그러나 이 버전은 로컬 실행 취소/다시 실행 지원을 사용하므로 Visual Studio 15.7 이상이 좋습니다.*
+시작하기 전에 Windows 7, 8.1 또는 10에 **Visual Studio 2019** 또는 **Visual Studio 2017 15.6 이상**을 설치해야 합니다. *그러나 로컬 실행 취소/다시 실행 지원을 사용할 수 있는 Visual Studio 15.7 이상을 설치하는 것이 좋습니다.*
 
 가져오기는 간단합니다.
 
-1. [Visual Studio 2017](https://visualstudio.microsoft.com/vs/) 15.6 이상의 모든 버전을 설치합니다.
+Visual Studio 2019의 경우
+1. 버전에 상관없이 [Visual Studio 2019](https://visualstudio.microsoft.com/vs/)를 설치합니다.
 2. [지원되는 워크로드](../reference/platform-support.md)를 설치합니다. (예: ASP.NET, .NET Core, C++ 및/또는 Node.js)
-3. 마켓플레이스에서 Visual Studio Live Share 확장을 [다운로드](https://aka.ms/vsls-dl/vs)하여 설치합니다.
+3. Visual Studio Live Share는 기본적으로 이러한 워크로드와 함께 설치됩니다.
+
+Visual Studio 2017의 경우
+1. 버전에 상관없이 [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/) 15.6 이상을 설치합니다.
+2. [지원되는 워크로드](../reference/platform-support.md)를 설치합니다. (예: ASP.NET, .NET Core, C++ 및/또는 Node.js)
+3. Marketplace에서 Visual Studio Live Share 확장을 [다운로드](https://aka.ms/vsls-dl/vs)하여 설치합니다.
 
 Visual Studio Live Share를 다운로드하여 사용하면 [사용 조건](https://aka.ms/vsls-license) 및 [개인정보처리방침](https://www.microsoft.com/en-us/privacystatement/EnterpriseDev/default.aspx)에 동의한 것입니다. 문제가 있는 경우 [문제 해결](../troubleshooting.md)을 참조하세요.
 
-[![다운로드](../media/download.png)](https://aka.ms/vsls-dl/vs)
+[![D다운로드](../media/download.png)](https://aka.ms/vsls-dl/vs)
 
 ## <a name="sign-in"></a>로그인
 
@@ -87,7 +91,7 @@ Visual Studio Live Share를 다운로드하여 설치한 뒤 이러한 단계를
 
 4. **공동 작업 세션 시작**
 
-    이제 오른쪽 위 모서리에 있는 "공유" 단추를 클릭하면 됩니다.
+    이제 오른쪽 위 모서리에 있는 “Live Share” 단추를 클릭하면 됩니다.
 
     ![VS 공유 단추](../media/vs-share-button.png)
 
@@ -96,7 +100,7 @@ Visual Studio Live Share를 다운로드하여 설치한 뒤 이러한 단계를
 
     초대 링크를 클립보드에 자동으로 복사합니다. 초대 링크가 브라우저에서 열리면 이러한 폴더의 내용을 다른 사용자와 공유하는 새 공동 작업 세션에 해당 사용자를 참가하게 할 수 있습니다.
 
-    "세션 상태"를 전달하기 위해 "공유" 단추 전환이 표시됩니다. 어떤 상태인지 확인하려면 아래의 [세션 상태](#session-states) 정보를 참조하세요.
+    “세션 상태”를 전달하기 위해 “Live Share” 단추 전환도 표시됩니다. 어떤 상태인지 확인하려면 아래의 [세션 상태](#session-states) 정보를 참조하세요.
 
     공유를 시작한 후 다시 초대 링크를 준비해야 하는 경우 공유/세션 상태 단추를 클릭하고 "링크 복사"를 선택하여 해당 링크에 액세스할 수 있습니다.
 
@@ -173,7 +177,7 @@ Visual Studio Live Share를 다운로드하여 설치한 경우 게스트는 호
 
     정말 간단하죠!! 몇 분 내에 연결되고 공동 작업을 시작할 수 있습니다.
 
-    "세션 상태"를 전달하기 위해 "공유" 단추 전환이 표시됩니다. 어떤 상태인지 확인하려면 아래의 [세션 상태](#session-states) 정보를 참조하세요.
+    “세션 상태”를 전달하기 위해 “Live Share” 단추 전환이 표시됩니다. 어떤 상태인지 확인하려면 아래의 [세션 상태](#session-states) 정보를 참조하세요.
 
     그런 다음, 참가가 완료되면 호스트가 현재 편집 중인 파일로 자동으로 이동됩니다.
 
@@ -189,7 +193,7 @@ Visual Studio Live Share를 다운로드하여 설치한 경우 게스트는 호
 
 2. **참가 명령 사용**
 
-    **파일 > 공동 작업 세션 참가**로 이동
+    **파일 > Live Share 세션 참가**로 이동하기만 하면 됩니다.
 
     ![VS 참가 메뉴](../media/vs-join.png)
 
@@ -201,7 +205,7 @@ Visual Studio Live Share를 다운로드하여 설치한 경우 게스트는 호
 
     정말 간단하죠. 일시적으로 공동 작업 세션에 연결되어야 합니다.
 
-    "세션 상태"를 전달하기 위해 "공유" 단추 전환이 표시됩니다. 어떤 상태인지 확인하려면 아래의 [세션 상태](#session-states) 정보를 참조하세요.
+    “세션 상태”를 전달하기 위해 “Live Share” 단추 전환이 표시됩니다. 어떤 상태인지 확인하려면 아래의 [세션 상태](#session-states) 정보를 참조하세요.
 
     그런 다음, 참가가 완료되면 호스트가 현재 편집 중인 위치로 자동으로 이동합니다.
 
@@ -406,7 +410,7 @@ Visual Studio Live Share의 공동 작업 디버깅 기능은 문제를 디버�
 
 ## <a name="session-states"></a>세션 상태
 
-공동 작업 세션을 시작하거나 참가하여 공유 콘텐츠에 대한 액세스 권한이 생기면 오른쪽 위 모서리의 "공유" 단추를 클릭하여 활성 공동 작업 세션의 상태를 반영하도록 해당 환경을 업데이트합니다.
+공동 작업 세션을 시작하거나 참가하여 공유 콘텐츠에 대한 액세스 권한이 생기면 오른쪽 위 모서리의 “Live Share” 단추를 클릭하여 활성 공동 작업 세션의 상태를 반영하도록 해당 환경을 업데이트합니다.
 
 다음은 일반적으로 확인할 수 있는 상태입니다.
 

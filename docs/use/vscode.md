@@ -5,20 +5,18 @@ ms.custom: ''
 ms.date: 04/27/2018
 ms.reviewer: ''
 ms.suite: ''
-ms.technology:
-- liveshare
 ms.topic: conceptual
 author: chuxel
 ms.author: clantz
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: 9285fef38fea9bb164892775521ed2a28fe9ef1b
-ms.sourcegitcommit: 4f733c9053848f26da03d47050bcb734f6c98b31
+ms.openlocfilehash: ed96ba572a58b8d3bfda7b634f1052a1b4e73051
+ms.sourcegitcommit: 1706889dd48377932868a03e88fbd2b4512a3729
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57255962"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58853640"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -56,7 +54,7 @@ VS Code에서 Live Share를 사용하여 공동 작업을 할 준비가 됐나�
 그 후에 Visual Studio Live Share 확장을 다운로드하여 설치하는 것은 쉽습니다.
 
 1. <a href="https://code.visualstudio.com/">Visual Studio Code</a> 설치
-2. 마켓플레이스에서 Visual Studio Live Share 확장을 [다운로드](https://aka.ms/vsls-dl/vscode)하여 설치합니다.
+2. Marketplace에서 Visual Studio Live Share 확장을 [다운로드](https://aka.ms/vsls-dl/vscode)하여 설치합니다.
 3. Visual Studio Code 다시 로드
 4. 종속성이 다운로드되어 설치될 때까지 기다립니다(상태 표시줄 참조).<br/>
     ![설치 완료](../media/vscode-finishing-install.png)
@@ -67,7 +65,7 @@ VS Code에서 Live Share를 사용하여 공동 작업을 할 준비가 됐나�
 
 Visual Studio Live Share를 다운로드하여 사용하면 [사용 조건](https://aka.ms/vsls-license) 및 [개인정보처리방침](https://www.microsoft.com/en-us/privacystatement/EnterpriseDev/default.aspx)에 동의한 것입니다. 문제가 있는 경우 [문제 해결](../troubleshooting.md)을 참조하세요.
 
-[![다운로드](../media/download.png)](https://aka.ms/vsls-dl/vscode)
+[![D다운로드](../media/download.png)](https://aka.ms/vsls-dl/vscode)
 
 ### <a name="linux-install-steps"></a>Linux 설치 단계
 
@@ -99,7 +97,7 @@ Visual Studio Live Share에는 일반적으로 Linux에서 브라우저 통합�
 
 공동 작업을 수행하려면 모든 사람이 사용자의 신원을 알도록 Visual Studio Live Share에 로그인해야 합니다. 이 작업은 단순한 보안 조치이며, 사용자를 마케팅 또는 기타 연구 작업에 참여하게 **하지** 않습니다. Microsoft 개인 계정(예: @outlook.com), Microsoft 지원 회사 또는 학교 계정(AAD) 또는 GitHub 계정을 사용하여 로그인할 수 있습니다. 로그인은 간단합니다.
 
-"공유" 상태 표시줄 항목을 **클릭**하거나 **Ctrl+Shift+P / Cmd+Shift+P** 키를 눌러 "Live Share: 브라우저로 로그인" 명령을 선택합니다.
+“Live Share” 상태 표시줄 항목을 **클릭**하거나 **Ctrl+Shift+P/Cmd+Shift+P** 키를 눌러 “Live Share: 브라우저로 로그인” 명령을 선택합니다.
 
 ![VS Code 로그인 단추](../media/vscode-sign-in-button.png)
 
@@ -107,7 +105,7 @@ Visual Studio Live Share에는 일반적으로 Linux에서 브라우저 통합�
 
 ![웹 브라우저를 사용하여 로그인하라는 알림 메시지](../media/vscode-sign-in-toast.png)
 
-> **Linux 사용자:** 이전 버전의 Live Share(v0.3.295 이하)를 사용하는 경우 사용자 코드를 입력하라는 메시지가 표시될 수 있습니다. 최신 버전의 확장으로 업데이트하거나 "문제가 있나요?"를 클릭합니다. 로그인한 후 링크를 클릭하여 코드를 확인합니다. [자세한 내용은 다음](#sign-in-using-a-user-code)을 참조하세요.
+> **Linux 사용자:** 이전 버전의 Live Share(v0.3.295 이하)를 사용하는 경우 사용자 코드를 입력하라는 메시지가 표시될 수 있습니다. 확장의 최신 버전으로 업데이트하거나 "문제가 있나요?"를 클릭합니다. 로그인한 후 링크를 클릭하여 코드를 확인합니다. [자세한 내용은 다음](#sign-in-using-a-user-code)을 참조하세요.
 
 브라우저에서 로그인 프로세스를 완료한 후 Visual Studio Code에서 사용자 로그인을 인식하지 못하는 경우 [사용자 코드를 사용하여 로그인](#sign-in-using-a-user-code)을 참조하세요. 그렇지 않으면 [문제 해결](../troubleshooting.md#sign-in)을 확인하여 더 많은 팁을 확인합니다.
 
@@ -174,7 +172,7 @@ Visual Studio Live Share를 다운로드하여 설치한 뒤 이러한 단계를
 
 4. **공동 작업 세션 시작**
 
-    이제 단순히 "공유" 상태 표시줄 항목을 **클릭**하거나 **Ctrl+Shift+P / Cmd+Shift+P** 키를 눌러 "Live Share: 공동 작업 세션 시작(공유)"을 선택합니다.
+    이제 간단히 “Live Share” 상태 표시줄 항목을 **클릭**하거나 **Ctrl+Shift+P/Cmd+Shift+P** 키를 눌러 “Live Share: 공동 작업 세션 시작(공유)”을 선택합니다.
 
     ![공유 단추](../media/vscode-share-button.png)
 
@@ -183,7 +181,7 @@ Visual Studio Live Share를 다운로드하여 설치한 뒤 이러한 단계를
 
     초대 링크를 클립보드에 자동으로 복사합니다. 초대 링크가 브라우저에서 열리면 이러한 폴더의 내용을 다른 사용자와 공유하는 새 공동 작업 세션에 해당 사용자를 참가하게 할 수 있습니다.
 
-    세션 상태를 나타내는 "공유" 상태 표시줄 항목 전환도 표시됩니다. 어떤 상태인지 확인하려면 아래의 [세션 상태](#session-states) 정보를 참조하세요.
+    세션 상태를 나타내는 “Live Share” 상태 표시줄 항목 전환도 표시됩니다. 어떤 상태인지 확인하려면 아래의 [세션 상태](#session-states) 정보를 참조하세요.
 
     공유를 시작한 후 다시 초대 링크를 준비해야 하는 경우 세션 상태 표시줄 아이콘을 클릭하여 다시 해당 링크에 액세스하고 "다른 사용자 초대(링크 복사)"를 선택합니다.
 
@@ -233,7 +231,7 @@ Visual Studio Live Share를 다운로드하여 설치한 뒤 이러한 단계를
 
 Visual Studio Live Share를 다운로드하여 설치한 경우 게스트는 호스팅되는 공동 작업 세션에 참가하려면 몇 가지 단계를 수행해야 합니다. 참가 방법은 [브라우저를 통해](#join-via-the-browser) 및 [수동으로](#join-manually)의 두 가지가 있습니다.
 
-> **보안 팁:** 공동 작업 세션에 참가하는 게스트는 호스트가 특정 파일이나 기능에 대한 액세스를 제한할 수 있음을 이해하는 것이 중요합니다. Live Share의 일부 기능 및 설정이 보안에 미치는 영향을 알고 싶나요? [보안](../reference/security.md) 문서를 확인합니다.
+> **보안 팁:** 공동 작업 세션에 참가하는 게스트는 호스트가 특정 파일이나 기능에 대한 액세스를 제한할 수 있다는 것을 이해해야 합니다. Live Share의 일부 기능 및 설정이 보안에 미치는 영향을 알고 싶나요? [보안](../reference/security.md) 문서를 확인합니다.
 
 ### <a name="join-via-the-browser"></a>브라우저를 통해 참가
 
@@ -249,11 +247,11 @@ Visual Studio Live Share를 다운로드하여 설치한 경우 게스트는 호
 
     > **참고**: Live Share 확장을 아직 설치하지 않은 경우 확장 마켓플레이스에 대한 링크가 표시됩니다. 확장을 설치하고, 도구를 다시 시작하고, 다시 시도합니다.
 
-    브라우저에서 Live Share 활성화 도구를 시작하려 한다는 알림이 표시돼야 합니다. 선택한 도구를 실행하면 시작한 후에 공동 작업 세션에 연결됩니다.
+    브라우저에서 Live Share 활성화 도구를 시작하려고 한다는 알림을 받게 됩니다. 선택한 도구를 실행하게 되면 시작한 후에 공동 작업 세션에 연결됩니다.
 
     ![참가 페이지](../media/join-page.png)
 
-    호스트가 오프라인 상태인 경우, 대신 이 지점에서 알림이 표시됩니다. 그런 다음, 호스트에 연결하여 다시 공유하도록 요청할 수 있습니다.
+    호스트가 오프라인 상태인 경우, 대신 이 시점에서 알림을 받게 됩니다. 그런 다음, 호스트에 연결하여 다시 공유하도록 요청할 수 있습니다.
 
     > [!NOTE]
     > Visual Studio Live Share 확장을 설치한 후 **도구를 한 번 이상 시작**했는지 및 초대 페이지를 열기/다시 열기 전에 설치를 완료했는지 확인합니다. 그래도 문제가 있나요? [수동으로 참가](#join-manually)를 참조하세요.
@@ -262,7 +260,7 @@ Visual Studio Live Share를 다운로드하여 설치한 경우 게스트는 호
 
     정말 간단하죠. 몇 분 내에 연결되고 공동 작업을 시작할 수 있습니다.
 
-    "세션 상태"를 전달하기 위해 "공유" 단추 전환이 표시됩니다. 어떤 상태인지 확인하려면 아래의 [세션 상태](#session-states) 정보를 참조하세요.
+    “세션 상태”를 전달하기 위해 “Live Share” 단추 전환이 표시됩니다. 어떤 상태인지 확인하려면 아래의 [세션 상태](#session-states) 정보를 참조하세요.
 
     그런 다음, 참가가 완료되면 호스트가 현재 편집 중인 파일로 자동으로 이동됩니다.
 
@@ -288,7 +286,7 @@ Visual Studio Live Share를 다운로드하여 설치한 경우 게스트는 호
 
     정말 간단하죠. 일시적으로 공동 작업 세션에 연결되어야 합니다.
 
-    "세션 상태"를 전달하기 위해 "공유" 단추 전환이 표시됩니다. 어떤 상태인지 확인하려면 아래의 [세션 상태](#session-states) 정보를 참조하세요.
+    “세션 상태”를 전달하기 위해 “Live Share” 단추 전환이 표시됩니다. 어떤 상태인지 확인하려면 아래의 [세션 상태](#session-states) 정보를 참조하세요.
 
     그런 다음, 참가가 완료되면 호스트가 현재 편집 중인 파일로 자동으로 이동됩니다.
 
@@ -398,11 +396,11 @@ VS Code 작업 표시줄 또는 Live Share Explorer 뷰에서 Live Share 사용�
 
 ## <a name="co-debugging"></a>공동 디버깅
 
-Visual Studio Live Share의 공동 작업 디버깅 기능은 문제를 디버깅하는 강력하고 고유한 방법입니다. 이 기능은 문제를 해결하기 위해 공동 작업 환경을 사용하도록 설정하는 것 외에 호스트 머신에 공유 디버깅 세션을 제공하여 사용자 및 세션의 다른 참가자가 환경에 특정적일 수 있는 문제를 조사하는 기능도 사용하도록 설정합니다.
+Visual Studio Live Share의 공동 작업 디버깅 기능은 문제를 디버깅하는 강력하고 고유한 방법입니다. 이 기능은 문제를 해결하기 위해 공동 작업 환경을 사용하도록 설정하는 것 외에 호스트 머신에 공유 디버깅 세션을 제공하여 사용자 및 세션의 다른 참가자가 환경에 특정적일 수 있는 문제를 조사하는 기능도 지원합니다.
 
 > **보안 팁:** 모든 참가자가 독립적으로 파일을 탐색하고 편집할 수 있는 경우 호스트는 .vsls.json 파일을 통해 게스트가 프로젝트에 액세스할 수 있는 파일을 제한하려 할 수 있습니다. 또한 콘솔/REPL 액세스란 사용자가 신뢰하는 참가자와만 공동으로 디버깅하도록 참가자가 사용자 머신에서 명령을 실행할 수 있다는 의미임을 알아야 합니다. 이러한 설정의 결과로 특정 제한된 파일을 한 단계씩 코드를 실행하므로 게스트가 디버거를 따를 수 없다는 사실을 인식하는 것도 중요합니다. 자세한 내용은 [파일 액세스 및 표시 유형 제어](../reference/security.md#controlling-file-access-and-visibility)를 참조하세요.
 
-간소하게 사용합니다.
+이 기능을 사용하는 방법은 간단합니다.
 
 1. 호스트와 모든 게스트 모두 적절한 디버깅 확장을 설치하게 해야 합니다. (이는 기술적으로 항상 필요한 것은 아니지만 일반적으로는 좋은 생각입니다.)
 
@@ -544,7 +542,7 @@ Visual Studio Code에는 ASP.NET과 같은 프로젝트 형식에 대한 Visual 
 
 ## <a name="next-steps"></a>다음 단계
 
-자세한 내용은 이러한 추가 문서를 확인합니다.
+자세한 내용은 이러한 추가 문서를 확인하세요.
 
 - [빠른 시작: 첫 번째 프로젝트 공유](../quickstart/share.md)
 - [빠른 시작: 첫 번째 세션 참가](../quickstart/share.md)
