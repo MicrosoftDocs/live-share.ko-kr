@@ -5,20 +5,18 @@ ms.custom: ''
 ms.date: 03/22/2018
 ms.reviewer: ''
 ms.suite: ''
-ms.technology:
-- liveshare
 ms.topic: quickstart
 author: chuxel
 ms.author: clantz
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: d4280484aaa3fd4ac204588bf4aefc4e3ac51871
-ms.sourcegitcommit: 4f733c9053848f26da03d47050bcb734f6c98b31
+ms.openlocfilehash: c5c86b158facfe1fe8fa7f5ae14a9511c55e0877
+ms.sourcegitcommit: 1706889dd48377932868a03e88fbd2b4512a3729
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57256066"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58853549"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -27,8 +25,6 @@ Creative Commons Attribution 4.0 License (International): https://creativecommon
 -->
 
 # <a name="quickstart-join-your-first-collaboration-session"></a>빠른 시작: 첫 번째 공동 작업 세션에 조인
-
-> **참고: Visual Studio Live Share는 현재 미리 보기 상태입니다. 사용자 환경과 기능은 최종 상태가 아닙니다.**
 
 Visual Studio Live Share를 시작합니다. Live Share를 사용하면 사용 중인 프로그래밍 언어나 빌드 중인 앱 유형에 관계 없이 다른 사람과 공동으로 실시간 편집 및 디버깅이 가능합니다. 이를 통해 팀원의 현재 프로젝트에 즉시 안전하게 조인한 다음, 필요에 따라 디버깅 세션을 시작하고, 터미널 인스턴스를 보고 편집하고, 로컬 호스트 웹앱을 보고 음성 통화에 조인하는 등의 작업을 수행할 수 있습니다.
 
@@ -48,30 +44,30 @@ Visual Studio Live Share를 시작합니다. Live Share를 사용하면 사용 �
     <td width="128px" style="width: 128px; text-align: center; border:none;"><img src="../media/vs-code.svg" width="128px" alt="Visual Studio Code logo"/></td>
     <td style="border:none;">
         <strong>Visual Studio Code(1.22.0 이상)</strong><br />
-        1.Windows(7, 8.1 또는 10), macOS<b>(Sierra+)</b>, 64비트 Linux용 <a href="https://code.visualstudio.com/">Visual Studio Code</a>를 설치합니다<b>(<a href="../use/vscode.md#installation">세부 정보</a>)</b>.<br />
-        2. 마켓플레이스에서 Visual Studio Live Share 확장을 다운로드하여 설치합니다. <br />
+        1. Windows(7, 8.1 또는 10), macOS<b>(Sierra+)</b>, 64비트 Linux용 <a href="https://code.visualstudio.com/">Visual Studio Code</a>를 설치합니다<b>(<a href="../use/vscode.md#installation">세부 정보</a>)</b>.<br />
+        2. Marketplace에서 Visual Studio Live Share 확장을 다운로드하여 설치합니다. <br />
         3. 다시 로드하고 종속성이 다운로드되어 설치될 때까지 기다립니다(상태 표시줄 참조).<br />
         4. <strong>Linux</strong>: <a href="../reference/linux.md#install-linux-prerequisites">라이브러리를 설치</a>하라는 메시지가 표시되면 [설치]를 클릭하고 암호를 입력한 다음, 완료되면 VS Code를 다시 시작합니다.<br />
         <a href="https://aka.ms/vsls-dl/vscode" alt="Download button"><img src="../media/download.png"></a>
     </td>
 </tr>
 <tr style="border:none;">
-    <td width="128px" style="width: 128px; text-align: center; border:none;"><img src="../media/vs-ide.svg" width="128px" alt="Visual Studio logo" /></td>
-    <td style="border:none;">
-        <strong>Visual Studio 2017 15.6 이상</strong><br />
-        1. Windows(7, 8.1 또는 10)에 최신 버전의 <a href="https://visualstudio.microsoft.com/vs/">Visual Studio 2017</a>(15.6 이상)을 설치합니다.<br/>
+    <td width="128px" style="width: 128px; text-align: center; border:none;"><img src="../media/vs-ide-2019.svg" width="128px" alt="Visual Studio 2019 logo" /></td>
+    <td  style="border:none;">
+        <strong>Visual Studio 2019 </strong><br />
+        1. <a href="https://visualstudio.microsoft.com/downloads/">Visual Studio 2019</a>를 설치합니다.<br/>
         2. <a href="../reference/platform-support.md">지원되는 워크로드</a>를 설치합니다. (예: ASP.NET, .NET Core, C++ 및/또는 Node.js)<br />
-        3. 마켓플레이스에서 Visual Studio Live Share 확장을 다운로드하여 설치합니다. <br />
-        <a href="https://aka.ms/vsls-dl/vs"><img style="padding: 0; spacing: 0;" src="../media/download.png" alt="Download button"></a><br />
+        3. Visual Studio Live Share는 기본적으로 이러한 워크로드와 함께 설치됩니다. <br />
     </td>
 </tr>
 <tr style="border:none;">
-    <td width="128px" style="width: 128px; text-align: center; border:none;"><img src="../media/vs-ide-preview.svg" width="128px" alt="Visual Studio Preview logo" /></td>
+    <td width="128px" style="width: 128px; text-align: center; border:none;"><img src="../media/vs-ide-2017.svg" width="128px" alt="Visual Studio 2017 logo" /></td>
     <td  style="border:none;">
-        <strong>Visual Studio 2019 </strong><br />
-        1. <a href="https://aka.ms/vs-preview">Visual Studio 2019</a>의 최신 미리 보기 버전을 설치합니다.<br/>
+        <strong>Visual Studio 2017 15.6 이상</strong><br />
+        1. Windows(7, 8.1 또는 10)에 최신 버전의 <a href="https://visualstudio.microsoft.com/vs/older-downloads/">Visual Studio 2017</a>(15.6 이상)을 설치합니다.<br/>
         2. <a href="../reference/platform-support.md">지원되는 워크로드</a>를 설치합니다. (예: ASP.NET, .NET Core, C++ 및/또는 Node.js)<br />
-        3. Visual Studio Live Share는 기본적으로 이러한 워크로드와 함께 설치됩니다. <br />
+        3. Marketplace에서 Visual Studio Live Share 확장을 다운로드하여 설치합니다. <br />
+        <a href="https://aka.ms/vsls-dl/vs"><img style="padding: 0; spacing: 0;" src="../media/download.png" alt="Download button" ></a><br />
     </td>
 </tr>
 </table>
@@ -83,7 +79,7 @@ Visual Studio Live Share를 다운로드하여 사용하면 [사용 조건](http
 VS Code에서 Live Share 확장 설치, 다시 시작 및 종속성 설치가 완료될 때까지 기다린 후 로그인하여 읽기 전용 게스트로 공동 작업 세션에 조인할 수 있습니다.
 
 > [!NOTE]
-> 조인할 코드를 편집하려면 [로그인](../quickstart/join.md#3-Sign-in)해야 합니다.
+> 조인할 코드를 편집하려면 로그인해야 합니다.
 
 브라우저에서 초대 링크를 열거나 다시 열면 브라우저에서 VS Code를 시작하려고 한다는 알림을 받게 됩니다. 시작하면 공동 작업 세션에 연결됩니다.
 
@@ -103,7 +99,7 @@ VS Code가 시작되면 로그인하라는 알림 메시지를 받게 됩니다.
 
 ## <a name="3-sign-in"></a>3. 로그인
 
-Live Share 확장을 설치하고, 다시 시작하고 종속성 설치(VS Code)가 완료될 때까지 기다린 후 로그인하여 다른 참가자에게 사용자가 누구인지 알릴 수 있습니다. 이 단계를 건너뛰면 조인 프로세스 중에 로그인하라는 메시지가 표시되거나 읽기 전용 게스트로 세션에 조인할 수 있습니다. 시작하려면 "공유" 상태 표시줄 항목(VS Code) / "로그인" 단추(VS)를 클릭합니다.
+Live Share 확장을 설치하고, 다시 시작하고 종속성 설치(VS Code)가 완료될 때까지 기다린 후 로그인하여 다른 참가자에게 사용자가 누구인지 알릴 수 있습니다. 이 단계를 건너뛰면 조인 프로세스 중에 로그인하라는 메시지가 표시되거나 읽기 전용 게스트로 세션에 조인할 수 있습니다. 시작하려면 “Live Share” 상태 표시줄 항목(VS Code)/“로그인” 단추(VS)를 클릭합니다.
 
 <table style="border: none;">
 <tr style="border: none;">
@@ -134,7 +130,7 @@ Live Share 확장을 설치하고, 다시 시작하고 종속성 설치(VS Code)
 
 브라우저에서 Live Share 활성화 도구를 시작하려고 한다는 알림을 받게 됩니다. 선택한 도구를 실행하게 되면 시작한 후에 공동 작업 세션에 연결됩니다.
 
-![조인 페이지](../media/join-page.png)
+![참가 페이지](../media/join-page.png)
 
 호스트가 오프라인 상태인 경우, 대신 이 시점에서 알림을 받게 됩니다. 그런 다음, 호스트에 연결하여 다시 공유하도록 요청할 수 있습니다.
 
@@ -144,7 +140,7 @@ Live Share 확장을 설치하고, 다시 시작하고 종속성 설치(VS Code)
 
 정말 간단하죠. 잠시 후 동료의 공동 작업 세션에 연결됩니다. 기본적으로 호스트는 조인하는 사람을 자동으로 수락하지만 호스트가 [게스트 승인 요청](../reference/security.md#requiring-guest-approval)을 설정한 경우, Live Share가 조인 요청을 승인하기 위해 호스트에서 대기 중이라는 상태 표시줄 / 조인 대화 상자가 나타납니다.
 
-> **보안 팁:** 공동 작업 세션에 조인하는 게스트는 호스트가 특정 파일이나 기능에 대한 액세스를 제한할 수 있음을 이해하는 것이 중요합니다. Live Share의 일부 기능 및 설정이 보안에 미치는 영향을 알고 싶나요? [보안](../reference/security.md) 문서를 체크 아웃합니다.
+> **보안 팁:** 공동 작업 세션에 참가하는 게스트는 호스트가 특정 파일이나 기능에 대한 액세스를 제한할 수 있다는 것을 이해해야 합니다. Live Share의 일부 기능 및 설정이 보안에 미치는 영향을 알고 싶나요? [보안](../reference/security.md) 문서를 체크 아웃합니다.
 
 다음과 같은 몇 가지 사항을 시도해 보세요.
 
@@ -160,7 +156,7 @@ Live Share 확장을 설치하고, 다시 시작하고 종속성 설치(VS Code)
 
 ## <a name="next-steps"></a>다음 단계
 
-자세한 내용은 이러한 추가 문서를 체크 아웃합니다.
+자세한 내용은 이러한 추가 문서를 확인하세요.
 
 - [빠른 시작: 첫 번째 프로젝트 공유](share.md)
 - [방법: Visual Studio Code를 사용하여 공동 작업](../use/vscode.md)
