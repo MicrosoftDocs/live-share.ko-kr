@@ -1,7 +1,7 @@
 ---
 title: 개요 - Visual Studio Live Share | Microsoft Docs
 description: Visual Studio Live Share 및 해당 기능의 개요
-ms.custom: null
+ms.custom: ''
 ms.date: 04/26/2018
 ms.reviewer: ''
 ms.suite: ''
@@ -10,9 +10,14 @@ author: chuxel
 ms.author: clantz
 manager: AmandaSilver
 ms.workload:
-  - liveshare
+- liveshare
+ms.openlocfilehash: 5f67086e9040a477e082cbd3ef27a1789c6406c5
+ms.sourcegitcommit: 1706889dd48377932868a03e88fbd2b4512a3729
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "58853588"
 ---
-
 <!--
 Copyright © Microsoft Corporation
 All rights reserved.
@@ -20,8 +25,6 @@ Creative Commons Attribution 4.0 License (International): https://creativecommon
 -->
 
 # <a name="what-is-visual-studio-live-share"></a>Visual Studio Live Share란?
-
-> **참고: Visual Studio Live Share는 현재 미리 보기 상태입니다. 사용자 환경과 기능은 최종 상태가 아닙니다.**
 
 Visual Studio Live Share를 시작합니다. Live Share를 사용하면 사용 중인 프로그래밍 언어나 빌드 중인 앱 유형에 관계 없이 다른 사람과 공동으로 실시간 편집 및 디버깅이 가능합니다. 현재 프로젝트를 즉시 안전하게 공유한 다음, 필요에 따라 디버깅 세션, 터미널 인스턴스, 로컬 호스트 웹앱, 음성 통화 등을 공유할 수 있습니다.
 
@@ -37,8 +40,8 @@ Visual Studio Live Share를 시작합니다. Live Share를 사용하면 사용 �
 시작하기 전에 Live Share의 핵심 요구 사항을 충족하는 Visual Studio 또는 Visual Studio Code 버전이 설치되어 있는지 확인해야 합니다.
 
 - **Visual Studio Code 1.22.0 이상** - Windows 7, 8.1 또는 10, macOS *(Sierra 10.12 이상만)*, 64비트 Linux *(64비트 Ubuntu Desktop 16.04 이상, Fedora 27 이상 권장 - [자세히 보기](use/vscode.md#installation))*
-- **Visual Studio 2017 15.6 이상**(모든 버전) - Windows 7, 8.1 또는 10
 - **Visual Studio 2019**(모든 버전) - Windows 7, 8.1 또는 10
+- **Visual Studio 2017 15.6 이상**(모든 버전) - Windows 7, 8.1 또는 10
 
 그 후에 Visual Studio Live Share 확장을 다운로드하여 설치하는 것은 쉽습니다.
 
@@ -47,30 +50,30 @@ Visual Studio Live Share를 시작합니다. Live Share를 사용하면 사용 �
     <td width="128px" style="width: 128px; text-align: center; border:none;"><img src="media/vs-code.svg" width="128px" alt="Visual Studio Code logo"/></td>
     <td style="border:none;">
         <strong>Visual Studio Code(1.22.0 이상)</strong><br />
-        1.Windows(7, 8.1 또는 10), macOS<b>(Sierra+)</b>, 64비트 Linux용 <a href="https://code.visualstudio.com/">Visual Studio Code</a>를 설치합니다<b>(<a href="use/vscode.md#installation">세부 정보</a>)</b>.<br />
-        2. 마켓플레이스에서 Visual Studio Live Share 확장을 다운로드하여 설치합니다. <br />
+        1. Windows(7, 8.1 또는 10), macOS<b>(Sierra+)</b>, 64비트 Linux용 <a href="https://code.visualstudio.com/">Visual Studio Code</a>를 설치합니다<b>(<a href="use/vscode.md#installation">세부 정보</a>)</b>.<br />
+        2. Marketplace에서 Visual Studio Live Share 확장을 다운로드하여 설치합니다. <br />
         3. 다시 로드하고 종속성이 다운로드되어 설치될 때까지 기다립니다(상태 표시줄 참조).<br />
         4. <strong>Linux</strong>: <a href="reference/linux.md#install-linux-prerequisites">라이브러리를 설치</a>하라는 메시지가 표시되면 [설치]를 클릭하고 암호를 입력한 다음, 완료되면 VS Code를 다시 시작합니다.<br />
         <a href="https://aka.ms/vsls-dl/vscode"><img src="media/download.png" alt="Download button"></a>
     </td>
 </tr>
 <tr style="border:none;">
-    <td width="128px" style="width: 128px; text-align: center; border:none;"><img src="media/vs-ide.svg" width="128px" alt="Visual Studio logo" /></td>
+    <td width="128px" style="width: 128px; text-align: center; border:none;"><img src="media/vs-ide-2019.svg" width="128px" alt="Visual Studio 2019 logo" /></td>
     <td  style="border:none;">
-        <strong>Visual Studio 2017 15.6 이상</strong><br />
-        1. Windows(7, 8.1 또는 10)에 최신 버전의 <a href="https://visualstudio.microsoft.com/vs/">Visual Studio 2017</a>(15.6 이상)을 설치합니다.<br/>
+        <strong>Visual Studio 2019 </strong><br />
+        1. <a href="https://visualstudio.microsoft.com/downloads/">Visual Studio 2019</a>를 설치합니다.<br/>
         2. <a href="reference/platform-support.md">지원되는 워크로드</a>를 설치합니다. (예: ASP.NET, .NET Core, C++ 및/또는 Node.js)<br />
-        3. 마켓플레이스에서 Visual Studio Live Share 확장을 다운로드하여 설치합니다. <br />
-        <a href="https://aka.ms/vsls-dl/vs"><img style="padding: 0; spacing: 0;" src="media/download.png" alt="Download button" ></a><br />
+        3. Visual Studio Live Share는 기본적으로 이러한 워크로드와 함께 설치됩니다. <br />
     </td>
 </tr>
 <tr style="border:none;">
-    <td width="128px" style="width: 128px; text-align: center; border:none;"><img src="media/vs-ide-preview.svg" width="128px" alt="Visual Studio Preview logo" /></td>
+    <td width="128px" style="width: 128px; text-align: center; border:none;"><img src="media/vs-ide-2017.svg" width="128px" alt="Visual Studio 2017 logo" /></td>
     <td  style="border:none;">
-        <strong>Visual Studio 2019 </strong><br />
-        1. <a href="https://aka.ms/vs-preview">Visual Studio 2019</a>의 최신 미리 보기 버전을 설치합니다.<br/>
+        <strong>Visual Studio 2017 15.6 이상</strong><br />
+        1. Windows(7, 8.1 또는 10)에 최신 버전의 <a href="https://visualstudio.microsoft.com/vs/older-downloads/">Visual Studio 2017</a>(15.6 이상)을 설치합니다.<br/>
         2. <a href="reference/platform-support.md">지원되는 워크로드</a>를 설치합니다. (예: ASP.NET, .NET Core, C++ 및/또는 Node.js)<br />
-        3. Visual Studio Live Share는 기본적으로 이러한 워크로드와 함께 설치됩니다. <br />
+        3. Marketplace에서 Visual Studio Live Share 확장을 다운로드하여 설치합니다. <br />
+        <a href="https://aka.ms/vsls-dl/vs"><img style="padding: 0; spacing: 0;" src="media/download.png" alt="Download button" ></a><br />
     </td>
 </tr>
 </table>
