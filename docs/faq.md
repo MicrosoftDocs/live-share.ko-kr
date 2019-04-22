@@ -15,7 +15,7 @@ ms.openlocfilehash: 1b68dc90f4bac5e21c04c555ab2d8fc7f59aad55
 ms.sourcegitcommit: 1706889dd48377932868a03e88fbd2b4512a3729
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "58853601"
 ---
 <!--
