@@ -15,7 +15,7 @@ ms.openlocfilehash: 55eb4b0a5e819b00754d75e4682dd1aa97bbf576
 ms.sourcegitcommit: 1706889dd48377932868a03e88fbd2b4512a3729
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "58853627"
 ---
 <!--
@@ -37,7 +37,7 @@ Visual Studio에서 Live Share를 사용하여 공동 작업을 할 준비가 �
 
 ## <a name="installation"></a>설치
 
-시작하기 전에 Windows 7, 8.1 또는 10에 **Visual Studio 2019** 또는 **Visual Studio 2017 15.6 이상**을 설치해야 합니다. *그러나 로컬 실행 취소/다시 실행 지원을 사용할 수 있는 Visual Studio 15.7 이상을 설치하는 것이 좋습니다.*
+시작하기 전에 Windows 7, 8.1 또는 10에 **Visual Studio 2019** 또는 **Visual Studio 2017 15.6 이상**을 설치해야 합니다. *그러나 이 버전은 로컬 실행 취소/다시 실행 지원을 사용하므로 Visual Studio 15.7 이상이 좋습니다.*
 
 가져오기는 간단합니다.
 
@@ -47,13 +47,13 @@ Visual Studio 2019의 경우
 3. Visual Studio Live Share는 기본적으로 이러한 워크로드와 함께 설치됩니다.
 
 Visual Studio 2017의 경우
-1. 버전에 상관없이 [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/) 15.6 이상을 설치합니다.
+1. [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/) 15.6 이상의 모든 버전을 설치합니다.
 2. [지원되는 워크로드](../reference/platform-support.md)를 설치합니다. (예: ASP.NET, .NET Core, C++ 및/또는 Node.js)
-3. Marketplace에서 Visual Studio Live Share 확장을 [다운로드](https://aka.ms/vsls-dl/vs)하여 설치합니다.
+3. 마켓플레이스에서 Visual Studio Live Share 확장을 [다운로드](https://aka.ms/vsls-dl/vs)하여 설치합니다.
 
 Visual Studio Live Share를 다운로드하여 사용하면 [사용 조건](https://aka.ms/vsls-license) 및 [개인정보처리방침](https://www.microsoft.com/en-us/privacystatement/EnterpriseDev/default.aspx)에 동의한 것입니다. 문제가 있는 경우 [문제 해결](../troubleshooting.md)을 참조하세요.
 
-[![D다운로드](../media/download.png)](https://aka.ms/vsls-dl/vs)
+[![다운로드](../media/download.png)](https://aka.ms/vsls-dl/vs)
 
 ## <a name="sign-in"></a>로그인
 

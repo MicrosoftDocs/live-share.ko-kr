@@ -15,7 +15,7 @@ ms.openlocfilehash: ed96ba572a58b8d3bfda7b634f1052a1b4e73051
 ms.sourcegitcommit: 1706889dd48377932868a03e88fbd2b4512a3729
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "58853640"
 ---
 <!--
@@ -54,7 +54,7 @@ VS Code에서 Live Share를 사용하여 공동 작업을 할 준비가 됐나�
 그 후에 Visual Studio Live Share 확장을 다운로드하여 설치하는 것은 쉽습니다.
 
 1. <a href="https://code.visualstudio.com/">Visual Studio Code</a> 설치
-2. Marketplace에서 Visual Studio Live Share 확장을 [다운로드](https://aka.ms/vsls-dl/vscode)하여 설치합니다.
+2. 마켓플레이스에서 Visual Studio Live Share 확장을 [다운로드](https://aka.ms/vsls-dl/vscode)하여 설치합니다.
 3. Visual Studio Code 다시 로드
 4. 종속성이 다운로드되어 설치될 때까지 기다립니다(상태 표시줄 참조).<br/>
     ![설치 완료](../media/vscode-finishing-install.png)
@@ -65,7 +65,7 @@ VS Code에서 Live Share를 사용하여 공동 작업을 할 준비가 됐나�
 
 Visual Studio Live Share를 다운로드하여 사용하면 [사용 조건](https://aka.ms/vsls-license) 및 [개인정보처리방침](https://www.microsoft.com/en-us/privacystatement/EnterpriseDev/default.aspx)에 동의한 것입니다. 문제가 있는 경우 [문제 해결](../troubleshooting.md)을 참조하세요.
 
-[![D다운로드](../media/download.png)](https://aka.ms/vsls-dl/vscode)
+[![다운로드](../media/download.png)](https://aka.ms/vsls-dl/vscode)
 
 ### <a name="linux-install-steps"></a>Linux 설치 단계
 
@@ -97,7 +97,7 @@ Visual Studio Live Share에는 일반적으로 Linux에서 브라우저 통합�
 
 공동 작업을 수행하려면 모든 사람이 사용자의 신원을 알도록 Visual Studio Live Share에 로그인해야 합니다. 이 작업은 단순한 보안 조치이며, 사용자를 마케팅 또는 기타 연구 작업에 참여하게 **하지** 않습니다. Microsoft 개인 계정(예: @outlook.com), Microsoft 지원 회사 또는 학교 계정(AAD) 또는 GitHub 계정을 사용하여 로그인할 수 있습니다. 로그인은 간단합니다.
 
-“Live Share” 상태 표시줄 항목을 **클릭**하거나 **Ctrl+Shift+P/Cmd+Shift+P** 키를 눌러 “Live Share: 브라우저로 로그인” 명령을 선택합니다.
+“Live Share” 상태 표시줄 항목을 **클릭**하거나 **Ctrl+Shift+P/Cmd+Shift+P** 키를 눌러 “Live Share: 브라우저로 로그인" 명령을 선택합니다.
 
 ![VS Code 로그인 단추](../media/vscode-sign-in-button.png)
 
@@ -172,7 +172,7 @@ Visual Studio Live Share를 다운로드하여 설치한 뒤 이러한 단계를
 
 4. **공동 작업 세션 시작**
 
-    이제 간단히 “Live Share” 상태 표시줄 항목을 **클릭**하거나 **Ctrl+Shift+P/Cmd+Shift+P** 키를 눌러 “Live Share: 공동 작업 세션 시작(공유)”을 선택합니다.
+    이제 간단히 “Live Share” 상태 표시줄 항목을 **클릭**하거나 **Ctrl+Shift+P/Cmd+Shift+P** 키를 눌러 “Live Share: 공동 작업 세션 시작(공유)"을 선택합니다.
 
     ![공유 단추](../media/vscode-share-button.png)
 
@@ -542,7 +542,7 @@ Visual Studio Code에는 ASP.NET과 같은 프로젝트 형식에 대한 Visual 
 
 ## <a name="next-steps"></a>다음 단계
 
-자세한 내용은 이러한 추가 문서를 확인하세요.
+자세한 내용은 이러한 추가 문서를 확인합니다.
 
 - [빠른 시작: 첫 번째 프로젝트 공유](../quickstart/share.md)
 - [빠른 시작: 첫 번째 세션 참가](../quickstart/share.md)
