@@ -11,12 +11,12 @@ ms.author: clantz
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: 55eb4b0a5e819b00754d75e4682dd1aa97bbf576
-ms.sourcegitcommit: 1706889dd48377932868a03e88fbd2b4512a3729
+ms.openlocfilehash: 657b5079ba5669b6d01d732257b40444a8fa82d2
+ms.sourcegitcommit: cab8df5c29f9d91e702ef514def53944ee7701ba
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "58853627"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "64987202"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -43,7 +43,7 @@ Visual Studio에서 Live Share를 사용하여 공동 작업을 할 준비가 �
 
 Visual Studio 2019의 경우
 1. 버전에 상관없이 [Visual Studio 2019](https://visualstudio.microsoft.com/vs/)를 설치합니다.
-2. [지원되는 워크로드](../reference/platform-support.md)를 설치합니다. (예: ASP.NET, .NET Core, C++ 및/또는 Node.js)
+2. [지원되는 워크로드](../reference/platform-support.md)를 설치합니다. (예: ASP.NET, .NET Core, C++, Python 및/또는 Node.js)
 3. Visual Studio Live Share는 기본적으로 이러한 워크로드와 함께 설치됩니다.
 
 Visual Studio 2017의 경우
