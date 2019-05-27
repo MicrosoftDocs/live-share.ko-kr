@@ -11,12 +11,12 @@ ms.author: joncart
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: 38fb6fada1030bddac8f3437f19f0ae259f5626e
-ms.sourcegitcommit: 100fce9b9bbcd7e6f68d40659bd2760e9537de37
+ms.openlocfilehash: 1d3b4977745e33ba0ee1b599ea4257c4a49d970d
+ms.sourcegitcommit: bfa1020882095fcc7d31cd71cf1f2e601e3bea06
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "58640031"
+ms.lasthandoff: 05/25/2019
+ms.locfileid: "66224697"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -28,8 +28,8 @@ Creative Commons Attribution 4.0 License (International): https://creativecommon
 
 Visual Studio Live Share를 사용 하 여 인증할 때 해당 사용자 프로필을 생성 하면 모든 참가자는 참조를 사용 하 여 공동 작업을 허용 하는 (예: 전자 메일 주소, 아바타). 지정된 된 시간에 Live Share (사용 하는 id 공급자)에 따라 다음 페이지 중 하나로 이동 하 여 저장 사용자 대신 프로필 정보를 볼 수 있습니다.
 
-- [Microsoft Account / Azure Active Directory](https://insiders.liveshare.vsengsaas.visualstudio.com/auth/identity/microsoft/viewprofile)
-- [GitHub](https://insiders.liveshare.vsengsaas.visualstudio.com/auth/identity/github/viewprofile)
+- [Microsoft Account / Azure Active Directory](https://prod.liveshare.vsengsaas.visualstudio.com/auth/identity/microsoft/viewprofile)
+- [GitHub](https://prod.liveshare.vsengsaas.visualstudio.com/auth/identity/github/viewprofile)
 
 페이지에 로그인 하 여 id를 확인 하도록 요청 되며 그런 다음 사용자 프로필에 대 한 원시 JSON 출력을 표시 합니다.
 
@@ -43,8 +43,8 @@ Visual Studio Live Share 현재 로그인 된 id에 대해 저장 된 프로필�
 
 사용자 프로필을 제거 하려는 경우 클릭할 수 이라는 링크가 `Click here to get your data removed from our systems` 에 [사용자 프로필 페이지](#user-profile)합니다. 또는 직접 (에 따라 사용 하는 id 공급자) 다음 페이지 중 하나를 방문할 수 있습니다.
 
-- [Microsoft Account / Azure Active Directory](https://insiders.liveshare.vsengsaas.visualstudio.com/auth/identity/microsoft/deleteme)
-- [GitHub](https://insiders.liveshare.vsengsaas.visualstudio.com/auth/identity/github/deleteme)
+- [Microsoft Account / Azure Active Directory](https://prod.liveshare.vsengsaas.visualstudio.com/auth/identity/microsoft/deleteme)
+- [GitHub](https://prod.liveshare.vsengsaas.visualstudio.com/auth/identity/github/deleteme)
 
 그렇지 않은 경우 Visual Studio Live Share는 자동으로 삭제 프로필 마지막 성공적인 로그인 후 30 일. 이 컨텍스트에서 "로그인" 다음을 나타냅니다 (에 따라 사용 중인 도구):
 
