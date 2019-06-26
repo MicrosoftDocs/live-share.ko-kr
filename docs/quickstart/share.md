@@ -11,12 +11,12 @@ ms.author: clantz
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: 339fb176eed78ece2117ba645a84fafe4f4247f4
-ms.sourcegitcommit: cab8df5c29f9d91e702ef514def53944ee7701ba
+ms.openlocfilehash: e65656c604a9dbc479a03a503fe01d7e2d938072
+ms.sourcegitcommit: c702aafb65b0fc43cb210e1bb7340cef48b57f35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "64987211"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "67322785"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -34,7 +34,9 @@ Visual Studio Live Share를 시작합니다. Live Share를 사용하면 사용 �
 > *사용자 고유의 공동 작업 세션에 가입*할 수 있다는 것을 알고 계셨나요? 그러면 직접 Live Share를 시도해 보거나 Visual Studio 또는 VS Code의 인스턴스를 전환하고 원격으로 연결할 수 있습니다. 두 인스턴스 모두에 동일한 ID를 사용할 수도 있습니다. 확인해 보세요.
 
 공유를 시작하려면 다음 단계를 수행합니다.
-
+<!--
+Change the instructions to Install extension for VS Code and in-tool for VS?
+-->
 ## <a name="1-install-the-extension"></a>1. 확장 설치
 
 확장을 설치하는 것은 쉽습니다. 다음 단계를 따르기만 하면 됩니다.
@@ -76,12 +78,15 @@ Visual Studio Live Share를 다운로드하여 사용하면 [사용 조건](http
 
 ## <a name="2-sign-in"></a>2. 로그인
 
+<!--
+Re-write the grammar here- run on sentence does not make sense. Change screen shots. There is another way of signing in as well- what if a user goes directly to the start collaboration. 
+-->
 Live Share 확장을 설치하고, 다시 시작하고 종속성 설치(VS Code)가 완료될 때까지 기다린 후 로그인하여 다른 참가자에게 사용자가 누구인지 알릴 수 있습니다. 시작하려면 "Live Share" 상태 표시줄 항목(VS Code) / "로그인" 단추(VS)를 클릭하기만 하면 됩니다.
 
 <table style="border: none;">
 <tr style="border: none;">
     <td width="50%" style="vertical-align: top; border: none;">
-        <img src="../media/vscode-sign-in-button.png" width="100%" alt="Visual Studio Code sign in status bar item"/>
+        <img src="../media/vscode-sign-in-button-new.png" width="100%" alt="Visual Studio Code sign in status bar item"/>
     </td>
     <td width="50%" style="vertical-align: top; border: none;">
         <img src="../media/vs-sign-in-button.png" width="100%" alt="Visual Studio sign in button"/>
@@ -109,12 +114,14 @@ Live Share 확장을 설치하고, 다시 시작하고 종속성 설치(VS Code)
 
 ## <a name="5-start-a-collaboration-session"></a>5. 공동 작업 세션 시작
 
+<!--
+-->
 그런 다음, 도구 내에서 "Live Share"를 클릭하기만 하면 초대 링크가 자동으로 클립보드에 복사됩니다.
 
 <table style="border: none;">
 <tr style="border: none;">
     <td width="50%" style="vertical-align: top; border: none;">
-        <img src="../media/vscode-share-button.png" width="100%" alt="Visual Studio Code share status bar item" />
+        <img src="../media/vscode-share-button-new.png" width="100%" alt="Visual Studio Code share status bar item" />
     </td>
     <td width="50%" style="vertical-align: top; border: none;">
         <img src="../media/vs-share-button.png" width="100%" alt="Visual Studio share button"/>
