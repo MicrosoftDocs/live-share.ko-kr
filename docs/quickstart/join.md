@@ -1,6 +1,6 @@
 ---
 title: 빠른 시작 조인 - Visual Studio Live Share | Microsoft Docs
-description: 첫 번째 Visual Studio Live Share 공동 작업 세션에 조인하는 방법에 대해 간략히 설명합니다.
+description: 첫 번째 Visual Studio Live Share 협업 세션에 조인하는 방법에 대해 간략히 설명합니다.
 ms.custom: ''
 ms.date: 03/22/2018
 ms.reviewer: ''
@@ -24,16 +24,16 @@ All rights reserved.
 Creative Commons Attribution 4.0 License (International): https://creativecommons.org/licenses/by/4.0/legalcode
 -->
 
-# <a name="quickstart-join-your-first-collaboration-session"></a>빠른 시작: 첫 번째 공동 작업 세션에 조인
+# <a name="quickstart-join-your-first-collaboration-session"></a>빠른 시작: 첫 번째 협업 세션에 조인
 
 Visual Studio Live Share를 시작합니다. Live Share를 사용하면 사용 중인 프로그래밍 언어나 빌드 중인 앱 유형에 관계 없이 다른 사람과 공동으로 실시간 편집 및 디버깅이 가능합니다. 이를 통해 팀원의 현재 프로젝트에 즉시 안전하게 조인한 다음, 필요에 따라 디버깅 세션을 시작하고, 터미널 인스턴스를 보고 편집하고, 로컬 호스트 웹앱을 보고 음성 통화에 조인하는 등의 작업을 수행할 수 있습니다.
 
-진행할 준비가 되셨나요? 팀 공동 작업은 매우 빠르고 자연스러워서 작업을 수행하기 쉽습니다. 이러한 이유로 Visual Studio Live Share를 사용하면 간편하게 시작할 수 있으므로 작업과 아이디어를 원활하게 공유할 수 있습니다.
+진행할 준비가 되셨나요? 팀 협업은 매우 빠르고 자연스러워서 작업을 수행하기 쉽습니다. 이러한 이유로 Visual Studio Live Share를 사용하면 간편하게 시작할 수 있으므로 작업과 아이디어를 원활하게 공유할 수 있습니다.
 
 > [!TIP]
-> *사용자 고유의 공동 작업 세션에 가입*할 수 있다는 것을 알고 계셨나요? 그러면 직접 Live Share를 시도해 보거나 Visual Studio 또는 VS Code의 인스턴스를 전환하고 원격으로 연결할 수 있습니다. 두 인스턴스 모두에 동일한 ID를 사용할 수도 있습니다. 확인해 보세요.
+> *사용자 고유의 협업 세션에 가입*할 수 있다는 것을 알고 계셨나요? 그러면 직접 Live Share를 시도해 보거나 Visual Studio 또는 VS Code의 인스턴스를 전환하고 원격으로 연결할 수 있습니다. 두 인스턴스 모두에 동일한 ID를 사용할 수도 있습니다. 확인해 보세요.
 
-공동 작업 세션에 조인하려면 다음 단계를 수행합니다.
+협업 세션에 조인하려면 다음 단계를 수행합니다.
 
 ## <a name="1-install-the-extension"></a>1. 확장 설치
 
@@ -76,12 +76,12 @@ Visual Studio Live Share를 다운로드하여 사용하면 [사용 조건](http
 
 ## <a name="2-optional-join-as-a-read-only-guest-in-vs-code"></a>2. [선택 사항] VS Code에서 읽기 전용 게스트로 조인
 
-VS Code에서 Live Share 확장 설치, 다시 시작 및 종속성 설치가 완료될 때까지 기다린 후 로그인하여 읽기 전용 게스트로 공동 작업 세션에 조인할 수 있습니다.
+VS Code에서 Live Share 확장 설치, 다시 시작 및 종속성 설치가 완료될 때까지 기다린 후 로그인하여 읽기 전용 게스트로 협업 세션에 조인할 수 있습니다.
 
 > [!NOTE]
 > 조인할 코드를 편집하려면 로그인해야 합니다.
 
-브라우저에서 초대 링크를 열거나 다시 열면 브라우저에서 VS Code를 시작하려고 한다는 알림을 받게 됩니다. 시작하면 공동 작업 세션에 연결됩니다.
+브라우저에서 초대 링크를 열거나 다시 열면 브라우저에서 VS Code를 시작하려고 한다는 알림을 받게 됩니다. 시작하면 협업 세션에 연결됩니다.
 
 VS Code가 시작되면 로그인하라는 알림 메시지를 받게 됩니다. 세션에 조인하려면 "읽기 전용 게스트로 계속 진행"을 선택합니다.
 
@@ -128,7 +128,7 @@ Live Share 확장을 설치하고, 다시 시작하고 종속성 설치(VS Code)
 
 > **참고**: Live Share 확장을 아직 설치하지 않은 경우 확장 마켓플레이스에 대한 링크가 표시됩니다. 확장을 설치하고, 도구를 다시 시작하고, 다시 시도합니다.
 
-브라우저에서 Live Share 활성화 도구를 시작하려고 한다는 알림을 받게 됩니다. 선택한 도구를 실행하게 되면 시작한 후에 공동 작업 세션에 연결됩니다.
+브라우저에서 Live Share 활성화 도구를 시작하려고 한다는 알림을 받게 됩니다. 선택한 도구를 실행하게 되면 시작한 후에 협업 세션에 연결됩니다.
 
 ![참가 페이지](../media/join-page.png)
 
@@ -138,9 +138,9 @@ Live Share 확장을 설치하고, 다시 시작하고 종속성 설치(VS Code)
 
 ## <a name="5-collaborate"></a>5. 공동 작업!
 
-정말 간단하죠. 잠시 후 동료의 공동 작업 세션에 연결됩니다. 기본적으로 호스트는 조인하는 사람을 자동으로 수락하지만 호스트가 [게스트 승인 요청](../reference/security.md#requiring-guest-approval)을 설정한 경우, Live Share가 조인 요청을 승인하기 위해 호스트에서 대기 중이라는 상태 표시줄 / 조인 대화 상자가 나타납니다.
+정말 간단하죠. 잠시 후 동료의 협업 세션에 연결됩니다. 기본적으로 호스트는 조인하는 사람을 자동으로 수락하지만 호스트가 [게스트 승인 요청](../reference/security.md#requiring-guest-approval)을 설정한 경우, Live Share가 조인 요청을 승인하기 위해 호스트에서 대기 중이라는 상태 표시줄 / 조인 대화 상자가 나타납니다.
 
-> **보안 팁:** 공동 작업 세션에 참가하는 게스트는 호스트가 특정 파일이나 기능에 대한 액세스를 제한할 수 있다는 것을 이해해야 합니다. Live Share의 일부 기능 및 설정이 보안에 미치는 영향을 알고 싶나요? [보안](../reference/security.md) 문서를 체크 아웃합니다.
+> **보안 팁:** 협업 세션에 참가하는 게스트는 호스트가 특정 파일이나 기능에 대한 액세스를 제한할 수 있다는 것을 이해해야 합니다. Live Share의 일부 기능 및 설정이 보안에 미치는 영향을 알고 싶나요? [보안](../reference/security.md) 문서를 체크 아웃합니다.
 
 다음과 같은 몇 가지 사항을 시도해 보세요.
 

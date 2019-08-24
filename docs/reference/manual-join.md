@@ -52,7 +52,7 @@ VS Code 작업 표시줄에서 Live Share viewlet를 열고 "조인 공동 작�
 
 보낸을 확인 하려면 ' Enter' 키를 눌러 초대 URL에 붙여 넣습니다.
 
-정말 간단하죠. 일시적으로 공동 작업 세션에 연결되어야 합니다.
+정말 간단하죠. 일시적으로 협업 세션에 연결되어야 합니다.
 
 ## <a name="join-from-visual-studio"></a>Visual Studio에서 연결
 
@@ -74,7 +74,7 @@ VS Code 작업 표시줄에서 Live Share viewlet를 열고 "조인 공동 작�
 
 보낸을 확인 하려면 ' Enter' 키를 눌러 초대 URL에 붙여 넣습니다.
 
-정말 간단하죠. 일시적으로 공동 작업 세션에 연결되어야 합니다.
+정말 간단하죠. 일시적으로 협업 세션에 연결되어야 합니다.
 
 ## <a name="see-also"></a>참고자료
 
