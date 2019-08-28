@@ -11,12 +11,12 @@ ms.author: clantz
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: eb631d2f3fecb07cb16b02d1cd02127221b0183d
-ms.sourcegitcommit: 94a6ec64e0054fe4829d554b7023a17a8c58a462
+ms.openlocfilehash: 65c48d1a95cc94bc7505c185be353e437e3c5ba1
+ms.sourcegitcommit: 6b46e300d76eda661ab34c67a3b909d5c162cd9a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67501442"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "70062308"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -99,7 +99,7 @@ Visual Studio Live Share를 다운로드하여 설치한 뒤 이러한 단계를
 
     협업 세션을 처음 시작하면 Live Share 도구 창이 표시됩니다. 다음에 Live Share 세션을 시작할 때 세션이 표시되도록 이 창을 고정합니다.
 
-   ![VS Live Share 도구 창|72x561, 50%](../media/vs-live-share-tool-window.png)
+   ![VS Live Share 도구 창](../media/vs-live-share-tool-window.png)
 
     > [!NOTE]
     > 처음 공유할 때 데스크톱 방화벽 소프트웨어에서 Live Share 에이전트가 포트를 열 수 있도록 허용하라는 요청이 있을 수 있습니다. 이 요청을 수락하는 것은 전적으로 선택 사항이지만, 공동 작업하는 사람이 사용자와 동일한 네트워크에 있을 때 보안되는 "직접 모드"로 성능을 향상시킬 수 있습니다. 자세한 내용은 [연결 모드 변경](../reference/connectivity.md#changing-the-connection-mode)을 참조하세요.
@@ -143,7 +143,7 @@ Visual Studio Live Share를 다운로드하여 설치한 뒤 이러한 단계를
 
 ### <a name="ending-the-collaboration-session"></a>협업 세션 종료
 
-호스트는 공유/세션 상태 단추(오른쪽 위 모서리)를 클릭하고 "공동 작업 세션 종료"를 선택하여 완전히 공유를 중지하고 공동 작업 세션을 종료할 수 있습니다.
+호스트는 공유/세션 상태 단추(오른쪽 위 모서리)를 클릭하고 &quot;협업 세션 종료&quot;를 선택하여 완전히 공유를 중지하고 협업 세션을 종료할 수 있습니다.
 
 ![공유 중지](../media/vs-stop-sharing.png)
 
@@ -220,7 +220,7 @@ Visual Studio Live Share를 다운로드하여 설치한 경우 게스트는 호
 
 ### <a name="leave-the-collaboration-session"></a>협업 세션 나가기
 
-게스트는 도구를 닫거나 공유 / 세션 상태 단추를 클릭하고 "공동 작업 세션 나가기"를 선택하여 다른 사용자를 위해 공동 작업 세션을 종료하지 않고 해당 세션을 나갈 수 있습니다.
+게스트는 도구를 닫거나 공유 / 세션 상태 단추를 클릭하고 &quot;협업 세션 나가기&quot;를 선택하여 다른 사용자를 위해 협업 세션을 종료하지 않고 해당 세션을 나갈 수 있습니다.
 
 ![VS 참가 메뉴](../media/vs-leave-session.png)
 
@@ -272,7 +272,7 @@ Visual Studio Live Share를 다운로드하여 설치한 경우 게스트는 호
 
 ![사용자를 보여주는 스크린샷](../media/vs-person.png)
 
-경우에 따라 여러 파일 또는 코드의 위치에 걸쳐 있는 문제 또는 디자인을 설명해야 할 수 있습니다. 이러한 상황에서는 동료가 프로젝트 전체를 이동하는 대로 동료를 일시적으로 팔로우하는 것이 유용할 수 있습니다. 이런 이유로 공동 작업 세션에 참가하면 게스트는 자동으로 호스트를 "팔로우"하게 됩니다. 참가자를 팔로우할 경우 편집기는 현재 열려 있는 파일, 커서 및 스크롤 위치와 동기화 상태로 유지됩니다.
+경우에 따라 여러 파일 또는 코드의 위치에 걸쳐 있는 문제 또는 디자인을 설명해야 할 수 있습니다. 이러한 상황에서는 동료가 프로젝트 전체를 이동하는 대로 동료를 일시적으로 팔로우하는 것이 유용할 수 있습니다. 이런 이유로 협업 세션에 참가하면 게스트는 자동으로 호스트를 &quot;팔로우&quot;하게 됩니다. 참가자를 팔로우할 경우 편집기는 현재 열려 있는 파일, 커서 및 스크롤 위치와 동기화 상태로 유지됩니다.
 
 > [!NOTE]
 > 기본적으로 Live Share는 공유 솔루션의 외부에 있는 열린 파일도 공유합니다. 이 기능을 사용하지 않도록 설정하려는 경우 도구 &gt; 옵션 &gt; Live Share의 외부 파일 공유를 False로 업데이트합니다.
@@ -419,7 +419,7 @@ Visual Studio Live Share의 공동 작업 디버깅 기능은 문제를 디버�
 
 ## <a name="session-states"></a>세션 상태
 
-공동 작업 세션을 시작하거나 참가하여 공유 콘텐츠에 대한 액세스 권한이 생기면 오른쪽 위 모서리의 “Live Share” 단추를 클릭하여 활성 공동 작업 세션의 상태를 반영하도록 해당 환경을 업데이트합니다.
+협업 세션을 시작하거나 참가하여 공유 콘텐츠에 대한 액세스 권한이 생기면 오른쪽 위 모서리의 “Live Share” 단추를 클릭하여 활성 협업 세션의 상태를 반영하도록 해당 환경을 업데이트합니다.
 
 다음은 일반적으로 확인할 수 있는 상태입니다.
 
