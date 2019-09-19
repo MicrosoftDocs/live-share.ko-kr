@@ -11,12 +11,12 @@ ms.author: fishah
 manager: JonathanCarter
 ms.workload:
 - liveshare
-ms.openlocfilehash: ca0b4fb4b1b1e4309ca8ef002564a981228fe9af
-ms.sourcegitcommit: 03752ca639ffec4e5590691710472d1e064768f2
+ms.openlocfilehash: 4ed24b7c73767086e5b44909dd958c174b4f3398
+ms.sourcegitcommit: ee0d569c893c2a89374026fe7df70fa3027eac1a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71092635"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71117912"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -24,12 +24,9 @@ All rights reserved.
 Creative Commons Attribution 4.0 License (International): https://creativecommons.org/licenses/by/4.0/legalcode
 -->
 
-# <a name="how-to-doing-technical-interviews-using-live-share"></a>방법: Live Share를 사용 하 여 기술 인터뷰
+# <a name="how-to-do-technical-interviews-using-live-share"></a>방법: Live Share를 사용 하 여 기술 인터뷰
 
 기술 인터뷰를 위해 Live Share 사용을 시작 하기 전에 다음과 같은 단일 정수 단계를 완료 해야 합니다. 다음 단계를 수행 하 여 **marketplace에서 Visual Studio 및 Live Share 확장 팩을 다운로드** [합니다.](../use/vscode.md#Installation)
-
-
-
 
 Live Share은 재사용 가능한 세션을 호스트 하는 기능을 제공 합니다. 즉, 기술 인터뷰에 대해 미리 Live Share 세션을 예약할 수 있으며 링크 만료에 대해 걱정 하지 않아도 됩니다.
 
