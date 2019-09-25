@@ -26,16 +26,19 @@
 ## [공동 디버그](use/vs.md#co-debugging)
 ## [서버 공유](use/vs.md#share-a-server)
 ## [터미널 공유](use/vs.md#share-a-terminal)
+# 방법 가이드: 기술 인터뷰
+## [기술 인터뷰](use/technical-interviews.md)
 # 참조
 ## [보안](reference/security.md)
 ## [연결](reference/connectivity.md)
 ## [언어 지원](reference/platform-support.md)
 ## [확장 지원](reference/extensions.md)
 ## [일반적인 사용 사례](reference/use-cases.md)
+
 ## [Linux 설치 세부 정보](reference/linux.md)
 ## [참가자](reference/insiders.md)
 ## [릴리스 정보](https://aka.ms/vsls-releases)
-# 자료
+# 리소스
 ## [문제 해결](troubleshooting.md)
 ## [피드백 제공](support.md)
 ## [FAQ](faq.md)
