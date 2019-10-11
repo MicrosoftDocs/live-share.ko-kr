@@ -11,12 +11,12 @@ ms.author: fishah
 manager: JonathanCarter
 ms.workload:
 - liveshare
-ms.openlocfilehash: a3b4c9f2b469e937d958e82df28a04044abf38d3
-ms.sourcegitcommit: 50069912a317f8685976013e80738bbaa403a3fe
-ms.translationtype: HT
+ms.openlocfilehash: c1b3e71578ed3ffb306060cec3354f33423928be
+ms.sourcegitcommit: 24eb903744b837dcedff67d8179f06862bd2aa61
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "72178477"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72250668"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -26,7 +26,7 @@ Creative Commons Attribution 4.0 License (International): https://creativecommon
 
 # <a name="contacts-in-live-share"></a>Live Share의 연락처 
 
-Live Share를 사용 하 고 외부 응용 프로그램 (예: 채팅 또는 전자 메일)을 통해 전송 되는 링크를 빠르게 받을 수 있는지 확인 합니다. 공동 작업을 장려 하는 것이 좋습니다 .이를 선호 하는 것이 가장 좋습니다. 이제 이제는 현재 **상태**에 대 한 **연락처** 가 있는 Live Share.
+Live Share를 사용 하 고 외부 응용 프로그램 (예: 채팅 또는 전자 메일)을 통해 전송 되는 링크를 빠르게 받을 수 있는지 확인 합니다. 공동 작업을 장려 하는 것이 좋습니다 .이를 선호 하는 것이 가장 좋습니다. 이제 Live Share는 **상태** 와의 **연락처** 가 있습니다.
 
 >연락처는 **Live Share v 1.0.950** 이상 버전에 대해 자동으로 사용 하도록 설정 됩니다.
 
@@ -60,12 +60,17 @@ Live Share를 사용 하 고 외부 응용 프로그램 (예: 채팅 또는 전�
 **4. 오프 라인:**  오랜 시간 동안 또는 [공유 상태 옵트아웃 (opt out)](##ManagingPresence) 을 선택 하는 경우 오프 라인 상태로 유지 됩니다.
 
 
-## 연락처 상태<a name="ManagingPresence"> </a> 관리
+## 연락처 및 공유 상태<a name="ManagingPresence"> </a> 관리
 
-이 기능을 옵트아웃 (opt out) 하려는 경우-0 @no__t을 선택 하 여 상태 설정을 사용 하지 않도록 설정할 수 있습니다. 사용 하지 않도록 설정 된 경우에도 다른 상태를 보고 초대할 수 있지만 상태는 게시 되지 않으며 다른 사용자가 직접 초대할 수 없습니다.
+이 기능을 옵트아웃 (opt out) 하려는 경우 두 가지 방법으로이 작업을 수행할 수 있습니다.
+1. @No__t-0을 선택 하 여 상태 설정을 사용 하지 않도록 설정할 수 있습니다. 사용 하지 않도록 설정 된 경우에도 다른 상태를 보고 초대할 수 있지만 상태는 게시 되지 않으며 다른 사용자가 직접 초대할 수 없습니다.
 상태 원을 클릭 하 여 오프 라인으로 전환 하도록 선택할 수 있습니다. 그러면 다음 드롭다운 메뉴가 표시 됩니다.
 
 ![dropdownstatus @ no__t-1 상태 <em>드롭다운 표시</em>
+
+2. @No__t-0을 열고 *Extensions > Visual Studio Live Share > Live Share으로 이동할 수 있습니다. 상태 @ no__t가 0이 고 현재 상태 서비스를 사용 하지 않도록 설정 합니다. 사용 하지 않도록 설정 된 경우에도 다른 상태를 보고 초대할 수 있지만 상태는 게시 되지 않으며 다른 사용자가 직접 초대할 수 없습니다.
+
+![presencesettings](../media/vscode-presence-setting.png)
 
 ## <a name="faqs"></a>FAQ 
 
