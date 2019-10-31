@@ -11,12 +11,12 @@ ms.author: clantz
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: afa11a77156fd0227c9d9cfd5ce701ae0211386e
-ms.sourcegitcommit: 5e0d384c71793a83b58023352f56f0a24783a2e4
+ms.openlocfilehash: 087c3b209c8762e08b8d663f7c0a6fb3a40fee19
+ms.sourcegitcommit: c6ef4e5a9aec4f682718819c58efeab599e2781b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72531034"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73170044"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -51,7 +51,7 @@ Creative Commons Attribution 4.0 License (International): https://creativecommon
 | 모두 | <strong>시간 초과 또는 연결 오류가 발생</strong>합니다. | [연결 문제 해결](#connectivity)을 참조 하세요. |
 | 모두 | Microsoft에서 지원 되는 **회사 또는 학교 전자 메일 주소** 를 사용 하 여 로그인 할 때 **"관리자 승인 필요"** 라는 메시지가 표시 됩니다. | Azure AD 개념는 디렉터리의 콘텐츠에 액세스 하는 새 응용 프로그램에 "관리자 동의"를 요구 하도록 설정 되어 있습니다. 자세한 내용은 [여기](reference/security.md) 를 참조 하세요. |
 | VS Code (**Macos**) | 로그인 할 때 **SecKeychainAddGenericPassword ()가 실패**했음을 나타내는 오류가 표시 됩니다. | 이는 암호 변경이 로그인 키 집합에 반영 되지 않는 macOS와 관련 된 일반적인 문제 때문에 거의 항상 발생 합니다. "키 집합 액세스"로 이동 하 여 로그인 키 집합을 잠그고 다시 잠금 해제 해 보세요. 이 경우 문제를 해결 하기에 충분 한 것일 수 있지만 현재 암호를 사용 하 여 잠금을 해제할 수 없는 경우 이전 항목을 사용해 보세요. 작동 하는 경우 로그인 키 집합 암호를 현재 암호로 변경 합니다. 자세한 내용은 [여기](https://support.apple.com/en-us/HT201609) 를 참조 하세요. |
-| VS Code (**Linux**) | 브라우저를 통해 로그인 한 후 사용자 코드에 입력 하면 오류 **코드 XX와 함께 secret_password_store_sync ()가 실패**했음을 나타내는 오류가 표시 됩니다. | 이는 일반적으로 `gnome-keyring` 및/또는 `libsecret-1-0` / 를 설치 하지 `libsecret` 때문에 발생 합니다. @No__t_0를 설치한 다음 데스크톱 환경에서 "암호 및 키" 응용 프로그램을 사용 하 여 gnome가 올바르게 구성 되었는지 확인할 수 있습니다. [Linux 필수 구성 요소](reference/linux.md#install-linux-prerequisites)에 대 한 자세한 내용은 여기를 참조 하세요. |
+| VS Code (**Linux**) | 브라우저를 통해 로그인 한 후 사용자 코드에 입력 하면 오류 **코드 XX와 함께 secret_password_store_sync ()가 실패**했음을 나타내는 오류가 표시 됩니다. | 이는 일반적으로 `gnome-keyring` 및/또는 `libsecret-1-0` / 를 설치 하지 `libsecret` 때문에 발생 합니다. `seahorse`를 설치한 다음 데스크톱 환경에서 "암호 및 키" 응용 프로그램을 사용 하 여 gnome가 올바르게 구성 되었는지 확인할 수 있습니다. [Linux 필수 구성 요소](reference/linux.md#install-linux-prerequisites)에 대 한 자세한 내용은 여기를 참조 하세요. |
 | VS Code (**Linux**) | Live Share v 0.3.295이 하를 사용 하 <strong>는 사용자 코드를 입력 하 라는 메시지가</strong> 표시 되지만 브라우저가 표시 되지 않습니다. | Linux에서 사용자 코드 요구 사항을 제거 하기 위해 노력 하 고 있습니다. 사용자가 로그인 하는 데 사용할 수 있는 평균 시간에 브라우저 창이 표시 됩니다. 그렇지 않으면 VS Code에서 브라우저 창이 숨겨질 수 있습니다. 이 경우 다음 팁을 참조 하세요.  |
 | VS Code | "로그인"을 클릭 하거나 "Live Share: 로그인" 명령을 사용 하 여 <strong>자격 증명을 입력할 수 있는 브라우저 창이 표시 되지 않습니다</strong>. | 1. [여기에 로그인](https://insiders.liveshare.vsengsaas.visualstudio.com/auth/login)<br />2. 로그인 한 후에 "문제 발생"을 클릭 합니다.<br /> 3. 지침에 따라 도구에 임시 사용자 코드를 입력 합니다. |
 | 모두 | 공동 작업 세션 </strong>에 <strong>조인</strong> 하려고 하지만 <strong>전자 메일 업데이트를 수신 하지는 않으려고</strong>합니다. | VS/VS Code에서 Live Share 확장에 로그인 하면 전자 메일 업데이트를 받을 수 <strong>없습니다</strong> .<br /><br />Live Share에는 게스트가 조인 된 id에 대 한 가시성을 갖도록 보안 조치로 로그인 해야 합니다. [이 기능](https://github.com/MicrosoftDocs/live-share/issues/3) 을 사용 하는 경우 익명 사용자가 가입 하도록 허용 하는 옵션 (예: 이름/사용자 정의 이름이 없는 사용자)을 선택 합니다. |
@@ -95,8 +95,8 @@ Creative Commons Attribution 4.0 License (International): https://creativecommon
 
 방법
 
-- [Visual Studio Code를 사용하여 공동 작업](use/vscode.md)
-- [Visual Studio를 사용하여 공동 작업](use/vs.md)
+- [Visual Studio Code를 사용하여 공동 작업](how-to-guides/vscode.md)
+- [Visual Studio를 사용하여 공동 작업](how-to-guides/vs.md)
 
 참고
 

@@ -1,6 +1,6 @@
 ---
 title: 플랫폼 및 언어 지원-Visual Studio Live Share | Microsoft Docs
-description: Visual Studio Live 공유에 대 한 플랫폼 및 언어 지원의 개요입니다.
+description: Visual Studio Live share의 플랫폼 및 언어 지원에 대 한 개요입니다.
 ms.custom: ''
 ms.date: 03/22/2018
 ms.reviewer: ''
@@ -11,12 +11,12 @@ ms.author: clantz
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: d220be7e4722d45ecd1511ec1c054a174ba195f0
-ms.sourcegitcommit: 100fce9b9bbcd7e6f68d40659bd2760e9537de37
+ms.openlocfilehash: 36cd7cc5923e593c6bbd3220b5f4ba92a7ca6130
+ms.sourcegitcommit: c6ef4e5a9aec4f682718819c58efeab599e2781b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "58640044"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73170071"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -24,25 +24,25 @@ All rights reserved.
 Creative Commons Attribution 4.0 License (International): https://creativecommons.org/licenses/by/4.0/legalcode
 -->
 
-# <a name="contributing-feedback-and-support"></a>영향을 주는, 피드백 및 지원
+# <a name="contributing-feedback-and-support"></a>기여, 피드백 및 지원
 
-질문이 나 의견이 있으시면 여러 가지 방법으로 기여할 수 있습니다. 것을 듣고 싶습니다!
+질문이 나 피드백이 있나요? 여러 가지 방법으로 참가할 수 있습니다. 사용자 의견을 듣고 싶습니다.
 
-## <a name="tldr"></a>TLDR
+## <a name="tldr"></a>TLDR 버전이 필요한
 
 요약:
 
-- **알려진된 문제:** 참조 [버그](https://aka.ms/vsls-bugs) 하거나 [기능 요청](https://aka.ms/vsls-feature-requests) 및 투표를 사용 하 여를 👍 반응 합니다.
-- **VS Code 버그:** [새 문제가 로그](https://aka.ms/vsls-new-issue)합니다. 사용 된 "Live 공유: 로그 내보내기"명령 및 [끌어서 놓기 zip](https://help.github.com/articles/file-attachments-on-issues-and-pull-requests/) 버그에 또는 [메일로](mailto:vsls-feedback@microsoft.com)합니다.
-- **VS 버그:** [도움말 > 피드백 > 문제 보고...](https://docs.microsoft.com/en-us/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017) 재현 하 고 로그 전송 하기 전에 문제 자동 연결 수. 있습니다
-- **기능 요청:** [새 요청을 기록](https://aka.ms/vsls-new-issue) 사용할지를 👍 반응 [투표 기존](https://aka.ms/vsls-feature-requests)합니다.
-- **문의처:** [ vsls-feedback@microsoft.com ](mailto:vsls-feedback@microsoft.com)를 [#vsliveshare](https://aka.ms/vsls-twitter), 또는 실행 하는 커뮤니티 [Slack](https://aka.ms/vsls-slack)합니다.
+- **알려진 문제:** 👍 반응을 사용 하 여 [버그](https://aka.ms/vsls-bugs) 또는 [기능 요청](https://aka.ms/vsls-feature-requests) 및 업 응답을 참조 하세요.
+- **버그 VS Code:** [새 문제를 기록](https://aka.ms/vsls-new-issue)합니다. "Live Share: 로그 내보내기" 명령을 사용 하 고 [zip을 버그로 끌어서 놓거나](https://help.github.com/articles/file-attachments-on-issues-and-pull-requests/) [전자 메일로 보냅니다](mailto:vsls-feedback@microsoft.com).
+- **VS 버그:** [문제를 보고 > 사용자 의견을 보낼 수 있는 도움말 >](https://docs.microsoft.com/en-us/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017) 보내기 전에 문제를 재현 하 고 로그가 자동으로 연결 됩니다.
+- **기능 요청:** [새 요청을 기록](https://aka.ms/vsls-new-issue) 하거나 [기존 응답](https://aka.ms/vsls-feature-requests)을 사용 하 여 기존 요청을 👍 합니다.
+- **문의처:** [vsls-feedback@microsoft.com](mailto:vsls-feedback@microsoft.com), [#vsliveshare](https://aka.ms/vsls-twitter)또는 커뮤니티 실행 [여유 시간](https://aka.ms/vsls-slack)
 
-자세한 내용은 아래입니다.
+자세한 내용은 아래를 참조 하세요.
 
 ## <a name="documentation"></a>설명서
 
-일부 참조 문서에는 필요한 것이 있을 수 있습니다!
+일부 참조 문서에 필요한 항목이 있을 수 있습니다.
 
 - [Live Share 연결 요구 사항](reference/connectivity.md)
 - [언어 및 플랫폼 지원](reference/platform-support.md)
@@ -52,28 +52,28 @@ Creative Commons Attribution 4.0 License (International): https://creativecommon
 
 ## <a name="issues-and-requests"></a>문제 및 요청
 
-GitHub 문제 및 Visual Studio 문제 보고서를 연결 하는 훌륭한 방법 이며
+GitHub 문제 및 Visual Studio 문제 보고서는 미국에 연결 하는 좋은 방법입니다.
 
-- [기능 투표 하거나 새 요청](https://aka.ms/vsls-feature-requests)
-- [참조를 검색 하 여 문제가 이미 발생 누군가가 버그 기록](https://aka.ms/vsls-bugs)
+- [기능을 사전 투표 하거나 새 기능을 요청 합니다.](https://aka.ms/vsls-feature-requests)
+- [기록 된 버그를 검색 하 여 누군가가 이미 문제에 도달 했는지 확인 합니다.](https://aka.ms/vsls-bugs)
 - [Visual Studio의 문제 보고](https://aka.ms/vsls-vsproblem)
-- [VS Code 또는 전체 서비스에 대 한 문제를 보고 합니다.](https://aka.ms/vsls-vscodeproblem)
-- [기여에 대 한 팁을 확인해 보십시오.](https://aka.ms/vsls-problemtips)
+- [VS Code 또는 전체 서비스에 대 한 문제 보고](https://aka.ms/vsls-vscodeproblem)
+- [참여에 대 한 팁을 확인 하세요.](https://aka.ms/vsls-problemtips)
 
 ## <a name="other"></a>기타
 
-- **메일 주소:** [vsls-feedback@microsoft.com](mailto:vsls-feedback@microsoft.com)
-- **Twitter:** Twitter를 사용 하 여 적중 주세요 [#vsliveshare](https://aka.ms/vsls-twitter)!
-- **Slack:** 에서는 또한 중단 실행 커뮤니티 [Live 공유 Slack](https://aka.ms/vsls-slack)합니다.
+- **전자 메일:** [vsls-feedback@microsoft.com](mailto:vsls-feedback@microsoft.com)
+- **Twitter:** [#Vsliveshare](https://aka.ms/vsls-twitter)를 사용 하 여 Twitter에 대해 문의 하세요.
+- **여유 시간:** 또한 커뮤니티 실행 [Live Share 여유 시간](https://aka.ms/vsls-slack)을 초과 합니다.
 
-## <a name="see-also"></a>참고자료
+## <a name="see-also"></a>참조
 
-빠른 시작
+퀵 스타트
 
 - [첫 번째 프로젝트 공유](quickstart/share.md)
 - [첫 번째 세션 참가](quickstart/join.md)
 
 방법
 
-- [Visual Studio Code를 사용하여 공동 작업](use/vscode.md)
-- [Visual Studio를 사용하여 공동 작업](use/vs.md)
+- [Visual Studio Code를 사용하여 공동 작업](how-to-guides/vscode.md)
+- [Visual Studio를 사용하여 공동 작업](how-to-guides/vs.md)
