@@ -11,12 +11,12 @@ ms.author: clantz
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: 1057c6276302fb0df682798dd06684b4835c051e
-ms.sourcegitcommit: c6ef4e5a9aec4f682718819c58efeab599e2781b
+ms.openlocfilehash: 0d46cb53a28bfac1c088371ff5eecdb6af0c8420
+ms.sourcegitcommit: 3a1b22eac528b0f6a241f9fec7ec20264db24cfe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73170123"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74019788"
 ---
 # <a name="join-a-session-manually"></a>수동으로 세션 조인
 
@@ -28,7 +28,7 @@ ms.locfileid: "73170123"
 
 ### <a name="1-sign-in"></a>1. 로그인
 
->**참고:** 공동 작업 세션을 읽기 전용 게스트로 조인 하려면 로그인을 건너뛸 수 있습니다. 공유 되는 코드를 보고 탐색할 수는 있지만 편집할 수는 없습니다.
+>**참고:** 공동 작업 세션을 읽기 전용으로 연결 하려는 경우에는 로그인을 건너뛸 수 있습니다. 공유 되는 코드를 보고 탐색할 수는 있지만 편집할 수는 없습니다.
 
 ![웹 브라우저를 사용하여 로그인하라는 알림 메시지](../media/vscode-sign-in-toast.png)
 
@@ -85,8 +85,8 @@ VS Code 활동 표시줄에서 Live Share 뷰 렛을 열고 "공동 작업 세�
 
 방법
 
-- [방법: Visual Studio Code를 사용 하 여 공동 작업](../how-to-guides/vscode.md)
-- [방법: Visual Studio를 사용 하 여 공동 작업](../how-to-guides/vs.md)
+- [방법: Visual Studio Code를 사용 하 여 공동 작업](../use/vscode.md)
+- [방법: Visual Studio를 사용 하 여 공동 작업](../use/vs.md)
 - [방법: 피드백 제공](../support.md)
 
 참고
