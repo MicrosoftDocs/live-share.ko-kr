@@ -11,12 +11,12 @@ ms.author: fubaduba
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: 6f46f65a362d4fff46e21a647e4b677a7d45b3e7
-ms.sourcegitcommit: ab8a49a163cc89f69ed9f117fb34e25bf0f00ae1
+ms.openlocfilehash: 3f6ad9fd00984abeca2b826addee54271eb1191a
+ms.sourcegitcommit: 3a1b22eac528b0f6a241f9fec7ec20264db24cfe
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "73190677"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74019755"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -39,7 +39,7 @@ Visual Studio Live Share를 시작합니다. Live Share를 사용하면 사용 �
 
 시작하기 전에 Live Share의 핵심 요구 사항을 충족하는 Visual Studio 또는 Visual Studio Code 버전이 설치되어 있는지 확인해야 합니다.
 
-- **Visual Studio Code 1.22.0 이상** - Windows 7, 8.1 또는 10, macOS *(Sierra 10.12 이상만)* , 64비트 Linux *(64비트 Ubuntu Desktop 16.04 이상, Fedora 27 이상 권장 - [자세히 보기](how-to-guides/vscode.md#installation))*
+- **Visual Studio Code 1.22.0 이상** - Windows 7, 8.1 또는 10, macOS *(Sierra 10.12 이상만)* , 64비트 Linux *(64비트 Ubuntu Desktop 16.04 이상, Fedora 27 이상 권장 - [자세히 보기](use/vscode.md#installation))*
 - **Visual Studio 2019**(모든 버전) - Windows 7, 8.1 또는 10
 - **Visual Studio 2017 15.6 이상**(모든 버전) - Windows 7, 8.1 또는 10
 
@@ -50,7 +50,7 @@ Visual Studio Live Share를 시작합니다. Live Share를 사용하면 사용 �
     <td width="128px" style="width: 128px; text-align: center; border:none;"><img src="media/vs-code.svg" width="128px" alt="Visual Studio Code logo"/></td>
     <td style="border:none;">
         <strong>Visual Studio Code(1.22.0 이상)</strong><br />
-        1.Windows(7, 8.1 또는 10), macOS<b>(Sierra+)</b>, 64비트 Linux용 <a href="https://code.visualstudio.com/">Visual Studio Code</a>를 설치합니다<b>(<a href="how-to-guides/vscode.md#installation">세부 정보</a>)</b>.<br />
+        1.Windows(7, 8.1 또는 10), macOS<b>(Sierra+)</b>, 64비트 Linux용 <a href="https://code.visualstudio.com/">Visual Studio Code</a>를 설치합니다<b>(<a href="use/vscode.md#installation">세부 정보</a>)</b>.<br />
         2. 마켓플레이스에서 Visual Studio Live Share 확장을 다운로드하여 설치합니다. <br />
         3. 다시 로드하고 종속성이 다운로드되어 설치될 때까지 기다립니다(상태 표시줄 참조).<br />
         4. <strong>Linux</strong>: <a href="reference/linux.md#install-linux-prerequisites">라이브러리를 설치</a>하라는 메시지가 표시되면 [설치]를 클릭하고 암호를 입력한 다음, 완료되면 VS Code를 다시 시작합니다.<br />
@@ -92,8 +92,8 @@ Visual Studio Live Share를 다운로드하여 사용하면 [사용 조건](http
 
 방법
 
-- [Visual Studio Code를 사용하여 공동 작업](how-to-guides/vscode.md)
-- [Visual Studio를 사용하여 공동 작업](how-to-guides/vs.md)
+- [Visual Studio Code를 사용하여 공동 작업](use/vscode.md)
+- [Visual Studio를 사용하여 공동 작업](use/vs.md)
 
 참조
 
