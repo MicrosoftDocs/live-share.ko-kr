@@ -36,8 +36,8 @@ Visual Studio Live Share 팀은 신속 하 게 반복 하 고, 새로운 아이�
 이제 재사용 가능한 세션을 호스트할 수 Live Share. 재사용 가능한 세션은 다양 한 시나리오에서 Live Share 세션을 다시 사용 하는 기능을 제공 합니다. 즉, 기술 인터뷰, 주간 mob-프로그래밍 세션에 대해 Live Share 세션을 미리 예약 하 고, 친구를 멘토링 하는 동안 동일한 세션을 사용할 수 있습니다.
 
 다시 사용할 수 있는 세션을 만들려면 다음을 수행 합니다.
-1. @No__t-1을 사용 하 여 `Command Palette`으로 이동
-1. "라이브 Sha ..."를 입력 합니다. ' ** @ no__t-1 라이브 공유를 클릭 합니다. 재사용 가능한 세션 링크 @ no__t-0 @ no__t ' 명령을 만듭니다.
+1. 을 사용 하 여 `Command Palette`로 이동 `Ctrl+Shift+P`
+1. "라이브 Sha ..."를 입력 합니다. ' **_Live Share: 재사용 가능한 세션 링크 만들기_** ' 명령을 클릭 합니다.
 
 ![vscode-reusablesessioncmd](../media/vscode-cmdpalette-createreusablelink.png)
 
@@ -54,7 +54,7 @@ Visual Studio Live Share 팀은 신속 하 게 반복 하 고, 새로운 아이�
 
 ## 참가자 <a name="BecomeanInsider"></a> 가 됩니다.
 
-기본적으로 Visual Studio Live Share 확장을 설치한 후에는 모든 프로덕션 준비 기능 (예: 공동 편집, 공유 디버깅, 터미널)을 포함 하는 `Stable` 기능 집합을 사용 하 게 됩니다. 그러나 작업 중인 기능에 대 한 초기 액세스 권한을 얻으려면 IDE에서 다음 설정을 변경 하 여 `Insiders` 기능 집합을 옵트인 (opt in) 할 수 있습니다.
+기본적으로 Visual Studio Live Share 확장을 설치한 후에는 모든 프로덕션 준비 기능 (예: 공동 편집, 공유 디버깅, 터미널)을 포함 하는 `Stable` 기능 집합을 사용 합니다. 그러나 작업 중인 기능에 대 한 초기 액세스 권한을 얻으려면 IDE에서 다음 설정을 변경 하 여 `Insiders` 기능 집합을 옵트인 (opt in) 할 수 있습니다.
 
 * Visual Studio
 
@@ -64,11 +64,11 @@ Visual Studio Live Share 팀은 신속 하 게 반복 하 고, 새로운 아이�
 
     ![feature-set-vscode](../media/feature-set-vscode.png)
 
-다음 섹션에서는 현재 `Insiders` 기능 집합 내에 있는 기능 집합을 설명 하므로, 앞서 언급 한 설정을 변경한 후에는 평가할 준비가 되었습니다.
+다음 섹션에서는 `Insiders` 기능 집합에 현재 포함 되어 있는 기능 집합을 설명 하므로, 앞서 언급 한 설정을 변경한 후에는 평가할 준비가 되었습니다.
 
 
 
-## <a name="see-also"></a>참조
+## <a name="see-also"></a>참고 항목
 
 - [언어 및 플랫폼 지원](platform-support.md)
 - [Live Share 연결 요구 사항](connectivity.md)
