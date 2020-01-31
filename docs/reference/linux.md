@@ -11,12 +11,12 @@ ms.author: clantz
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: 27a3d76f14cd3c8df312abe7ab36185109ac7e89
-ms.sourcegitcommit: c6ef4e5a9aec4f682718819c58efeab599e2781b
+ms.openlocfilehash: 69bc178ebb4052757f984d67482d216335f46dac
+ms.sourcegitcommit: 5180aab73c086cbded6aae01aa01f71fb991dee1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73170126"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76818078"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -26,7 +26,7 @@ Creative Commons Attribution 4.0 License (International): https://creativecommon
 
 # <a name="linux-installation-details"></a>Linux 설치 정보
 
-Linux는 가변성이 큰 환경이며 데스크톱 환경 및 배포 수가 너무 많아 작업하는 데 복잡할 수 있습니다. 지원 되는 버전의 **Ubuntu Desktop** (16.04 +), **CentOS 7**또는 **Fedora Workstation** (27 이상)을 사용 하 고 **VS Code의 공식 배포**만 사용 하는 경우 프로세스를 바로 찾아야 합니다. 그러나 비표준 구성 또는 다운스트림 배포를 사용하는 경우 일부 문제가 발생할 수도 발생하지 않을 수도 있습니다. 이 문서에서는 커뮤니티 에서만 지원 되는 경우에도 구성 하는 데 도움이 되는 요구 사항 및 몇 가지 문제 해결 세부 정보를 제공 합니다. Live Share는 **64 비트 Linux**만 지원 합니다.
+Linux는 가변성이 큰 환경이며 데스크톱 환경 및 배포 수가 너무 많아 작업하는 데 복잡할 수 있습니다. 지원 되는 버전의 **Ubuntu Desktop** (16.04 +), **CentOS 7**또는 **Fedora Workstation** (27 이상)을 사용 하 고 **VS Code의 공식 배포**만 사용 하는 경우 프로세스를 바로 찾아야 합니다. 그러나 비표준 구성 또는 다운스트림 배포를 사용하는 경우 일부 문제가 발생할 수도 발생하지 않을 수도 있습니다. 이 문서에서는 구성의 커뮤니티 에서만 지원 되는 경우에도 실행 하는 데 도움이 되는 요구 사항 및 문제 해결 세부 정보에 대해 설명 합니다. Live Share는 **64 비트 Linux**만 지원 합니다.
 
 ## <a name="install-linux-prerequisites"></a>Linux 필수 구성 요소 설치
 
@@ -46,7 +46,7 @@ Linux는 가변성이 큰 환경이며 데스크톱 환경 및 배포 수가 너
 
 위의 필수 구성 요소 설치 스크립트는 다양 한 배포를 다루지만 일반적으로 바닐라 설치에서 누락 된 항목을 확인할 수 있습니다. 다음 목록에서는 지정 된 배포를 새로 설치 하는 동안 누락 된 키 라이브러리를 보여 줍니다. 이 목록에는 문제가 발생할 경우 시작 및 실행 하는 데 도움이 되는 몇 가지 팁도 제공 됩니다.
 
-| 분포 | 누락 된 라이브러리 설치 바닐라 | 추가 단계 |
+| 배포 | 누락 된 라이브러리 설치 바닐라 | 추가 단계 |
 |--------|-------------------|----|
 | Ubuntu Desktop 18.04 (64 비트) | &lt;none&gt;  | &lt;none&gt; |
 | Ubuntu Desktop 16.04 (64 비트) | &lt;none&gt; | &lt;none&gt; |
@@ -75,7 +75,7 @@ Debian/Ubuntu 또는 RHL 트리 외부의 배포는 Visual Studio Code 또는 .N
 
 > **Pr 시작:** 선호 하는 배포로이 정보를 업데이트 하는 데 관심이 있는 경우 문서 GitHub 리포지토리에서 [이 파일](https://github.com/MicrosoftDocs/live-share/tree/master/docs/reference/linux.md) 에 대 한 PR을 제출 하세요. 선호 하는 배포를 지 원하는 종속성 설치 관리자를 가져오려는 경우에도 [이 파일에 대 한](https://github.com/MicrosoftDocs/live-share/blob/master/scripts/linux-prereqs.sh)PR을 제출할 수 있습니다.
 
-| 분포 | 작업? | 누락 된 라이브러리 설치 바닐라 | 추가 단계 |
+| 배포 | 작업? | 누락 된 라이브러리 설치 바닐라 | 추가 단계 |
 |--------------|----------|-------------------|------------------|
 | 아키텍처 Linux (64 비트) | 예 | 잠기기. 가능한 라이브러리: `gcr liburcu openssl-1.0 krb5 zlib icu gnome-keyring libsecret desktop-file-utils xorg-xprop` | <ul><li>[필수 구성 요소 설치 스크립트](#install-linux-prerequisites)에서 지원 됩니다.</li><li>VS Code에 [대해 AUR 패키지를 사용](https://aur.archlinux.org/packages/visual-studio-code-bin) 합니다.</li><li>자동화 된 필수 구성 요소 설치 스크립트를 사용 하려면 `sudo`가 설치 되어 있어야 합니다.</li><li>일부 데스크톱 환경에서는 `gnome-keyring`에 추가 [설치 단계가](https://wiki.archlinux.org/index.php/GNOME/Keyring) 필요할 수 있습니다.</ul> |
 | Manjaro 17.1 (64 비트) | 예 | `xorg-xprop liburcu` | <ul><li>[필수 구성 요소 설치 스크립트](#install-linux-prerequisites)에서 지원 됩니다.</li><li>VS Code에 [대해 AUR 패키지를 사용](https://aur.archlinux.org/packages/visual-studio-code-bin) 합니다.</li></ul> |
@@ -93,7 +93,7 @@ Debian/Ubuntu 또는 RHL 트리 외부의 배포는 Visual Studio Code 또는 .N
 
 Visual Studio Live Share의 기본 라이브러리 요구 사항은 .NET Core 2.1를 사용 하 고, 자격 증명을 유지 하 고, 브라우저 통합을 위해 제공 됩니다. 다음 표에서는 .NET Core에서 공식적으로 지원 되는 배포에 대 한 이러한 요구 사항을 요약 합니다.
 
-| 분포 | .NET Core 요구 사항 | 자격 증명 저장소 요구 사항| 브라우저 통합 요구 사항 |
+| 배포 | .NET Core 요구 사항 | 자격 증명 저장소 요구 사항| 브라우저 통합 요구 사항 |
 |--------------|-----------|--------------------|------------|
 | Ubuntu 및 다운스트림 배포 | `libssl1.0.0 libkrb5-3 zlib1g libicu55` (Ubuntu 16.04, Mint 18.3) 또는 `libicu57` (Ubuntu 17.10의 경우) 또는 `libicu60` (Ubuntu 18.04, Mint 19의 경우) | `libsecret-1-0 gnome-keyring` (또는 기능 비밀 지원 되는 인증 키-Kwallet은 기능 비밀을 지원 하지 않음) | `desktop-file-utils x11-utils` |
 | Debian 9 및 다운스트림 배포 | `libssl1.0.2 libkrb5-3 zlib1g libicu57` | `libsecret-1-0 gnome-keyring` (또는 기능 비밀 지원 되는 인증 키-Kwallet은 기능 비밀을 지원 하지 않음) | `desktop-file-utils x11-utils` |
@@ -155,11 +155,11 @@ Visual Studio Live Share에는 일반적으로 Linux에서 브라우저 통합�
 
 대신 직접 명령을 실행 하려면 "복사"를 클릭 합니다. 그러면 터미널 명령이 클립보드에 복사 됩니다.
 
-마지막으로이 단계를 완전히 건너뛰려면 [수동으로 공동 작업 세션을 조인할](../how-to-guides/vscode.md#join-manually)수 있지만 브라우저에서 초대 링크를 열어 조인할 수는 없습니다. **Ctrl + shift + p/Cmd + shift + P** 를 누르고 "Live Share: 시작 관리자 설정" 명령을 선택 하 여 나중에 언제 든 지 명령에 다시 액세스할 수 있습니다.
+마지막으로이 단계를 완전히 건너뛰려면 [수동으로 공동 작업 세션을 조인할](../use/vscode.md#join-manually)수 있지만 브라우저에서 초대 링크를 열어 조인할 수는 없습니다. **Ctrl + shift + p/Cmd + shift + P** 를 누르고 "Live Share: 시작 관리자 설정" 명령을 선택 하 여 나중에 언제 든 지 명령에 다시 액세스할 수 있습니다.
 
 ## <a name="see-also"></a>참조
 
-- [방법: Visual Studio Code를 사용 하 여 공동 작업](../how-to-guides/vscode.md)
+- [방법: Visual Studio Code를 사용 하 여 공동 작업](../use/vscode.md)
 - [Live Share 연결 요구 사항](connectivity.md)
 - [Live Share의 보안 기능](security.md)
 
