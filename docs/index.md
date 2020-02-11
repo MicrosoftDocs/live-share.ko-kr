@@ -11,12 +11,12 @@ ms.author: fubaduba
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: 3f6ad9fd00984abeca2b826addee54271eb1191a
-ms.sourcegitcommit: 3a1b22eac528b0f6a241f9fec7ec20264db24cfe
+ms.openlocfilehash: 10679c4ef44e2bdaeb4d8a8f25107b10b5f52243
+ms.sourcegitcommit: c2ff6f29393990e91390875bb065bb811c071353
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74019755"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76978903"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -39,7 +39,7 @@ Visual Studio Live Share를 시작합니다. Live Share를 사용하면 사용 �
 
 시작하기 전에 Live Share의 핵심 요구 사항을 충족하는 Visual Studio 또는 Visual Studio Code 버전이 설치되어 있는지 확인해야 합니다.
 
-- **Visual Studio Code 1.22.0 이상** - Windows 7, 8.1 또는 10, macOS *(Sierra 10.12 이상만)* , 64비트 Linux *(64비트 Ubuntu Desktop 16.04 이상, Fedora 27 이상 권장 - [자세히 보기](use/vscode.md#installation))*
+- **Visual Studio Code 1.22.0 이상** - Windows 7, 8.1 또는 10, macOS *(High Sierra 10.13 이상만)* , 64-bit Linux *(64-bit Ubuntu Desktop 16.04 이상, Fedora 27 이상 권장 - [자세히 보기](use/vscode.md#installation))* .
 - **Visual Studio 2019**(모든 버전) - Windows 7, 8.1 또는 10
 - **Visual Studio 2017 15.6 이상**(모든 버전) - Windows 7, 8.1 또는 10
 
@@ -50,7 +50,7 @@ Visual Studio Live Share를 시작합니다. Live Share를 사용하면 사용 �
     <td width="128px" style="width: 128px; text-align: center; border:none;"><img src="media/vs-code.svg" width="128px" alt="Visual Studio Code logo"/></td>
     <td style="border:none;">
         <strong>Visual Studio Code(1.22.0 이상)</strong><br />
-        1.Windows(7, 8.1 또는 10), macOS<b>(Sierra+)</b>, 64비트 Linux용 <a href="https://code.visualstudio.com/">Visual Studio Code</a>를 설치합니다<b>(<a href="use/vscode.md#installation">세부 정보</a>)</b>.<br />
+        1.Windows (7, 8.1, 또는 10), macOS <b>(High Sierra 10.13 이상)</b>, 64-bit Linux용 <a href="https://code.visualstudio.com/">Visual Studio Code</a>를 설치합니다<b>(<a href="use/vscode.md#installation">세부정보</a>)</b><br />
         2. 마켓플레이스에서 Visual Studio Live Share 확장을 다운로드하여 설치합니다. <br />
         3. 다시 로드하고 종속성이 다운로드되어 설치될 때까지 기다립니다(상태 표시줄 참조).<br />
         4. <strong>Linux</strong>: <a href="reference/linux.md#install-linux-prerequisites">라이브러리를 설치</a>하라는 메시지가 표시되면 [설치]를 클릭하고 암호를 입력한 다음, 완료되면 VS Code를 다시 시작합니다.<br />
@@ -62,7 +62,7 @@ Visual Studio Live Share를 시작합니다. Live Share를 사용하면 사용 �
     <td  style="border:none;">
         <strong>Visual Studio 2019 </strong><br />
         1.<a href="https://visualstudio.microsoft.com/downloads/">Visual Studio 2019</a>를 설치합니다.<br/>
-        2. <a href="reference/platform-support.md">지원되는 워크로드</a>를 설치합니다. (예: ASP.NET, .NET Core, C++, Python 및/또는 Node.js)<br />
+        2.<a href="reference/platform-support.md">지원되는 워크로드</a>를 설치합니다. (예: ASP.NET, .NET Core, C++, Python 및/또는 Node.js)<br />
         3. Visual Studio Live Share는 기본적으로 이러한 워크로드와 함께 설치됩니다. <br />
     </td>
 </tr>
@@ -71,7 +71,7 @@ Visual Studio Live Share를 시작합니다. Live Share를 사용하면 사용 �
     <td  style="border:none;">
         <strong>Visual Studio 2017 15.6 이상</strong><br />
         1. Windows(7, 8.1 또는 10)에 최신 버전의 <a href="https://visualstudio.microsoft.com/vs/older-downloads/">Visual Studio 2017</a>(15.6 이상)을 설치합니다.<br/>
-        2. <a href="reference/platform-support.md">지원되는 워크로드</a>를 설치합니다. (예: ASP.NET, .NET Core, C++ 및/또는 Node.js)<br />
+        2.<a href="reference/platform-support.md">지원되는 워크로드</a>를 설치합니다. (예: ASP.NET, .NET Core, C++ 및/또는 Node.js)<br />
         3. 마켓플레이스에서 Visual Studio Live Share 확장을 다운로드하여 설치합니다. <br />
         <a href="https://aka.ms/vsls-dl/vs"><img style="padding: 0; spacing: 0;" src="media/download.png" alt="Download button" ></a><br />
     </td>
@@ -83,7 +83,7 @@ Visual Studio Live Share를 다운로드하여 사용하면 [사용 조건](http
 이것이 전부입니다! 이제 VS Code 왼쪽 하단에는 로그인 상태 표시줄이 표시되고 Visual Studio 오른쪽 상단에는 [공유] 단추가 표시됩니다. 다음으로 수행할 작업은 이 설명서의 나머지 부분에서 확인해 보세요.
 
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참조
 
 빠른 시작
 
