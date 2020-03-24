@@ -6,6 +6,7 @@
 # 빠른 시작
 ## [첫 번째 프로젝트 공유](quickstart/share.md)
 ## [첫 번째 세션 참가](quickstart/join.md)
+## [브라우저에서 참가](quickstart/browser-join.md)
 # 방법 가이드: VS Code
 ## [개요](use/vscode.md)
 ## [설치](use/vscode.md#installation)
@@ -30,7 +31,7 @@
 ## [터미널 공유](use/vs.md#share-a-terminal)
 # 방법 가이드: 기술 인터뷰
 ## [기술 인터뷰](use/technical-interviews.md)
-# 참조
+# 참고
 ## [연락처](reference/contacts.md)
 ## [보안](reference/security.md)
 ## [연결](reference/connectivity.md)

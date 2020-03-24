@@ -11,15 +11,15 @@ ms.author: fubaduba
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: 10679c4ef44e2bdaeb4d8a8f25107b10b5f52243
-ms.sourcegitcommit: c2ff6f29393990e91390875bb065bb811c071353
+ms.openlocfilehash: e74268abd215fd17ec67028d94de69f18685f808
+ms.sourcegitcommit: 382f069abbd81ed258d497a974b30379be36b4f0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76978903"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79508561"
 ---
 <!--
-Copyright © Microsoft Corporation
+Copyright &copy; Microsoft Corporation
 All rights reserved.
 Creative Commons Attribution 4.0 License (International): https://creativecommons.org/licenses/by/4.0/legalcode
 -->
@@ -33,7 +33,7 @@ Visual Studio Live Share를 시작합니다. Live Share를 사용하면 사용 �
 진행할 준비가 되셨나요? 이 문서에서는 몇 가지 개념과 필요한 확장을 설치하는 방법을 살펴봅니다. 요약된 버전을 찾는 경우 [공유](quickstart/share.md) 및 [가입](quickstart/join.md) 빠른 시작을 확인하세요.
 
 > [!TIP]
-> *사용자 고유의 협업 세션에 가입*할 수 있다는 것을 알고 계셨나요? 그러면 직접 Live Share를 시도해 보거나 Visual Studio 또는 VS Code의 인스턴스를 전환하고 원격으로 연결할 수 있습니다. 두 인스턴스 모두에 동일한 ID를 사용할 수도 있습니다. 확인해 보세요.
+> 이제 ‘브라우저에서 Live Share 세션에 참가’할 수 있다는 것을 알고 계십니까?  즉, 더 이상 협업하기 위해 데스크톱 클라이언트를 설치할 필요가 없습니다. 공유된 링크를 클릭하면 브라우저에서 고품질 VS Code 편집기 환경을 이용할 수 있습니다. [여기](quickstart/browser-join.md)에서 자세히 알아보세요.
 
 ## <a name="install-visual-studio-live-share"></a>Visual Studio Live Share 설치
 
