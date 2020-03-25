@@ -11,18 +11,19 @@ ms.author: clantz
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: b550790fff3a5ed70db9e1256e020c1865215866
-ms.sourcegitcommit: c6ef4e5a9aec4f682718819c58efeab599e2781b
+ms.openlocfilehash: 7b8b3d9b566231f4b4205b559232ef1752fd9441
+ms.sourcegitcommit: 382f069abbd81ed258d497a974b30379be36b4f0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73170031"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79508574"
 ---
 <!--
-Copyright © Microsoft Corporation
+Copyright &copy; Microsoft Corporation
 All rights reserved.
 Creative Commons Attribution 4.0 License (International): https://creativecommons.org/licenses/by/4.0/legalcode
 -->
+
 
 # <a name="quickstart-join-your-first-collaboration-session"></a>빠른 시작: 첫 번째 협업 세션에 조인
 
@@ -44,7 +45,7 @@ Visual Studio Live Share를 시작합니다. Live Share를 사용하면 사용 �
     <td width="128px" style="width: 128px; text-align: center; border:none;"><img src="../media/vs-code.svg" width="128px" alt="Visual Studio Code logo"/></td>
     <td style="border:none;">
         <strong>Visual Studio Code(1.22.0 이상)</strong><br />
-        1.Windows(7, 8.1 또는 10), macOS<b>(Sierra+)</b>, 64비트 Linux용 <a href="https://code.visualstudio.com/">Visual Studio Code</a>를 설치합니다<b>(<a href="../how-to-guides/vscode.md#installation">세부 정보</a>)</b>.<br />
+        1.Windows(7, 8.1 또는 10), macOS<b>(Sierra+)</b>, 64비트 Linux용 <a href="https://code.visualstudio.com/">Visual Studio Code</a>를 설치합니다<b>(<a href="../use/vscode.md#installation">세부 정보</a>)</b>.<br />
         2. 마켓플레이스에서 Visual Studio Live Share 확장을 다운로드하여 설치합니다. <br />
         3. 다시 로드하고 종속성이 다운로드되어 설치될 때까지 기다립니다(상태 표시줄 참조).<br />
         4. <strong>Linux</strong>: <a href="../reference/linux.md#install-linux-prerequisites">라이브러리를 설치</a>하라는 메시지가 표시되면 [설치]를 클릭하고 암호를 입력한 다음, 완료되면 VS Code를 다시 시작합니다.<br />
@@ -56,7 +57,7 @@ Visual Studio Live Share를 시작합니다. Live Share를 사용하면 사용 �
     <td  style="border:none;">
         <strong>Visual Studio 2019 </strong><br />
         1.<a href="https://visualstudio.microsoft.com/downloads/">Visual Studio 2019</a>를 설치합니다.<br/>
-        2. <a href="../reference/platform-support.md">지원되는 워크로드</a>를 설치합니다. (예: ASP.NET, .NET Core, C++, Python 및/또는 Node.js)<br />
+        2.<a href="../reference/platform-support.md">지원되는 워크로드</a>를 설치합니다. (예: ASP.NET, .NET Core, C++, Python 및/또는 Node.js)<br />
         3. Visual Studio Live Share는 기본적으로 이러한 워크로드와 함께 설치됩니다. <br />
     </td>
 </tr>
@@ -65,7 +66,7 @@ Visual Studio Live Share를 시작합니다. Live Share를 사용하면 사용 �
     <td  style="border:none;">
         <strong>Visual Studio 2017 15.6 이상</strong><br />
         1. Windows(7, 8.1 또는 10)에 최신 버전의 <a href="https://visualstudio.microsoft.com/vs/older-downloads/">Visual Studio 2017</a>(15.6 이상)을 설치합니다.<br/>
-        2. <a href="../reference/platform-support.md">지원되는 워크로드</a>를 설치합니다. (예: ASP.NET, .NET Core, C++ 및/또는 Node.js)<br />
+        2.<a href="../reference/platform-support.md">지원되는 워크로드</a>를 설치합니다. (예: ASP.NET, .NET Core, C++ 및/또는 Node.js)<br />
         3. 마켓플레이스에서 Visual Studio Live Share 확장을 다운로드하여 설치합니다. <br />
         <a href="https://aka.ms/vsls-dl/vs"><img style="padding: 0; spacing: 0;" src="../media/download.png" alt="Download button" ></a><br />
     </td>
@@ -116,7 +117,7 @@ Live Share 확장을 설치하고, 다시 시작하고 종속성 설치(VS Code)
 
 ![웹 브라우저를 사용하여 로그인하라는 알림 메시지](../media/vscode-sign-in-toast.png)
 
-> **Linux 사용자:** 이전 버전의 Live Share(v0.3.295 이하)를 사용하는 경우 사용자 코드를 입력하라는 메시지가 표시될 수 있습니다. 확장의 최신 버전으로 업데이트하거나 "문제가 있나요?"를 클릭합니다. 로그인한 후 링크를 클릭하여 코드를 확인합니다. [자세한 내용은 여기](../how-to-guides/vscode.md#sign-in-using-a-user-code)를 참조하세요.
+> **Linux 사용자:** 이전 버전의 Live Share(v0.3.295 이하)를 사용하는 경우 사용자 코드를 입력하라는 메시지가 표시될 수 있습니다. 확장의 최신 버전으로 업데이트하거나 "문제가 있나요?"를 클릭합니다. 로그인한 후 링크를 클릭하여 코드를 확인합니다. [자세한 내용은 여기](../use/vscode.md#sign-in-using-a-user-code)를 참조하세요.
 
 **Visual Studio**에서 Live Share는 [개인 설정 계정](https://docs.microsoft.com/en-us/visualstudio/ide/signing-in-to-visual-studio)을 자동으로 사용합니다. 그 결과 평소대로 간단하게 로그인할 수 있습니다. 그러나 Visual Studio 개인 설정 계정과 다른 로그인을 사용하려는 경우에는 **도구 &gt; 옵션 &gt; Live Share &gt; 사용자 계정**으로 이동하여 다른 자격 증명을 선택합니다.
 
@@ -159,10 +160,10 @@ Live Share 확장을 설치하고, 다시 시작하고 종속성 설치(VS Code)
 자세한 내용은 이러한 추가 문서를 확인하세요.
 
 - [빠른 시작: 첫 번째 프로젝트 공유](share.md)
-- [방법: Visual Studio Code를 사용하여 공동 작업](../how-to-guides/vscode.md)
-- [방법: Visual Studio를 사용하여 공동 작업](../how-to-guides/vs.md)
+- [방법: Visual Studio Code를 사용하여 공동 작업](../use/vscode.md)
+- [방법: Visual Studio를 사용하여 공동 작업](../use/vs.md)
 
-참조
+참고
 
 - [Live Share 연결 요구 사항](../reference/connectivity.md)
 - [Live Share의 보안 기능](../reference/security.md)
