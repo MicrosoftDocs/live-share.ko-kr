@@ -10,12 +10,12 @@ ms.author: fishah
 manager: joncart
 ms.workload:
 - liveshare
-ms.openlocfilehash: 741292a3df8b86a8f7a9484875b352ebe6e8ec10
-ms.sourcegitcommit: 382f069abbd81ed258d497a974b30379be36b4f0
+ms.openlocfilehash: 9544e1ad333903c663b9b4ecda35ca745020b4ae
+ms.sourcegitcommit: 6bf13781dc42a2bf51a19312ede37dff98ab33ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79510638"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80295922"
 ---
 <!--
 Copyright &copy; Microsoft Corporation
@@ -27,8 +27,6 @@ Creative Commons Attribution 4.0 License (International): https://creativecommon
 
 이제 모든 Live Share 공동 작업 세션에서 브라우저의 형태로 조인할 수 있습니다. 이는 세션에 대 한 게스트가 더 이상 세션에 연결 하기 위해 VS Code 또는 Visual Studio를 설치할 필요가 없음을 의미 합니다. 이는 다른 사용자가 세션을 신속 하 게 하거나 데스크톱 클라이언트를 자주 설치 하지 않은 학생의 경우 이러한 모든 인스턴스에 유용 합니다.
 
-> [!TIP]
-> 브라우저에서 조인 하는 방법에 대 한 가장 일반적인 질문은 아래 FAQ 섹션을 참조 하세요.
 
 # <a name="how-to-join-a-live-share-session-from-the-browser"></a>브라우저에서 Live Share 세션을 조인 하는 방법 
 
@@ -46,20 +44,24 @@ Live Share는 게스트와 공유할 수 있는 조인 링크를 생성 합니�
 게스트가 세션에 참여 한 후에는 데스크톱 클라이언트에서 공동 작업 하는 경우와 동일한 방식으로 작업을 수행할 수 있습니다.
 
 ![전체 충실도 애니메이션](https://user-images.githubusercontent.com/51928518/76942009-40e24d80-68ba-11ea-885c-6eb1069ed550.gif)
-# <a name="frequently-asked-questions"></a>질문과 대답 
 
-##### <a name="1-is-there-an-environment-running-in-the-background-that-is-hosting-my-session-in-the-browser"></a>1. 브라우저에서 세션을 호스팅하는 백그라운드에서 실행 중인 환경이 있나요?
-브라우저에서 Live Share 세션에 연결 하는 경우 새 환경이 분리 되지 않습니다. 서버를 사용 하지 않는 서비스입니다. 
-##### <a name="2-do-i-have-to-pay-for-the-service-of-joining-from-the-browser"></a>2. 브라우저에서 조인 하는 서비스에 대 한 요금을 지불 해야 하나요?
-브라우저에서 조인은 모든 Live Share와 매우 유사 하 게 사용할 수 있습니다.
+<!---
+# Frequently asked questions 
 
-##### <a name="3-how-is-this-different-from-visual-studio-online"></a>3. Visual Studio Online과 어떻게 다른 가요?
-브라우저에서 조인 하는 경우 세션 중에 브라우저에서 VS Code 클라이언트에만 액세스할 수 있습니다. 세션이 종료 되 면 편집기 기능과 함께 모든 파일 및 폴더가 닫힙니다. 사용자 고유의 환경을 사용 하 여 고유한 파일을 편집 하기 위해 브라우저에서 편집기를 사용 하려면 [Visual Studio Online](aka.ms/vso) 을 사용 해야 합니다.
+##### 1. Is there an environment running in the background, that is hosting my session in the browser?
+When you join a Live Share session from the browser, there is no new environment spun up. It is a serverless service. 
+##### 2. Do I have to pay for the service of joining from the browser?
+Joining from the browser is free, much like all of Live Share.
 
-##### <a name="4-does-this-work-for-all-browsers"></a>4. 모든 브라우저에서 작동 하나요?
-예. 모든 브라우저에서 작동 합니다. 
-##### <a name="5-is-there-a-vs-client-that-i-can-use-in-the-browser"></a>5. 브라우저에서 사용할 수 있는 VS 클라이언트가 있나요?
-이를 아직 사용할 수 없습니다. 
+##### 3. How is this different from Visual Studio Online?
+When you join from the browser, you only access the VS Code client from the browser during the session. Once the session ends, all the files and folders along with editor capabilities will close. To use an editor in the browser, backed with your own environment to edit your own files, you must use [Visual Studio Online.](aka.ms/vso)
 
-# <a name="feedback-and-issues"></a>사용자 의견 및 문제 
-이 기능은 미리 보기 기능으로, 사용자 의견을 보내 환경을 개선 하는 데 도움이 될 것입니다. 여기에서 GitHub 리포지토리에 표시 되는 의견이 나 문제를 입력 하세요 [.](https://github.com/MicrosoftDocs/live-share/issues/new?template=bug_report.md)
+##### 4. Does this work for all browsers?
+Yes. This works on all browsers. 
+##### 5. Is there a VS client that I can use in the browser?
+We do not have this available yet. 
+
+# Feedback and issues 
+This is a preview feature, and we hope to get user feedback to improve the experience. Please fill out any feedback or issues you see on our GitHub repo [here.](https://github.com/MicrosoftDocs/live-share/issues/new?template=bug_report.md)
+
+--->

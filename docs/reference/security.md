@@ -11,12 +11,12 @@ ms.author: clantz
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: 2f3a2adf0be13071f22a8ea7e33800af6f9099b5
-ms.sourcegitcommit: c6ef4e5a9aec4f682718819c58efeab599e2781b
+ms.openlocfilehash: 2d471a6d5ba84efb192073799444a13f2be62279
+ms.sourcegitcommit: 6bf13781dc42a2bf51a19312ede37dff98ab33ea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73170107"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80295964"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -32,9 +32,21 @@ Visual Studio Live Share의 공동 작업 세션은 세션에 조인 하 고 공
 
 ## <a name="connectivity"></a>연결
 
-Visual Studio Live Share의 모든 연결은 공동 작업 세션의 해당 콘텐츠에 대 한 액세스 권한을 얻을 수 있도록 중앙 서비스에 대해 암호화 및 인증 된 SSH 또는 SSL입니다. 기본적으로 Live Share는 직접 연결을 시도 하 고 게스트와 호스트 간의 연결을 설정할 수 없는 경우 클라우드 relay를 대체 합니다. Live Share의 클라우드 relay는이를 통해 라우팅되는 트래픽을 유지 하지 않으며 어떤 방식으로든 트래픽을 "스 눕" 하지 않습니다. 그러나 릴레이를 사용 하지 않으려는 경우에는 설정을 변경 하 여 항상 직접 연결할 수 있습니다.
+피어 간 세션을 시작할 때 Live Share 피어 투 피어 연결을 설정 하려고 시도 하는 경우 (예: 방화벽/t s p s로 인 한)이 가능 하지 않은 경우 (예: 방화벽/t s p s)는 클라우드 릴레이를 사용 하 여 대체 합니다. 그러나 두 연결 유형 (P2P 또는 relay)에서 피어 간에 전송 되는 모든 데이터는 SSH 프로토콜을 사용 하 여 종단 간 암호화 됩니다. 릴레이 연결의 경우 SSH 암호화는 TLS 암호화 Websocket 위에 계층화 됩니다. 즉, Live Share는 보안을 위해 클라우드 릴레이 서비스에 의존 하지 않습니다. 릴레이가 손상 된 경우에도 Live Share 통신의 암호를 해독할 수 없습니다.
+
+Live Share 서비스의 역할은 사용자 인증 및 세션 검색으로 제한 됩니다. 서비스 자체는 세션의 콘텐츠를 저장 하거나 액세스 권한을 보유 하지 않습니다. Live Share의 모든 사용자 콘텐츠는 SSH 세션을 통해 전송 됩니다. 여기에는 코드, 터미널, 공유 서버 및이를 기반으로 하는 Live Share 또는 확장에서 제공 하는 기타 공동 작업 기능이 포함 됩니다.
 
 이러한 동작 및 Live Share의 연결 요구 사항 변경에 대 한 자세한 내용은 **[Live Share 연결 요구 사항](connectivity.md)** 을 참조 하세요.
+
+### <a name="wire-encryption"></a>실시간 암호화 
+
+SSH 프로토콜은 Diffie-hellman 키 교환을 사용 하 여 세션에 대 한 공유 암호를 설정 하 고 AES 대칭 암호화를 위한 키에서 파생 됩니다. 암호화 키는 세션 기간 동안 주기적으로 회전 됩니다. 공유 세션 암호 및 모든 암호화 키는 양쪽 모두 메모리 내에서 유지 관리 되며 세션 기간 동안만 유효 합니다. 이러한 메시지는 디스크에 기록 되거나 서비스 (Live Share 포함)로 전송 되지 않습니다.
+
+### <a name="peer-authentication"></a>피어 인증
+
+또한 SSH 세션은 양방향 인증입니다. 호스트 (SSH 서버 역할)는 SSH 프로토콜에 대 한 표준으로 공개/개인 키 인증을 사용 합니다. 호스트는 Live Share 세션을 공유 하는 경우 세션에 대 한 고유한 RSA 공개/개인 키 쌍을 생성 합니다. 호스트 개인 키는 호스트 프로세스의 메모리에만 유지 됩니다. 디스크에 기록 되거나 Live Share 서비스를 비롯 한 모든 서비스로 전송 되지 않습니다. 호스트 공개 키는 게스트에서 초대 링크를 통해 액세스할 수 있는 세션 연결 정보 (IP 주소 및/또는 릴레이 끝점)와 함께 Live Share 서비스에 게시 됩니다. 게스트가 호스트의 SSH 세션에 연결 되 면 게스트는 SSH 호스트 인증 프로토콜을 사용 하 여 호스트가 게시 된 공개 키에 해당 하는 개인 키를 보유 하 고 있는지 확인 합니다 (게스트는 실제로 개인 키를 볼 수 없음).
+
+게스트는 Live Share 토큰을 사용 하 여 호스트에 대해 자신을 인증 합니다. 토큰은 사용자 id에 대 한 클레임을 포함 하는 Live Share 서비스에서 발급 한 서명 된 JWT로, MSA, AAD 또는 GitHub 로그인을 통해 가져옵니다. 또한 토큰은 특정 Live Share 세션 (초대 링크가 있거나 호스트에 의해 특별히 초대 됨)에 액세스할 수 있음을 나타내는 클레임을 포함 합니다. 호스트는이 토큰의 유효성을 검사 하 고, 클레임을 확인 하 고 (옵션에 따라 호스트 사용자에 게 메시지를 표시할 수 있음) 게스트가 세션에 참여 하도록 허용 합니다.
 
 ## <a name="invitations-and-join-access"></a>초대 및 조인 액세스
 
@@ -205,7 +217,7 @@ Visual Studio Live Share의 모든 연결은 공동 작업 세션의 해당 콘�
 
 읽기 전용 모드에서 게스트를 사용 하 여 공동 디버그할 수 있습니다. 게스트는 디버깅 프로세스를 단계별로 실행 하는 기능을 제공 하지 않지만 중단점을 추가 또는 제거 하 고 변수를 검사할 수 있습니다. 또한 게스트를 사용 하 여 서버 및 터미널 (읽기 전용)을 공유할 수 있습니다.
 
-읽기 전용 공동 작업 세션을 시작 하는 방법에 대해 자세히 알아볼 수 있습니다. [![VS Code](../media/vscode-icon-15x15.png)](../how-to-guides/vscode.md#share-a-project) [![VS](../media/vs-icon-15x15.png)](../how-to-guides/vs.md#share-a-project)
+읽기 전용 공동 작업 세션을 시작 하는 방법에 대해 자세히 알아볼 수 있습니다. [![VS Code](../media/vscode-icon-15x15.png)](../use/vscode.md#share-a-project) [![VS](../media/vs-icon-15x15.png)](../use/vs.md#share-a-project)
 
 ## <a name="co-debugging"></a>공동 디버깅
 
@@ -215,7 +227,7 @@ Visual Studio Live Share의 모든 연결은 공동 작업 세션의 해당 콘�
 
 따라서 **신뢰할 수 있는 사용자로만 공동 디버그할** 수 있습니다.
 
-자세한 정보: [![VS Code](../media/vscode-icon-15x15.png)](../how-to-guides/vscode.md#co-debugging) [![VS](../media/vs-icon-15x15.png)](../how-to-guides/vs.md#co-debugging)
+자세한 정보: [![VS Code](../media/vscode-icon-15x15.png)](../use/vscode.md#co-debugging) [![VS](../media/vs-icon-15x15.png)](../use/vs.md#co-debugging)
 
 ## <a name="sharing-a-local-server"></a>로컬 서버 공유
 
@@ -231,7 +243,7 @@ Visual Studio Code에서 Live Share **적절 한 응용 프로그램 포트를 �
 
 두 경우 모두 추가 포트를 공유할 때 주의를 기울여야 합니다.
 
-이 기능을 구성 하는 방법에 대 한 자세한 내용은 [![VS Code](../media/vscode-icon-15x15.png)](../how-to-guides/vscode.md#share-a-server) [![VS](../media/vs-icon-15x15.png)](../how-to-guides/vs.md#share-a-server) 를 참조 하세요.
+이 기능을 구성 하는 방법에 대 한 자세한 내용은 [![VS Code](../media/vscode-icon-15x15.png)](../use/vscode.md#share-a-server) [![VS](../media/vs-icon-15x15.png)](../use/vs.md#share-a-server) 를 참조 하세요.
 
 ## <a name="sharing-a-terminal"></a>터미널 공유
 
@@ -245,7 +257,7 @@ Visual Studio에서 터미널은 기본적으로 공유 되지 않습니다. VS 
 "liveshare.autoShareTerminals": false
 ```
 
-자세한 정보: [![VS Code](../media/vscode-icon-15x15.png)](../how-to-guides/vscode.md#share-a-terminal) [![VS](../media/vs-icon-15x15.png)](../how-to-guides/vs.md#share-a-terminal)
+자세한 정보: [![VS Code](../media/vscode-icon-15x15.png)](../use/vscode.md#share-a-terminal) [![VS](../media/vs-icon-15x15.png)](../use/vs.md#share-a-terminal)
 
 ## <a name="aad-admin-consent"></a>AAD 관리자 동의
 
@@ -260,12 +272,12 @@ AD 관리자는 다음 정보를 사용 하 여이 문제를 해결 해야 합�
 * **응용 프로그램 URL**: https://insiders.liveshare.vsengsaas.visualstudio.com/
 * **회신 URL**: https://insiders.liveshare.vsengsaas.visualstudio.com/auth/redirect/windowslive/
 
-이 작업은 Live Share를 사용 하는 모든 사용자에 대해 한 번만 수행 해야 합니다. 자세한 내용은 [여기](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-v2-scopes#admin-restricted-scopes) 및 [여기](https://stackoverflow.com/questions/39861830/azure-ad-admin-consent-from-the-azure-portal)를 참조 하세요.
+이 작업은 Live Share를 사용 하는 모든 사용자에 대해 한 번만 수행 해야 합니다. 자세한 [here](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-v2-scopes#admin-restricted-scopes) 내용은 여기 [및 여기를 참조](https://stackoverflow.com/questions/39861830/azure-ad-admin-consent-from-the-azure-portal) 하세요.
 
 ## <a name="see-also"></a>참고 항목
 
-* [방법: Visual Studio Code를 사용 하 여 공동 작업](../how-to-guides/vscode.md)
-* [방법: Visual Studio를 사용 하 여 공동 작업](../how-to-guides/vs.md)
+* [방법: Visual Studio Code를 사용 하 여 공동 작업](../use/vscode.md)
+* [방법: Visual Studio를 사용 하 여 공동 작업](../use/vs.md)
 * [Live Share 연결 요구 사항](connectivity.md)
 
 문제가 있으신가요? [문제 해결](../troubleshooting.md)을 참조하거나 [피드백을 제공](../support.md)해 주세요.
