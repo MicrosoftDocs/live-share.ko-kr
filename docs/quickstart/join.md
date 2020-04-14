@@ -12,10 +12,10 @@ manager: AmandaSilver
 ms.workload:
 - liveshare
 ms.openlocfilehash: 7b8b3d9b566231f4b4205b559232ef1752fd9441
-ms.sourcegitcommit: 382f069abbd81ed258d497a974b30379be36b4f0
+ms.sourcegitcommit: 6bf13781dc42a2bf51a19312ede37dff98ab33ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 04/09/2020
 ms.locfileid: "79508574"
 ---
 <!--
