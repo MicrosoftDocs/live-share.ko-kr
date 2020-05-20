@@ -11,12 +11,12 @@ ms.author: fubaduba
 manager: JonathanCarter
 ms.workload:
 - liveshare
-ms.openlocfilehash: 0ac1ba213c59df2dc3b1d05d89e4186c823a250f
-ms.sourcegitcommit: 6bf13781dc42a2bf51a19312ede37dff98ab33ea
+ms.openlocfilehash: db2365b92f5b18198a2f976e1c6ce3d5abb755c5
+ms.sourcegitcommit: d7f923c1bcd0430b48065ea2c0902b470f530987
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80295954"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83569524"
 ---
 <!--
 Copyright &copy; Microsoft Corporation
@@ -35,15 +35,15 @@ Live Share를 사용 하 여 후보를 인터뷰 하려면 먼저 두 데스크�
 Live Share 확장을 사용 하 여 빌드된 [Visual Studio](../use/vs.md) 를 설치 합니다.
 
 >[!TIP] 
-> *도구 > 옵션 > Live Share > 고급 > 기능*으로 이동 하 여 Live Share에 대 한 참가자를 설정 했는지 확인 합니다. 이렇게 하면 인터뷰에 대 한 지원을 호출 하는 기본 제공 오디오를 사용할 수 있습니다.
+> *도구> 옵션 > Live Share > 고급 > 기능*으로 이동 하 여 Live Share에 대 한 참가자를 설정 했는지 확인 합니다. 이렇게 하면 인터뷰에 대 한 지원을 호출 하는 기본 제공 오디오를 사용할 수 있습니다.
 
-또는 [Visual Studio Code](../.use/vscode.md) 를 설치 하 고 marketplace에서 [Live Share 확장 팩]() 을 다운로드 합니다. 확장 팩은 인터뷰를 위한 오디오 지원을 제공 합니다. 
+또는 [Visual Studio Code](../use/vscode.md) 를 설치 하 고 marketplace에서 [Live Share 확장 팩](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack) 을 다운로드 합니다. 확장 팩은 인터뷰를 위한 오디오 지원을 제공 합니다. 
 
 ## <a name="scheduling-an-interview"></a>인터뷰 예약 
 
 **VS Code Live Share** 는 Live Share 세션을 미리 만들 수 있는 기능을 제공 합니다. 다음 단계를 사용 하 여 세션을 미리 만들 수 있습니다.
 
-1. 을 사용 하 여 `Command Palette`로 이동 `Ctrl+Shift+P`
+1. `Command Palette`사용 하 여 이동`Ctrl+Shift+P`
 1. "라이브 Sha ..."를 입력 합니다. '_Live Share: 재사용 가능한 세션 링크 만들기_' 명령을 클릭 합니다.
 
 ![vscode-reusablesessioncmd](../media/vscode-cmdpalette-createreusablelink.png)

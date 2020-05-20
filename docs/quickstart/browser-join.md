@@ -1,6 +1,6 @@
 ---
 title: 브라우저에서 조인-Visual Studio Live Share | Microsoft Docs
-description: Thr 브라우저에서 조인 소개
+description: 브라우저에서 조인 소개
 ms.date: 03/18/2020
 ms.reviewer: ''
 ms.suite: ''
@@ -10,12 +10,12 @@ ms.author: fishah
 manager: joncart
 ms.workload:
 - liveshare
-ms.openlocfilehash: 9544e1ad333903c663b9b4ecda35ca745020b4ae
-ms.sourcegitcommit: 6bf13781dc42a2bf51a19312ede37dff98ab33ea
+ms.openlocfilehash: 5e485397ff23be0fdab8449fad6237d829775c55
+ms.sourcegitcommit: d7f923c1bcd0430b48065ea2c0902b470f530987
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80295922"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83569537"
 ---
 <!--
 Copyright &copy; Microsoft Corporation
@@ -25,7 +25,7 @@ Creative Commons Attribution 4.0 License (International): https://creativecommon
 
 # <a name="preview-joining-a-live-share-session-from-the-browser"></a>✨ [Preview] ✨ 브라우저에서 Live Share 세션에 조인
 
-이제 모든 Live Share 공동 작업 세션에서 브라우저의 형태로 조인할 수 있습니다. 이는 세션에 대 한 게스트가 더 이상 세션에 연결 하기 위해 VS Code 또는 Visual Studio를 설치할 필요가 없음을 의미 합니다. 이는 다른 사용자가 세션을 신속 하 게 하거나 데스크톱 클라이언트를 자주 설치 하지 않은 학생의 경우 이러한 모든 인스턴스에 유용 합니다.
+이제 모든 Live Share 공동 작업 세션이 브라우저에서 조인할 수 있습니다. 이는 세션에 대 한 게스트가 더 이상 세션에 연결 하기 위해 VS Code 또는 Visual Studio를 설치할 필요가 없음을 의미 합니다. 이는 다른 사용자가 세션을 신속 하 게 하거나 데스크톱 클라이언트를 자주 설치 하지 않은 학생의 경우 이러한 모든 인스턴스에 유용 합니다.
 
 
 # <a name="how-to-join-a-live-share-session-from-the-browser"></a>브라우저에서 Live Share 세션을 조인 하는 방법 
