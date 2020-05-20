@@ -3,6 +3,7 @@
 ## [소개](index.md)
 ## [기능](overview/features.md)
 ## [일반적인 사용 사례](reference/use-cases.md)
+## [새로운 기능](overview/what's-new.md)
 # 빠른 시작
 ## [첫 번째 프로젝트 공유](quickstart/share.md)
 ## [첫 번째 세션 참가](quickstart/join.md)
