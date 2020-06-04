@@ -9,12 +9,12 @@ author: fubaduba
 ms.author: fubaduba
 ms.workload:
 - liveshare
-ms.openlocfilehash: 4a8effee55f3f2ff035df1c40eebefb3a628760f
-ms.sourcegitcommit: d7f923c1bcd0430b48065ea2c0902b470f530987
+ms.openlocfilehash: f473cbba9cd79e1ab1f4fbb010ca6c6f8e27c045
+ms.sourcegitcommit: a48488302bc56abdedf7130ec22b4e21ac16a4ef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83569796"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337153"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -22,20 +22,38 @@ All rights reserved.
 Creative Commons Attribution 4.0 License (International): https://creativecommons.org/licenses/by/4.0/legalcode
 -->
 
-# <a name="integrated-chat-and-audio-support"></a>통합 채팅 및 오디오 지원
-#### <a name="preview"></a>[미리 보기]
+## <a name="integrated-chat"></a>통합 채팅 
+이제 Live Share에 [Visual Studio Code](..\use\vscode.md) 및 [Live Share 웹](..\quickstart\browser-join)에 대 한 통합 된 채팅이 있습니다. 즉, IDE 내에서 피어와 채팅할 수 있습니다.
 
-Live Share에 [Visual Studio Code](..\use\vscode.md) 및 [Live Share 웹](..\quickstart\browser-join) 에 대 한 통합 된 채팅이 있습니다.
-Live Share 채팅 및 오디오는 모두 사용자가 Live Share 세션 내에서 포괄적으로 통신할 수 있도록 합니다. 세션의 호스트와 게스트 모두 Visual Studio Code 및 Live Share 웹을 사용 하 여 이러한 기능에 액세스할 수 있습니다. 
+>[!TIP]
+>Live Share 이전에는 동반 확장을 제공 했습니다. 이로 인해 해당 확장의 사용자는 Live Share 내에서 채팅을 사용할 수 있습니다. 이제이 확장이 사용 되었으며 VS Code 및 웹 클라이언트에 Live Share의 모든 사용자에 게는 채팅 서비스가 있습니다.
 
-*이러한 작업을 시작 하는 방법에 대 한 업데이트를 계속 하세요.*
+### <a name="common-questions"></a>일반적인 질문
 
-#### <a name="common-questions"></a>일반적인 질문
+##### <a name="why-am-i-seeing-this-error-message"></a>이 오류 메시지가 표시 되는 이유는 무엇 인가요?
 
-###### <a name="1-when-will-these-preview-features-be-enabled"></a>1. 이러한 미리 보기 기능을 언제 사용할 수 있나요?
-Live Share 채팅 및 오디오는 Visual Studio Code 및 Live Share 웹 사용자에 게 예정 된 주에 사용 하도록 설정 됩니다.
+확장 프로그램에 대 한 자동 업데이트를 사용 하지 않도록 설정한 경우 (Live Share 및 Live Share 동반 채팅 확장) 다음 오류 메시지가 표시 됩니다.
 
-###### <a name="2-will-all-live-share-sessions-default-to-and-audio-call"></a>2. 모든 Live Share 세션의 기본값은 및 오디오 통화 입니까?
-아니요. 채팅 및 오디오는 모두 선택 사항으로, 원하는 경우 워크플로에 추가할 수 있습니다.
+1. 다음을 참조 하는 경우 호스트 또는 게스트로 Live Share 도우미 채팅 확장이 설치 된 경우:
+
+>도우미 확장을 업데이트 하세요 `Live Share Chat` . 설치 된 버전이 더 이상 호환 되지 않습니다.
+
+이 오류 메시지에는 새로운 통합 채팅 환경을 사용 하기 위해 Live Share 동반 채팅을 업데이트 해야 합니다.
+Marketplace를 방문 하 여 최신 버전으로 *채팅* 을 검색 하 고 최신 버전으로 업데이트 하세요. 
+
+2. 게스트는 최신 버전의 Live Share 확장을 사용할 수 있으며 다음이 표시 됩니다.
+
+>이 공동 작업 세션의 호스트는 현재 채팅에서 연결이 끊어졌거나이 기능을 지원 하지 않는 _Live Share_ 버전을 사용 하 고 있습니다. [자세히 알아보기] 
+
+Live Share 세션의 호스트에서 Visual Studio 또는 다른 플랫폼을 사용 하 여 세션을 호스트 하는 중입니다 .이 세션은 아직 Live Share 통합 채팅을 지원 하지 않습니다. 오류 메시지 1을 볼 수도 있습니다. 위에 나열 되어 있습니다.
+
+3. 호스트 또는 게스트로 다음과 같은 오류 메시지가 표시 될 수 있습니다. 
+
+> 현재 연락 하려는 사용자를 사용할 수 없거나이 기능을 지원 하지 않는 _Live Share_ 버전을 사용 하 고 있습니다. [자세히 알아보기] 
+
+>채팅 서비스의 연결이 현재 끊겼습니다.잠시 후 다시 시도 하세요.
+
+Live Share 세션의 호스트에서 Visual Studio 또는 다른 플랫폼을 사용 하 여 세션을 호스트 하는 중입니다 .이 세션은 아직 Live Share 통합 채팅을 지원 하지 않습니다. 지금은 사용 하지 못할 수도 있습니다. 오류 메시지 1을 볼 수도 있습니다. 위에 나열 되어 있습니다.
 
 
+**사용자 통합 채팅을 위해에서 Live Share 확장에 대 한 자동 업데이트를 수행 해야 합니다.** 
