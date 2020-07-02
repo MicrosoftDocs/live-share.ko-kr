@@ -9,12 +9,12 @@ author: fubaduba
 ms.author: fubaduba
 ms.workload:
 - liveshare
-ms.openlocfilehash: f473cbba9cd79e1ab1f4fbb010ca6c6f8e27c045
-ms.sourcegitcommit: a48488302bc56abdedf7130ec22b4e21ac16a4ef
+ms.openlocfilehash: 55425a7d57775a4e042e87b8dceb86532e1b966a
+ms.sourcegitcommit: 211b17e49e7343786bd6859b65444cedd5e24958
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84337153"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85796065"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -56,4 +56,4 @@ Live Share 세션의 호스트에서 Visual Studio 또는 다른 플랫폼을 �
 Live Share 세션의 호스트에서 Visual Studio 또는 다른 플랫폼을 사용 하 여 세션을 호스트 하는 중입니다 .이 세션은 아직 Live Share 통합 채팅을 지원 하지 않습니다. 지금은 사용 하지 못할 수도 있습니다. 오류 메시지 1을 볼 수도 있습니다. 위에 나열 되어 있습니다.
 
 
-**사용자 통합 채팅을 위해에서 Live Share 확장에 대 한 자동 업데이트를 수행 해야 합니다.** 
+**통합 채팅을 사용 하려면에서 Live Share 확장에 대 한 자동 업데이트를 수행 해야 합니다.** 
