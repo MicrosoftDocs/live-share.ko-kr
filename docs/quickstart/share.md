@@ -11,12 +11,12 @@ ms.author: clantz
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: e65656c604a9dbc479a03a503fe01d7e2d938072
-ms.sourcegitcommit: 6bf13781dc42a2bf51a19312ede37dff98ab33ea
+ms.openlocfilehash: 9bee74ed4d494e948f2255321faab3fb5093d694
+ms.sourcegitcommit: 211b17e49e7343786bd6859b65444cedd5e24958
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "73170017"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85796078"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -108,7 +108,7 @@ Live Share 확장을 설치하고, 다시 시작하고 종속성 설치(VS Code)
 
 일반 워크플로를 사용하여 Visual Studio 또는 Visual Studio Code에서 공유하려는 폴더, 프로젝트 또는 솔루션을 엽니다.
 
-### <a name="4-optional-update-hidden-or-excluded-files"></a>4. [선택 사항] 숨겨진 파일 또는 제외된 파일 업데이트
+## <a name="4-optional-update-hidden-or-excluded-files"></a>4. [선택 사항] 숨겨진 파일 또는 제외된 파일 업데이트
 
 기본적으로 Live Share는 게스트의 공유 폴더에 있는 .gitignore 파일에서 참조하는 모든 파일/폴더를 **숨깁니다**. 파일을 **숨기면** 게스트의 파일 트리에 나타나지 않습니다. 파일을 **제외하면** 정의로 이동하거나 디버깅 또는 "추적" 중에 파일로 들어오는 등의 상황에서 Live Share가 게스트를 열 수 없도록 보다 엄격한 규칙을 적용합니다. 다른 파일을 숨기거나 제외하려는 경우, 이러한 설정으로 **.vsls.json** 파일을 프로젝트에 추가할 수 있습니다. 자세한 내용은 [파일 액세스 및 표시 유형 제어](../reference/security.md#controlling-file-access-and-visibility)를 참조하세요.
 
@@ -153,7 +153,7 @@ Live Share 확장을 설치하고, 다시 시작하고 종속성 설치(VS Code)
 
 ![웹 브라우저를 사용하여 로그인하라는 알림 메시지](../media/vscode-read-only-viewlet.png)
 
-### <a name="7-send-someone-the-invite-link"></a>7. 다른 사용자에게 초대 링크 보내기
+## <a name="7-send-someone-the-invite-link"></a>7. 다른 사용자에게 초대 링크 보내기
 
 초대할 사람에게 이메일, Slack, Skype 등을 통해 링크를 보냅니다. 브라우저에서 링크를 열면 사용자가 연 폴더, 프로젝트 또는 솔루션의 콘텐츠를 공유하는 협업 세션에 조인할 수 있습니다. Live Share 세션이 게스트에게 제공할 수 있는 액세스 수준을 고려할 때 **신뢰하는 사용자와만 공유**하고 공유하는 내용의 의미를 검토해야 합니다.
 
