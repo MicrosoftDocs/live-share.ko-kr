@@ -10,12 +10,12 @@ ms.author: joncart
 manager: simoncal
 ms.workload:
 - liveshare
-ms.openlocfilehash: 40e30c77ebf3a1c339e1694c413eb8e744d576b9
-ms.sourcegitcommit: 9deed590c0876b732c8eb150a9a23498a8243efc
+ms.openlocfilehash: 2c934e9d2b9f366b7e3c99e59c0a0a06d9ea5cd2
+ms.sourcegitcommit: 48c7e4f4f28ef6087a45b268557cc411f96d4c8b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 01/27/2021
-ms.locfileid: "98887599"
+ms.locfileid: "98901833"
 ---
 # <a name="-notebooks"></a>📓 전자
 
@@ -46,7 +46,7 @@ Live Share 노트북 환경은 현재 미리 보기로 제공 되므로 알아�
 
 ## <a name="known-issues"></a>알려진 문제
 
-다음 목록은 각각의 해결 방법과 함께 Live Share 및 노트북 experinece의 알려진 문제 집합을 나타냅니다. 
+다음 목록은 현재 Live Share 노트북 환경과 관련 된 알려진 문제 집합 및 해당 해결 방법을 보여 주는 것입니다. 
 
 | 문제 | 해결 방법 | 
 |-|-|
