@@ -1,5 +1,5 @@
 ---
-title: 사용자 프로필-Visual Studio Live Share | Microsoft Docs
+title: 사용자 프로필 | Microsoft Docs
 description: Visual Studio Live Share 사용자 프로필을 보고 제거 하는 방법에 대 한 개요입니다.
 ms.custom: ''
 ms.date: 05/222/2018
@@ -11,12 +11,12 @@ ms.author: joncart
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: 2f9f496b47db7efe260c1f09a2906c68c07762d5
-ms.sourcegitcommit: 6bf13781dc42a2bf51a19312ede37dff98ab33ea
+ms.openlocfilehash: c1c0363074c0737ae3aedb68952f3147e58cddb9
+ms.sourcegitcommit: 9deed590c0876b732c8eb150a9a23498a8243efc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80295936"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98870809"
 ---
 <!--
 Copyright &copy; Microsoft Corporation
@@ -41,14 +41,14 @@ Visual Studio Live Share 현재 로그인 한 id에 대해 저장 된 프로필�
 
 ## <a name="removing-your-profile"></a>프로필 제거
 
-사용자 프로필을 제거 하려면 [사용자 프로필 페이지](#user-profile)에서 `Delete your account` 단추를 클릭 하면 됩니다. 그렇지 않으면 마지막으로 성공한 로그인 이후 30 일 동안 프로필이 자동으로 삭제 됩니다 Visual Studio Live Share. 이 컨텍스트에서 "성공적인 로그인"은 사용 중인 도구에 따라 다음을 나타냅니다.
+사용자 프로필을 제거 하려면 `Delete your account` [사용자 프로필 페이지](#user-profile)에서 단추를 클릭 하면 됩니다. 그렇지 않으면 마지막으로 성공한 로그인 이후 30 일 동안 프로필이 자동으로 삭제 됩니다 Visual Studio Live Share. 이 컨텍스트에서 "성공적인 로그인"은 사용 중인 도구에 따라 다음을 나타냅니다.
 
 | IDE/편집기 | 사용자 프로필은 마지막으로 30 일 후에 삭제 됩니다. |
 |-|-|
 | Visual Studio | IDE의 새 인스턴스를 시작 합니다. Single Sign-On를 지원 하기 위해 Visual Studio의 새 인스턴스를 열 때마다 Visual Studio Live Share 인증 세션을 새로 고칩니다. |
-| Visual Studio Code | 브라우저 기반 인증 워크플로를 완료 합니다 (예: `Sign In` 단추를 클릭 하거나 `Live Share: Sign in with browser` 명령을 실행). 을 (를) 공유할 때마다 로그인 할 필요가 없도록 클라이언트에서 인증 세션을 Visual Studio Live Share 합니다. 그러나이 세션은 30 일 후에 만료 되며, 브라우저를 통해 명시적으로 로그인 할 때까지 자동으로 새로 고쳐지지 않습니다. |
+| Visual Studio Code | 브라우저 기반 인증 워크플로를 완료 합니다 (예: 단추를 클릭 `Sign In` 하거나 명령을 실행 `Live Share: Sign in with browser` ). 을 (를) 공유할 때마다 로그인 할 필요가 없도록 클라이언트에서 인증 세션을 Visual Studio Live Share 합니다. 그러나이 세션은 30 일 후에 만료 되며, 브라우저를 통해 명시적으로 로그인 할 때까지 자동으로 새로 고쳐지지 않습니다. |
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>추가 정보
 
 - [언어 및 플랫폼 지원](reference/platform-support.md)
 - [Live Share 연결 요구 사항](reference/connectivity.md)

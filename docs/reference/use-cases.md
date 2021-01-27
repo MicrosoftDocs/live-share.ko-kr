@@ -1,5 +1,5 @@
 ---
-title: 일반적인 사용 사례-Visual Studio Live Share | Microsoft Docs
+title: 일반적인 사용 사례 | Microsoft Docs
 description: 개발자가 Visual Studio Live Share를 일반적으로 활용 하는 사용 사례에 대 한 개요입니다.
 ms.custom: ''
 ms.date: 05/21/2018
@@ -11,12 +11,12 @@ ms.author: joncart
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: f3005deae16cba2c16b59d9570b11cc7e35c6f84
-ms.sourcegitcommit: c484bdb0d54c23a47561b3cf492cf2a10b2b1599
+ms.openlocfilehash: deda1f483b4c4d9c7f9cf2928dde8c6cf5eea769
+ms.sourcegitcommit: 9deed590c0876b732c8eb150a9a23498a8243efc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88577010"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98870908"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -44,6 +44,7 @@ Visual Studio Live Share의 주요 목표는 개발자가이를 수행 하는 �
     - [교실 강의](#classroom-lectures)
 - [코드 검토](#code-reviews)
 - [기술 인터뷰](#technical-interviews)
+- [원격으로 작업](#working-remotely)
 
 ## <a name="quick-assistance"></a>빠른 지원
 
@@ -51,7 +52,7 @@ Visual Studio Live Share의 주요 목표는 개발자가이를 수행 하는 �
 
 또한 Live Share에서는 "게스트"를 사용 하 여 필요한 플랫폼 Sdk (예: Node.js, Go, .NET Core) 또는 도구 확장을 설치할 필요 없이 활성 디버그 세션을 공유할 수 있기 때문에 해결 속도를 향상 하 고 "내 컴퓨터에서 재현 하지 않음" 상황을 방지 하는 데 도움을 받을 수 있습니다. Live Share를 사용 하면 모든 프로그래밍 언어 또는 런타임 환경 (예: Kubernetes, 네이티브 앱에 반응)에 대해 다른 사용자와 디버그 상태를 공유할 수 있으며,이에 대 한 도움이 필요한 항목에 관계 없이 공유할 수 있습니다!
 
-### <a name="office-hours"></a>업무 시간
+### <a name="office-hours"></a>근무 시간
 
 많은 기업 및 교육 기관 (예: 학교, 온라인 교육 과정)은 미리 결정 된 시간에 고객/직원/학생 들에 게 지원을 제공 하 고 일반적으로 되풀이 빈도 (예: 오후 3-5 시의 금요일)를 제공 합니다. 이러한 방식으로 "사무실 시간"은 전적으로 임시가 아닌 "빠른 지원"의 예약 된 형태입니다. 도움을 제공 하는 "전문가"는 컴퓨터를 설치 하지 않고도 공동 작업 세션을 즉시 조인 하 고 질문에 대답할 수 있으므로 쉽게 도움을 받을 수 있습니다. Live Share
 
@@ -144,7 +145,11 @@ Live Share는 현재 소스 제어 차이를 공유 하지 않습니다 .이는 
 
 또한 실제 개발은 단순히 코드를 작성 하는 것 이상의 기능입니다. Live Share는 공유 디버깅, 작업 및 터미널도 지원 하기 때문에 문제를 진단 하는 동안 면접관이 후보를 관찰 하 고 문제를 해결 하는 데 필요한 적절 한 도구를 제공 합니다 (예: 디버그, 테스트 실행). 모든 컨텍스트가 호스트의 컴퓨터에서 원격으로 사용 되므로 후보는 컴퓨터를 설치 하지 않고도 "인터뷰 환경"으로 신속 하 게 이동할 수 있습니다 (Live Share 설치 외). 그러면 팀에서 공유 인터뷰 앱의 리포지토리를 유지 관리할 수 있습니다 (또는 실제 제품 코드 베이스를 사용 하 여 각 인터뷰 전에 세션 URL을 전송 하는 방법으로 후보와 복제 하 고 공유할 수 있음).
 
-## <a name="see-also"></a>참고 항목
+## <a name="working-remotely"></a>원격으로 작업
+
+집 개발 컴퓨터의 도구 체인를 작업의와 동기화 상태로 유지 하지 않고도 집에서 작업 합니다. 회사에서 푸시 하지 않고도 집에서 해당 코드 줄을 신속 하 게 종료 하 고, 집에서 리포지토리를 복제 하 고, 작업 중인 정확한 줄을 찾습니다. 경량 노트북에서 고중량 작업 컴퓨터에 연결 합니다.
+
+## <a name="see-also"></a>추가 정보
 
 - [언어 및 플랫폼 지원](../reference/platform-support.md)
 - [Live Share 연결 요구 사항](../reference/connectivity.md)

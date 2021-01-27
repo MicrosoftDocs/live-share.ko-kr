@@ -38,10 +38,9 @@
 ## [연결](reference/connectivity.md)
 ## [언어 지원](reference/platform-support.md)
 ## [확장 지원](reference/extensions.md)
-
-
 ## [Linux 설치 세부 정보](reference/linux.md)
 ## [참가자](reference/insiders.md)
+## [Notebook](reference/notebooks.md)
 ## [릴리스 정보](https://aka.ms/vsls-releases)
 # 리소스
 ## [문제 해결](troubleshooting.md)

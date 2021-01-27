@@ -1,5 +1,5 @@
 ---
-title: 브라우저에서 조인-Visual Studio Live Share | Microsoft Docs
+title: 브라우저에서 조인 | Microsoft Docs
 description: 브라우저에서 조인 소개
 ms.date: 03/18/2020
 ms.reviewer: ''
@@ -10,12 +10,12 @@ ms.author: fishah
 manager: joncart
 ms.workload:
 - liveshare
-ms.openlocfilehash: 5e485397ff23be0fdab8449fad6237d829775c55
-ms.sourcegitcommit: d7f923c1bcd0430b48065ea2c0902b470f530987
+ms.openlocfilehash: 277ad0296c453a0220c500abc1754ebabab53638
+ms.sourcegitcommit: 9deed590c0876b732c8eb150a9a23498a8243efc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83569537"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98870766"
 ---
 <!--
 Copyright &copy; Microsoft Corporation

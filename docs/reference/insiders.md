@@ -1,5 +1,5 @@
 ---
-title: 참가자-Visual Studio Live Share | Microsoft Docs
+title: 참가자 | Microsoft Docs
 description: Visual Studio Live Share 내의 ' 참가자 ' 채널에 대 한 설명입니다.
 ms.custom: ''
 ms.date: 04/02/2019
@@ -11,12 +11,12 @@ ms.author: joncart
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: b343fb129952003f9c9fcab7dcb9f5e3b28660a1
-ms.sourcegitcommit: 6b1c502ba1763527aa69bad2e0c919d60a47153d
+ms.openlocfilehash: a58bf30ad1c6f4c4cecedb1a07ca0482a67f5ec7
+ms.sourcegitcommit: 9deed590c0876b732c8eb150a9a23498a8243efc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "86300289"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98870723"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -73,7 +73,7 @@ Visual Studio의 ' 계획 된 세션 '은 현재 내부 기능입니다. Insider
  
 
 
-## <a name="become-an-insider"></a>참가자 <a name="BecomeanInsider"> </a> 가 됩니다.
+## <a name="become-an-insider"></a>참가자 <a name="BecomeanInsider"></a> 가 됩니다.
 
 기본적으로 Visual Studio Live Share 확장을 설치한 후에는 `Stable` 모든 프로덕션 준비 기능 (예: 공동 편집, 공유 디버깅, 터미널)을 포함 하는 기능 집합을 사용 하 게 됩니다. 그러나 작업 중인 기능에 대 한 초기 액세스 권한을 얻으려면 `Insiders` IDE에서 다음 설정을 변경 하 여 기능 집합을 옵트인 (opt in) 할 수 있습니다.
 
@@ -89,7 +89,7 @@ Visual Studio의 ' 계획 된 세션 '은 현재 내부 기능입니다. Insider
 
 
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>추가 정보
 
 - [언어 및 플랫폼 지원](platform-support.md)
 - [Live Share 연결 요구 사항](connectivity.md)
