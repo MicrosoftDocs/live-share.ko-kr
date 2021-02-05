@@ -1,5 +1,5 @@
 ---
-title: 빠른 시작 공유 - Visual Studio Live Share | Microsoft Docs
+title: 공유 빠른 시작 | Microsoft Docs
 description: Visual Studio Live Share 협업 세션을 사용하여 첫 번째 프로젝트를 공유하는 방법에 대해 간략히 설명합니다.
 ms.custom: ''
 ms.date: 03/22/2018
@@ -11,12 +11,12 @@ ms.author: clantz
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: 9bee74ed4d494e948f2255321faab3fb5093d694
-ms.sourcegitcommit: 211b17e49e7343786bd6859b65444cedd5e24958
+ms.openlocfilehash: 6422168bcb3d73a660ac90a415388ef1f29459d4
+ms.sourcegitcommit: 9deed590c0876b732c8eb150a9a23498a8243efc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85796078"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98870822"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -31,7 +31,7 @@ Visual Studio Live Share를 시작합니다. Live Share를 사용하면 사용 �
 진행할 준비가 되셨나요?  팀 협업은 매우 빠르고 자연스러워서 작업을 수행하기 쉽습니다. 이러한 이유로 Visual Studio Live Share를 사용하면 간편하게 시작할 수 있으므로 작업과 아이디어를 원활하게 공유할 수 있습니다.
 
 > [!TIP]
-> *사용자 고유의 협업 세션에 가입*할 수 있다는 것을 알고 계셨나요? 그러면 직접 Live Share를 시도해 보거나 Visual Studio 또는 VS Code의 인스턴스를 전환하고 원격으로 연결할 수 있습니다. 두 인스턴스 모두에 동일한 ID를 사용할 수도 있습니다. 확인해 보세요.
+> *사용자 고유의 협업 세션에 가입* 할 수 있다는 것을 알고 계셨나요? 그러면 직접 Live Share를 시도해 보거나 Visual Studio 또는 VS Code의 인스턴스를 전환하고 원격으로 연결할 수 있습니다. 두 인스턴스 모두에 동일한 ID를 사용할 수도 있습니다. 확인해 보세요.
 
 공유를 시작하려면 다음 단계를 수행합니다.
 <!--
@@ -94,13 +94,13 @@ Live Share 확장을 설치하고, 다시 시작하고 종속성 설치(VS Code)
 </tr>
 </table>
 
-**VS Code**에서 브라우저가 실행되는 동안 로그인하라는 알림이 표시됩니다. 브라우저에서 로그인 프로세스를 완료한 다음, 완료될 때 브라우저를 닫기만 하면 됩니다.
+**VS Code** 에서 브라우저가 실행되는 동안 로그인하라는 알림이 표시됩니다. 브라우저에서 로그인 프로세스를 완료한 다음, 완료될 때 브라우저를 닫기만 하면 됩니다.
 
 ![웹 브라우저를 사용하여 로그인하라는 알림 메시지](../media/vscode-sign-in-toast.png)
 
 > **Linux 사용자:** 이전 버전의 Live Share(v0.3.295 이하)를 사용하는 경우 사용자 코드를 입력하라는 메시지가 표시될 수 있습니다. 확장의 최신 버전으로 업데이트하거나 "문제가 있나요?"를 클릭합니다. 로그인한 후 링크를 클릭하여 코드를 확인합니다. [자세한 내용은 여기](../use/vscode.md#sign-in-using-a-user-code)를 참조하세요.
 
-**Visual Studio**에서 Live Share는 [개인 설정 계정](https://docs.microsoft.com/en-us/visualstudio/ide/signing-in-to-visual-studio)을 자동으로 사용합니다. 그 결과 평소대로 간단하게 로그인할 수 있습니다. 그러나 Visual Studio 개인 설정 계정과 다른 로그인을 사용하려는 경우에는 **도구 &gt; 옵션 &gt; Live Share &gt; 사용자 계정**으로 이동하여 다른 자격 증명을 선택합니다.
+**Visual Studio** 에서 Live Share는 [개인 설정 계정](https://docs.microsoft.com/en-us/visualstudio/ide/signing-in-to-visual-studio)을 자동으로 사용합니다. 그 결과 평소대로 간단하게 로그인할 수 있습니다. 그러나 Visual Studio 개인 설정 계정과 다른 로그인을 사용하려는 경우에는 **도구 &gt; 옵션 &gt; Live Share &gt; 사용자 계정** 으로 이동하여 다른 자격 증명을 선택합니다.
 
 여전히 문제가 발생하는 경우에는 [문제 해결](../troubleshooting.md#sign-in)을 참조하세요.
 
@@ -149,13 +149,13 @@ Live Share 확장을 설치하고, 다시 시작하고 종속성 설치(VS Code)
 </tr>
 </table>
 
-**VS Code**에서 Live Share viewlet 탭에서 읽기 전용 세션을 시작할 수도 있습니다.
+**VS Code** 에서 Live Share viewlet 탭에서 읽기 전용 세션을 시작할 수도 있습니다.
 
 ![웹 브라우저를 사용하여 로그인하라는 알림 메시지](../media/vscode-read-only-viewlet.png)
 
 ## <a name="7-send-someone-the-invite-link"></a>7. 다른 사용자에게 초대 링크 보내기
 
-초대할 사람에게 이메일, Slack, Skype 등을 통해 링크를 보냅니다. 브라우저에서 링크를 열면 사용자가 연 폴더, 프로젝트 또는 솔루션의 콘텐츠를 공유하는 협업 세션에 조인할 수 있습니다. Live Share 세션이 게스트에게 제공할 수 있는 액세스 수준을 고려할 때 **신뢰하는 사용자와만 공유**하고 공유하는 내용의 의미를 검토해야 합니다.
+초대할 사람에게 이메일, Slack, Skype 등을 통해 링크를 보냅니다. 브라우저에서 링크를 열면 사용자가 연 폴더, 프로젝트 또는 솔루션의 콘텐츠를 공유하는 협업 세션에 조인할 수 있습니다. Live Share 세션이 게스트에게 제공할 수 있는 액세스 수준을 고려할 때 **신뢰하는 사용자와만 공유** 하고 공유하는 내용의 의미를 검토해야 합니다.
 
 > **보안 팁:** Live Share의 일부 기능이 보안에 미치는 영향을 알고 싶나요? [보안](../reference/security.md) 문서를 확인합니다.
 

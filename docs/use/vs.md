@@ -1,5 +1,5 @@
 ---
-title: Visual Studio를 사용하여 공동 작업 - Visual Studio Live Share | Microsoft Docs
+title: Visual Studio를 사용하여 협업 | Microsoft Docs
 description: Visual Studio 및 Live Share에 대한 협업 방법 세트.
 ms.custom: ''
 ms.date: 04/25/2018
@@ -11,12 +11,12 @@ ms.author: clantz
 manager: AmandaSilver
 ms.workload:
 - liveshare
-ms.openlocfilehash: 2f7be9b3c81aeca63eb9965085b42b777cc4a6d7
-ms.sourcegitcommit: a48488302bc56abdedf7130ec22b4e21ac16a4ef
+ms.openlocfilehash: 190721006ea0d5a29c7b325c1dd26ef4293eb988
+ms.sourcegitcommit: 9deed590c0876b732c8eb150a9a23498a8243efc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84337269"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98871002"
 ---
 <!--
 Copyright © Microsoft Corporation
@@ -28,26 +28,26 @@ Creative Commons Attribution 4.0 License (International): https://creativecommon
 
 Visual Studio에서 Live Share를 사용하여 공동 작업을 할 준비가 됐나요? 그렇다면, 잘 오셨습니다. 이 문서에서는 Visual Studio에 대한 Visual Studio Live Share 확장에서 특정 기능 중 일부를 사용하는 방법을 살펴보겠습니다.
 
-여기에 설명된 모든 협업 활동은 한 명의 **협업 세션 호스트**와 한 명 이상의 **게스트**로 구성됩니다. 호스트는 협업 세션을 시작한 사람이며 여기에 참가한 모든 사람은 게스트입니다.
+여기에 설명된 모든 협업 활동은 한 명의 **협업 세션 호스트** 와 한 명 이상의 **게스트** 로 구성됩니다. 호스트는 협업 세션을 시작한 사람이며 여기에 참가한 모든 사람은 게스트입니다.
 
 *요약 정보를 찾으시나요? 대신 [공유](../quickstart/share.md) 또는 [참가](../quickstart/join.md) 빠른 시작을 확인합니다.*
 
 > [!TIP]
-> *사용자 고유의 협업 세션에 가입*할 수 있다는 것을 알고 계셨나요? 그러면 직접 Live Share를 시도해 보거나 Visual Studio 또는 VS Code의 인스턴스를 전환하고 원격으로 연결할 수 있습니다. 두 인스턴스 모두에 동일한 ID를 사용할 수도 있습니다. 확인해 보세요.
+> *사용자 고유의 협업 세션에 가입* 할 수 있다는 것을 알고 계셨나요? 그러면 직접 Live Share를 시도해 보거나 Visual Studio 또는 VS Code의 인스턴스를 전환하고 원격으로 연결할 수 있습니다. 두 인스턴스 모두에 동일한 ID를 사용할 수도 있습니다. 확인해 보세요.
 
 ## <a name="installation"></a>설치
 
-시작하기 전에 Windows 7, 8.1 또는 10에 **Visual Studio 2019** 또는 **Visual Studio 2017 15.6 이상**을 설치해야 합니다. *그러나 이 버전은 로컬 실행 취소/다시 실행 지원을 사용하므로 Visual Studio 15.7 이상이 좋습니다.*
+시작하기 전에 Windows 7, 8.1 또는 10에 **Visual Studio 2019** 또는 **Visual Studio 2017 15.6 이상** 을 설치해야 합니다. *그러나 이 버전은 로컬 실행 취소/다시 실행 지원을 사용하므로 Visual Studio 15.7 이상이 좋습니다.*
 
 가져오기는 간단합니다.
 
 Visual Studio 2019의 경우
-1. 버전에 상관없이 [Visual Studio 2019](https://visualstudio.microsoft.com/vs/)를 설치합니다.
+1. 버전과 관계없이 [Visual Studio 2019](https://visualstudio.microsoft.com/vs/)를 설치합니다.
 2. [지원되는 워크로드](../reference/platform-support.md)를 설치합니다. (예: ASP.NET, .NET Core, C++, Python 및/또는 Node.js)
 3. Visual Studio Live Share는 기본적으로 이러한 워크로드와 함께 설치됩니다.
 
 Visual Studio 2017의 경우
-1. [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/) 15.6 이상의 모든 버전을 설치합니다.
+1. 버전과 관계없이 [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/) 15.6 이상을 설치합니다.
 2. [지원되는 워크로드](../reference/platform-support.md)를 설치합니다. (예: ASP.NET, .NET Core, C++ 및/또는 Node.js)
 3. 마켓플레이스에서 Visual Studio Live Share 확장을 [다운로드](https://aka.ms/vsls-dl/vs)하여 설치합니다.
 
@@ -64,13 +64,13 @@ Visual Studio는 기본적으로 [개인 설정 계정](https://docs.microsoft.c
 ![VS 로그인 단추](../media/vs-sign-in-button.png)
 
 
-Visual Studio [맞춤형 계정](https://docs.microsoft.com/en-us/visualstudio/ide/signing-in-to-visual-studio)과 다른 로그인을 사용하려는 경우 **도구 &gt; 옵션 &gt; Live Share &gt; 사용자 계정**으로 이동하여 자격 증명을 전환합니다.
+Visual Studio [맞춤형 계정](https://docs.microsoft.com/en-us/visualstudio/ide/signing-in-to-visual-studio)과 다른 로그인을 사용하려는 경우 **도구 &gt; 옵션 &gt; Live Share &gt; 사용자 계정** 으로 이동하여 자격 증명을 전환합니다.
 
 ![VS 도구 옵션 Live Share](../media/vs-tools-options-new.png)
 
-**외부 계정**을 선택하면 GitHub와 같은 Visual Studio 맞춤형 기능에서 지원하지 않는 계정을 선택할 수 있습니다. 처음으로 Live Share 기능을 사용할 때 브라우저가 자동으로 나타나므로 로그인을 완료할 수 있습니다.
+**외부 계정** 을 선택하면 GitHub와 같은 Visual Studio 맞춤형 기능에서 지원하지 않는 계정을 선택할 수 있습니다. 처음으로 Live Share 기능을 사용할 때 브라우저가 자동으로 나타나므로 로그인을 완료할 수 있습니다.
 >[!Tip]
->**도구 &gt; 옵션 &gt; Live Share &gt; 일반**으로 이동하여 기본 Live Share 설정을 모두 볼 수 있다는 것을 알고 계셨나요? 필요에 맞게 협업 환경을 사용자 지정하세요! 일반 Live Share 설정에서 **고급 &gt; 기능 &gt; 참가자**를 선택하여 새로운 Live Share 기능을 모두 사용해 볼 수 있습니다!  
+>**도구 &gt; 옵션 &gt; Live Share &gt; 일반** 으로 이동하여 기본 Live Share 설정을 모두 볼 수 있다는 것을 알고 계셨나요? 필요에 맞게 협업 환경을 사용자 지정하세요! 일반 Live Share 설정에서 **고급 &gt; 기능 &gt; 참가자** 를 선택하여 새로운 Live Share 기능을 모두 사용해 볼 수 있습니다!  
 
 문제가 발생한 경우 [문제 해결](../troubleshooting.md#sign-in)을 확인하여 더 많은 팁을 확인합니다.
 
@@ -114,7 +114,7 @@ Visual Studio Live Share를 다운로드하여 설치한 뒤 이러한 단계를
 
 6. **다른 사용자에게 링크 보내기**
 
-    초대할 사람에게 이메일, Slack, Skype 등을 통해 링크를 보냅니다. Live Share 세션이 게스트에게 제공할 수 있는 액세스 수준을 고려할 때 **신뢰하는 사용자와만 공유**하고 공유하는 내용의 의미를 검토해야 합니다.
+    초대할 사람에게 이메일, Slack, Skype 등을 통해 링크를 보냅니다. Live Share 세션이 게스트에게 제공할 수 있는 액세스 수준을 고려할 때 **신뢰하는 사용자와만 공유** 하고 공유하는 내용의 의미를 검토해야 합니다.
 
     > **보안 팁:** Live Share의 일부 기능이 보안에 미치는 영향을 알고 싶나요? [보안](../reference/security.md) 문서를 확인합니다.
 
@@ -124,7 +124,7 @@ Visual Studio Live Share를 다운로드하여 설치한 뒤 이러한 단계를
 
     기본적으로 게스트는 자동으로 협업 세션에 참가하게 되고 협업을 수행할 준비가 되면 알림을 받습니다. 이 알림은 세션에서 사용자를 제거하는 옵션을 제공하는 반면, 대신 참가하는 모든 사용자에 대해 명시적 "승인"을 요구하도록 선택할 수 있습니다.
 
-    **도구 > 옵션 > Live Share > 게스트 승인 요청**을 True로 변경하여 기능을 사용합니다. 이 설정을 켜면 게스트가 참가할 수 있기 전에 승인하라는 메시지가 표시됩니다.
+    **도구 > 옵션 > Live Share > 게스트 승인 요청** 을 True로 변경하여 기능을 사용합니다. 이 설정을 켜면 게스트가 참가할 수 있기 전에 승인하라는 메시지가 표시됩니다.
 
     ![Visual Studio 참가 승인 요청](../media/vs-join-approval.png)
 
@@ -139,7 +139,7 @@ Visual Studio Live Share를 다운로드하여 설치한 뒤 이러한 단계를
     Live Share 도구 창을 사용하면 모든 주요 기능에 액세스하여 세션을 한 곳에서 관리할 수 있습니다. 
 
     > [!TIP]
-    > 세션 중에 Live Share 도구 창이 더 이상 보이지 않으세요? 언제든지 **보기 &gt; 다른 창 &gt; Live Share**로 이동하여 찾을 수 있습니다!
+    > 세션 중에 Live Share 도구 창이 더 이상 보이지 않으세요? 언제든지 **보기 &gt; 다른 창 &gt; Live Share** 로 이동하여 찾을 수 있습니다!
 
 ### <a name="ending-the-collaboration-session"></a>협업 세션 종료
 
@@ -202,7 +202,7 @@ Visual Studio Live Share를 다운로드하여 설치한 경우 게스트는 호
 
 2. **참가 명령 사용**
 
-    **파일 > Live Share 세션 참가**로 이동하기만 하면 됩니다.
+    **파일 > Live Share 세션 참가** 로 이동하기만 하면 됩니다.
 
     ![VS 참가 메뉴](../media/vs-join.png)
 
@@ -257,7 +257,7 @@ Visual Studio Live Share를 다운로드하여 설치한 경우 게스트는 호
 
 기본적으로 Visual Studio Live Share는 마우스로 가리킬 때 또는 참가자의 커서를 편집하거나 강조 표시하거나 이동할 때 해당 커서 옆에 있는 "플래그"를 자동으로 표시합니다. 일부 경우에 이 동작을 변경하려 할 수 있습니다. 이를 수행하려면:
 
-1. **도구 > 옵션 > Live Share**로 이동
+1. **도구 > 옵션 > Live Share** 로 이동
 2. **플래그 표시 유형** 옵션을 다음 중 하나로 변경합니다.
 
 | 옵션 | 동작 |
@@ -315,7 +315,7 @@ Visual Studio Live Share의 공동 작업 디버깅 기능은 문제를 디버�
 디버거가 호스트 쪽에 연결되면 모든 게스트도 자동으로 연결됩니다. 호스트 머신에서 하나의 디버깅 "세션"이 실행되는 동안 모든 참가자는 해당 세션에 연결되고 각자 고유의 뷰를 보유하게 됩니다.
 
 > [!TIP]
-> 공동 디버깅을 수행하는 방법 및 시기를 변경하려는 경우 **도구 > 옵션 > Live Share**에서 설정을 통해 기본 동작을 변경할 수 있습니다.
+> 공동 디버깅을 수행하는 방법 및 시기를 변경하려는 경우 **도구 > 옵션 > Live Share** 에서 설정을 통해 기본 동작을 변경할 수 있습니다.
 
 ![VS 디버거 연결](../media/vs-debugger.png)
 
@@ -339,7 +339,7 @@ Visual Studio Live Share의 공동 작업 디버깅 기능은 문제를 디버�
 기타 프로젝트 형식 및/또는 세션 기간에 대해 서버 액세스를 공유하는 방법에 대한 내용은 [서버 공유](#share-a-server)를 참조하세요.
 
 > [!TIP]
-> 동작을 공유하는 자동화된 브라우저를 싫어하여 이를 변경하려는 경우 **도구 > 옵션 > Live Share**에서 설정을 업데이트할 수 있습니다.
+> 동작을 공유하는 자동화된 브라우저를 싫어하여 이를 변경하려는 경우 **도구 > 옵션 > Live Share** 에서 설정을 업데이트할 수 있습니다.
 
 ![동시 디버깅의 애니메이션](../media/co-debug.gif)
 
@@ -347,8 +347,8 @@ Visual Studio Live Share의 공동 작업 디버깅 기능은 문제를 디버�
 
 기본적으로 디버깅 세션을 호스트에서 공유하는 경우 게스트는 자동으로 디버깅 세션에 연결됩니다. 그러나 경우에 따라 이 동작은 중단될 수 있습니다. 다행히 다음과 같이 변경할 수 있습니다.
 
-1. **도구 > 옵션 > Live Share**로 이동
-2. **디버그 세션 참가 옵션**을 다음 중 하나로 변경합니다.
+1. **도구 > 옵션 > Live Share** 로 이동
+2. **디버그 세션 참가 옵션** 을 다음 중 하나로 변경합니다.
 
 | 옵션 | 동작 |
 |--------|----------|
@@ -372,11 +372,11 @@ Visual Studio Live Share의 공동 작업 디버깅 기능은 문제를 디버�
 
 때때로, 협업 세션 호스트는 추가 로컬 서버 또는 서비스를 게스트와 공유하려 할 수 있습니다. 공유 범위는 기타 RESTful 엔드포인트에서 데이터베이스 또는 기타 서버까지입니다. Visual Studio Live Share를 사용하면 로컬 포트 번호를 지정하고 필요에 따라 이름을 지정한 다음, 모든 게스트와 공유할 수 있습니다.
 
-그런 다음, 게스트는 정확히 동일한 포트의 자신의 로컬 머신에서 해당 포트에서 공유된 서버에 액세스할 수 있습니다. 예를 들어 **포트 3000에서 실행 중인** 웹 서버를 공유한 경우 게스트는 http://localhost:3000 에 있는 **자신의 머신**에서 실행 중인 동일한 웹 서버에 액세스할 수 있습니다! 이 작업은 호스트와 게스트 사이의 보안 SSH 또는 SSL 터널을 통해 완수되고 서비스를 통해 인증되므로 협업 세션에 있는 호스트 및 게스트만 액세스할 수 있어야 합니다.
+그런 다음, 게스트는 정확히 동일한 포트의 자신의 로컬 머신에서 해당 포트에서 공유된 서버에 액세스할 수 있습니다. 예를 들어 **포트 3000에서 실행 중인** 웹 서버를 공유한 경우 게스트는 http://localhost:3000 에 있는 **자신의 머신** 에서 실행 중인 동일한 웹 서버에 액세스할 수 있습니다! 이 작업은 호스트와 게스트 사이의 보안 SSH 또는 SSL 터널을 통해 완수되고 서비스를 통해 인증되므로 협업 세션에 있는 호스트 및 게스트만 액세스할 수 있어야 합니다.
 
 > **보안 팁:** 호스트는 게스트와 공유하는 포트에 매우 민감하며, 시스템 포트를 공유하기보다 애플리케이션 포트에 집중합니다. 게스트의 경우 공유 포트는 서버/서비스를 자신의 머신에서 실행하는 것처럼 정확하게 작동합니다. 이 공유 포트는 매우 유용하지만 잘못된 포트를 공유하는 경우 위험할 수도 있습니다.
 
-보안상 이유로 지정한 포트에서 실행되는 서버만 다른 게스트에게 제공됩니다. 다행스럽게도 협업 세션 **호스트**로 하나의 포트는 쉽게 추가할 수 있습니다. 방법은 다음과 같습니다.
+보안상 이유로 지정한 포트에서 실행되는 서버만 다른 게스트에게 제공됩니다. 다행스럽게도 협업 세션 **호스트** 로 하나의 포트는 쉽게 추가할 수 있습니다. 방법은 다음과 같습니다.
 
 1. 오른쪽 위 모서리에서 공유 /세션 상태 단추를 클릭하고 "공유 로컬 서버 관리"를 선택합니다.
 
@@ -392,9 +392,9 @@ Visual Studio Live Share의 공동 작업 디버깅 기능은 문제를 디버�
 
 ![공유 로컬 서버 보기](../media/vs-view-shared-servers.png)
 
-*게스트*는 보안상 이유로 호스트의 머신에서 공유되는 포트를 제어할 수 없습니다.
+*게스트* 는 보안상 이유로 호스트의 머신에서 공유되는 포트를 제어할 수 없습니다.
 
-로컬 서버 공유를 **중지**하려면 호스트는 위에서처럼 오른쪽 위 모서리에서 공유 / 세션 상태 단추를 클릭하고, "공유 로컬 서버 관리" 및 적절한 포트를 선택하고, "제거"를 클릭해야 합니다.
+로컬 서버 공유를 **중지** 하려면 호스트는 위에서처럼 오른쪽 위 모서리에서 공유 / 세션 상태 단추를 클릭하고, "공유 로컬 서버 관리" 및 적절한 포트를 선택하고, "제거"를 클릭해야 합니다.
 
 ## <a name="share-a-terminal"></a>터미널 공유
 
@@ -406,12 +406,12 @@ Visual Studio Live Share의 공동 작업 디버깅 기능은 문제를 디버�
 
 ![터미널 메뉴](../media/vs-terminal-menu.png)
 
-이 시점에 메뉴에서 읽기 전용 또는 읽기/쓰기 터미널을 선택할 수 있습니다. 터미널이 읽기/쓰기인 경우 호스트를 포함하여 누구나 터미널에 입력할 수 있습니다. 그러면 게스트가 호스트의 마음에 들지 않는 작업을 수행하는 경우 개입하기가 쉬워집니다. 그러나 안전하려면 호스트는 **게스트가 실제로 필요하다는 것을 아는 경우 게스트에게 읽기/쓰기 액세스 권한만 부여**하고, 호스트가 실행하는 모든 명령의 출력을 게스트가 참조하기를 원하는 경우에 읽기 전용 터미널을 계속 사용해야 합니다.
+이 시점에 메뉴에서 읽기 전용 또는 읽기/쓰기 터미널을 선택할 수 있습니다. 터미널이 읽기/쓰기인 경우 호스트를 포함하여 누구나 터미널에 입력할 수 있습니다. 그러면 게스트가 호스트의 마음에 들지 않는 작업을 수행하는 경우 개입하기가 쉬워집니다. 그러나 안전하려면 호스트는 **게스트가 실제로 필요하다는 것을 아는 경우 게스트에게 읽기/쓰기 액세스 권한만 부여** 하고, 호스트가 실행하는 모든 명령의 출력을 게스트가 참조하기를 원하는 경우에 읽기 전용 터미널을 계속 사용해야 합니다.
 
 > [!NOTE]
 > 협업 세션이 읽기 전용 모드인 경우 호스트는 읽기 전용 터미널만 공유할 수 있습니다.
 
-시작하려는 공유 터미널의 종류를 선택하면 새 공유 터미널이 올바른 사용 권한이 있는 모든 참가자에게 나타납니다. Visual Studio Code에 터미널 지원이 기본 제공된 경우 Visual Studio에는 기본 제공되지 않습니다. 따라서 기본적으로 터미널이 포함된 새 창이 표시됩니다. 그러나 [터미널 확장을 제거](https://marketplace.visualstudio.com/items?itemName=DanielGriffen.WhackWhackTerminal)한 경우 Live Share는 대신 통합 터미널을 만듭니다. Visual Studio에서는 처음으로 공유 터미널을 시작하거나 참가할 때 설치하기 위한 링크를 제공합니다.
+시작하려는 공유 터미널의 종류를 선택하면 새 공유 터미널이 올바른 사용 권한이 있는 모든 참가자에게 나타납니다.
 
 ![터미널 설치 알림 메시지](../media/vs-terminal-install.png)
 
